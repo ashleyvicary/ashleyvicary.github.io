@@ -1,0 +1,77 @@
+/* Import MIT Fonts */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('NeueHaasDisplay-Mediu.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MIT Regular Font';
+  src: url('NeueHaasDisplay-Roman.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Set body font */
+body {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+}
+
+/* Set paragraph font */
+p {
+  font-family: 'MIT Regular Font', sans-serif;
+}
+
+/* Set default mark font size */
+mark {
+  font-size: 160px;
+}
+
+.dashed-list li {
+  list-style-type: '';
+  font-size: 35px;
+}
+
+/* Style for medium-sized screens */
+@media (max-width: 1024px) {
+  mark {
+    font-size: 150px;
+  }
+  .pdf-embed {
+    width: 100%;
+  }
+}
+
+/* Style for small screens */
+@media (max-width: 768px) {
+  mark {
+    font-size: 50px;
+  }
+  .dashed-list li {
+    list-style-type: '';
+    font-size: 20px;
+  }
+  .pdf-embed {
+    width: 100%;
+  }
+}
+
+/* Hyperlinks: set to black, underline on hover */
+.homepage-link {
+  color: black;
+  text-decoration: none;
+}
+
+.homepage-link:hover {
+  text-decoration: underline;
+}
+
+/* Images: set default sizes */
+.cv-logos {
+  width: 170px;
+}
+
+.volunteering-images {
+  height: 250px;
+}
