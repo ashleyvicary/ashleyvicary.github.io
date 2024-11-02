@@ -1,0 +1,11 @@
+---
+title: "reading list"
+---
+
+# Education
+
+## Early Childhood Education
+
+-   [Understanding Early Childhood Development and Its Importance](Understanding Early Childhood Development and Its Importance)
+
+## AI

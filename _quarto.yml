@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "my brain"
+  navbar:
+    left:
+      - href: index.qmd
+        text: home
+      - text: math
+        menu:
+          - math-tools.qmd
+          - causal-inference.qmd
+          - ci-and-hypothesis-testing.qmd
+      - text: people
+        menu:
+          - key-players.qmd
+      - text: topics 
+        menu:
+          - what-is-economics.qmd
+          - reading-list-by-topic.qmd
+          - history-timeline.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: left
+    self-contained: true
+
+editor: visual
