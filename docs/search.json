@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "my general exam preparation",
-    "section": "",
-    "text": "the purpose of this site:\n\nhelp me prepare for my phd general exams\ndocument my research\nshare my research with others"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "key-players.html",
-    "href": "key-players.html",
-    "title": "key players",
-    "section": "",
-    "text": "daron acemoglu\nsummary:\nDaron Acemoglu is a Turkish economist who is a professor at MIT. He is best known for his work on political economy and economic development. He has written several books, including “Why Nations Fail” and “Economic Origins of Dictatorship and Democracy.”\nkey contributions:\nAcemoglu has made several key contributions to the field of economics. He is known for his work on the role of institutions in economic development, and has argued that inclusive institutions are essential for long-term growth. He has also studied the relationship between political institutions and economic outcomes, and has shown that democratic institutions are associated with higher levels of economic development (?).\n\n\ndavid autor\nsummary:\nDavid Autor is an American economist who is a professor at MIT. He is best known for his work on labor economics and the impact of technology on the labor market. He has written several influential papers on the subject, including “The China Shock” and “Why Are There Still So Many Jobs?”\nkey contributions:\nAutor has made several key contributions to the field of economics. He is known for his work on the impact of technology on the labor market, and has shown that technological change has had a significant impact on the distribution of income. He has also studied the role of trade in shaping the labor market, and has shown that trade with China has had a negative impact on the employment prospects of low-skilled workers."
-  },
-  {
-    "objectID": "what-is-economics.html",
-    "href": "what-is-economics.html",
-    "title": "what is economics",
-    "section": "",
-    "text": "economics is the study of how people allocate scarce resources to satisfy their unlimited wants.\n\nmicroeconomics\nmicroeconomics is the study of how individuals and firms make decisions and how these decisions interact.\n\n\nmacroeconomics\nmacroeconomics is the study of the economy as a whole. it is concerned with the behavior of the economy as a whole, including topics such as inflation, unemployment, and economic growth."
-  },
-  {
     "objectID": "math-tools.html",
     "href": "math-tools.html",
     "title": "math tools",
@@ -35,18 +7,25 @@
     "text": "Derivatives are essential for understanding rates of change, especially in economics for optimizing functions like cost, revenue, and utility. Here are the core rules:\n\nPower Rule: If \\(f(x) = x^n\\), then \\(f'(x) = n \\cdot x^{n-1}\\).\nConstant Rule: If \\(f(x) = c\\) (where \\(c\\) is a constant), then \\(f'(x) = 0\\).\nProduct Rule: If \\(f(x) = g(x) \\cdot h(x)\\), then \\(f'(x) = g(x) \\cdot h'(x) + h(x) \\cdot g'(x)\\).\nQuotient Rule: If \\(f(x) = \\frac{g(x)}{h(x)}\\), then \\(f'(x) = \\frac{g'(x) \\cdot h(x) - g(x) \\cdot h'(x)}{[h(x)]^2}\\).\nChain Rule: If \\(f(x) = g(h(x))\\), then \\(f'(x) = g'(h(x)) \\cdot h'(x)\\).\n\n\n\n\nExponential Function: If \\(f(x) = e^x\\), then \\(f'(x) = e^x\\). If \\(f(x) = e^{2x}\\), then \\(f'(x) = 2e^{2x}\\).\nLogarithmic Function: If \\(f(x) = \\ln(x)\\), then \\(f'(x) = \\frac{1}{x}\\).\n\nThese rules provide the foundation for differentiating complex functions and are widely used in economic analysis, from marginal cost calculations to elasticity evaluations."
   },
   {
-    "objectID": "what-is-economics.html#microeconomics",
-    "href": "what-is-economics.html#microeconomics",
-    "title": "what is economics",
+    "objectID": "math-tools.html#derivative-rules",
+    "href": "math-tools.html#derivative-rules",
+    "title": "math tools",
     "section": "",
-    "text": "microeconomics is the study of how individuals and firms make decisions and how these decisions interact."
+    "text": "Derivatives are essential for understanding rates of change, especially in economics for optimizing functions like cost, revenue, and utility. Here are the core rules:\n\nPower Rule: If \\(f(x) = x^n\\), then \\(f'(x) = n \\cdot x^{n-1}\\).\nConstant Rule: If \\(f(x) = c\\) (where \\(c\\) is a constant), then \\(f'(x) = 0\\).\nProduct Rule: If \\(f(x) = g(x) \\cdot h(x)\\), then \\(f'(x) = g(x) \\cdot h'(x) + h(x) \\cdot g'(x)\\).\nQuotient Rule: If \\(f(x) = \\frac{g(x)}{h(x)}\\), then \\(f'(x) = \\frac{g'(x) \\cdot h(x) - g(x) \\cdot h'(x)}{[h(x)]^2}\\).\nChain Rule: If \\(f(x) = g(h(x))\\), then \\(f'(x) = g'(h(x)) \\cdot h'(x)\\).\n\n\n\n\nExponential Function: If \\(f(x) = e^x\\), then \\(f'(x) = e^x\\). If \\(f(x) = e^{2x}\\), then \\(f'(x) = 2e^{2x}\\).\nLogarithmic Function: If \\(f(x) = \\ln(x)\\), then \\(f'(x) = \\frac{1}{x}\\).\n\nThese rules provide the foundation for differentiating complex functions and are widely used in economic analysis, from marginal cost calculations to elasticity evaluations."
   },
   {
-    "objectID": "what-is-economics.html#macroeconomics",
-    "href": "what-is-economics.html#macroeconomics",
-    "title": "what is economics",
-    "section": "",
-    "text": "macroeconomics is the study of the economy as a whole. it is concerned with the behavior of the economy as a whole, including topics such as inflation, unemployment, and economic growth."
+    "objectID": "math-tools.html#exponent-rules",
+    "href": "math-tools.html#exponent-rules",
+    "title": "math tools",
+    "section": "Exponent Rules",
+    "text": "Exponent Rules\nExponential rules are useful for simplifying functions in economic analysis, particularly in growth models and elasticity calculations. Here are the fundamental rules:\n\nProduct of Powers: \\(a^m \\cdot a^n = a^{m+n}\\)\nQuotient of Powers: \\(\\frac{a^m}{a^n} = a^{m-n}\\) (where \\(a \\neq 0\\))\nPower of a Power: \\((a^m)^n = a^{m \\cdot n}\\)\nPower of a Product: \\((a \\cdot b)^n = a^n \\cdot b^n\\)\nPower of a Quotient: \\(\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}\\) (where \\(b \\neq 0\\))\n\n\nSpecial Exponent Cases\n\nZero Exponent: \\(a^0 = 1\\) (where \\(a \\neq 0\\))\nNegative Exponent: \\(a^{-n} = \\frac{1}{a^n}\\) (where \\(a \\neq 0\\))\nFractional Exponent: \\(a^{\\frac{m}{n}} = \\sqrt[n]{a^m}\\)\n\nThese rules help simplify complex expressions, especially in compound interest calculations and growth models."
+  },
+  {
+    "objectID": "math-tools.html#logarithmic-laws",
+    "href": "math-tools.html#logarithmic-laws",
+    "title": "math tools",
+    "section": "Logarithmic Laws",
+    "text": "Logarithmic Laws\nLogarithmic functions are essential tools in economics, especially for transforming data and simplifying multiplicative relationships. Here are the key laws:\n\nProduct Rule: \\(\\log_b(xy) = \\log_b(x) + \\log_b(y)\\)\nQuotient Rule: \\(\\log_b\\left(\\frac{x}{y}\\right) = \\log_b(x) - \\log_b(y)\\)\nPower Rule: \\(\\log_b(x^k) = k \\cdot \\log_b(x)\\)\nChange of Base Formula: \\(\\log_b(x) = \\frac{\\log_k(x)}{\\log_k(b)}\\) (useful for switching bases)\n\n\nSpecial Logarithmic Properties\n\nLog of 1: \\(\\log_b(1) = 0\\)\nLog of the Base: \\(\\log_b(b) = 1\\)\nInverse Property: \\(b^{\\log_b(x)} = x\\)"
   },
   {
     "objectID": "math-tools.html#unconstrained-optimization",
@@ -68,34 +47,6 @@
     "title": "math tools",
     "section": "Constrained Optimization",
     "text": "Constrained Optimization\n\nLagrange Method: For maximizing under constraints, use Lagrangian ( \\(L = f(x) + \\lambda g(x)\\) ) with FOCs.\nExample: Maximize area of a rectangular fence, given perimeter constraint ( \\(2x + 2y = p\\) )."
-  },
-  {
-    "objectID": "math-tools.html#duality",
-    "href": "math-tools.html#duality",
-    "title": "Math Tools",
-    "section": "Duality",
-    "text": "Duality\n\nDual and Primal Problems: Many optimization problems (like cost minimization and profit maximization) have dual interpretations."
-  },
-  {
-    "objectID": "math-tools.html#logarithmic-laws",
-    "href": "math-tools.html#logarithmic-laws",
-    "title": "math tools",
-    "section": "Logarithmic Laws",
-    "text": "Logarithmic Laws\nLogarithmic functions are essential tools in economics, especially for transforming data and simplifying multiplicative relationships. Here are the key laws:\n\nProduct Rule: \\(\\log_b(xy) = \\log_b(x) + \\log_b(y)\\)\nQuotient Rule: \\(\\log_b\\left(\\frac{x}{y}\\right) = \\log_b(x) - \\log_b(y)\\)\nPower Rule: \\(\\log_b(x^k) = k \\cdot \\log_b(x)\\)\nChange of Base Formula: \\(\\log_b(x) = \\frac{\\log_k(x)}{\\log_k(b)}\\) (useful for switching bases)\n\n\nSpecial Logarithmic Properties\n\nLog of 1: \\(\\log_b(1) = 0\\)\nLog of the Base: \\(\\log_b(b) = 1\\)\nInverse Property: \\(b^{\\log_b(x)} = x\\)"
-  },
-  {
-    "objectID": "math-tools.html#derivative-rules",
-    "href": "math-tools.html#derivative-rules",
-    "title": "math tools",
-    "section": "",
-    "text": "Derivatives are essential for understanding rates of change, especially in economics for optimizing functions like cost, revenue, and utility. Here are the core rules:\n\nPower Rule: If \\(f(x) = x^n\\), then \\(f'(x) = n \\cdot x^{n-1}\\).\nConstant Rule: If \\(f(x) = c\\) (where \\(c\\) is a constant), then \\(f'(x) = 0\\).\nProduct Rule: If \\(f(x) = g(x) \\cdot h(x)\\), then \\(f'(x) = g(x) \\cdot h'(x) + h(x) \\cdot g'(x)\\).\nQuotient Rule: If \\(f(x) = \\frac{g(x)}{h(x)}\\), then \\(f'(x) = \\frac{g'(x) \\cdot h(x) - g(x) \\cdot h'(x)}{[h(x)]^2}\\).\nChain Rule: If \\(f(x) = g(h(x))\\), then \\(f'(x) = g'(h(x)) \\cdot h'(x)\\).\n\n\n\n\nExponential Function: If \\(f(x) = e^x\\), then \\(f'(x) = e^x\\). If \\(f(x) = e^{2x}\\), then \\(f'(x) = 2e^{2x}\\).\nLogarithmic Function: If \\(f(x) = \\ln(x)\\), then \\(f'(x) = \\frac{1}{x}\\).\n\nThese rules provide the foundation for differentiating complex functions and are widely used in economic analysis, from marginal cost calculations to elasticity evaluations."
-  },
-  {
-    "objectID": "math-tools.html#exponent-rules",
-    "href": "math-tools.html#exponent-rules",
-    "title": "math tools",
-    "section": "Exponent Rules",
-    "text": "Exponent Rules\nExponential rules are useful for simplifying functions in economic analysis, particularly in growth models and elasticity calculations. Here are the fundamental rules:\n\nProduct of Powers: \\(a^m \\cdot a^n = a^{m+n}\\)\nQuotient of Powers: \\(\\frac{a^m}{a^n} = a^{m-n}\\) (where \\(a \\neq 0\\))\nPower of a Power: \\((a^m)^n = a^{m \\cdot n}\\)\nPower of a Product: \\((a \\cdot b)^n = a^n \\cdot b^n\\)\nPower of a Quotient: \\(\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}\\) (where \\(b \\neq 0\\))\n\n\nSpecial Exponent Cases\n\nZero Exponent: \\(a^0 = 1\\) (where \\(a \\neq 0\\))\nNegative Exponent: \\(a^{-n} = \\frac{1}{a^n}\\) (where \\(a \\neq 0\\))\nFractional Exponent: \\(a^{\\frac{m}{n}} = \\sqrt[n]{a^m}\\)\n\nThese rules help simplify complex expressions, especially in compound interest calculations and growth models."
   },
   {
     "objectID": "math-tools.html#linear-algebra",
@@ -126,9 +77,9 @@
     "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
   },
   {
-    "objectID": "causal-inference.html#causal-inference",
-    "href": "causal-inference.html#causal-inference",
-    "title": "Causal Inference",
+    "objectID": "causal-inference.html#introduction",
+    "href": "causal-inference.html#introduction",
+    "title": "causal inference",
     "section": "",
     "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
   },
@@ -161,11 +112,95 @@
     "text": "Randomized Controlled Trials (RCTs)\nRandomized Controlled Trials (RCTs) are the gold standard in causal inference, where random assignment to treatment and control groups ensures that any differences in outcomes can be attributed to the treatment.\n\nKey Concepts\n\nRandom Assignment: Units are randomly assigned to treatment and control groups, balancing confounders across groups.\nControl Group: Provides a baseline for comparison to the treatment group.\n\n\n\nRCT Estimator\nThe average treatment effect in an RCT is calculated as:\n\\[\nATE = E[Y | X = 1] - E[Y | X = 0]\n\\]\nwhere \\(X = 1\\) indicates the treatment group and \\(X = 0\\) the control group.\n\n\nExample: Drug Trials\nIn a clinical trial, participants are randomly assigned to receive either a new drug or a placebo. The difference in health outcomes between the groups estimates the causal effect of the drug, assuming random assignment balances all other factors."
   },
   {
-    "objectID": "causal-inference.html#introduction",
-    "href": "causal-inference.html#introduction",
-    "title": "causal inference",
+    "objectID": "history-timeline.html",
+    "href": "history-timeline.html",
+    "title": "history timelines",
     "section": "",
-    "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
+    "text": "A timeline of key events in history according to me. To help with my Economist Dateline score (this is why it starts in 1843) ;)"
+  },
+  {
+    "objectID": "history-timeline.html#us-presidents",
+    "href": "history-timeline.html#us-presidents",
+    "title": "history timelines",
+    "section": "US Presidents",
+    "text": "US Presidents"
+  },
+  {
+    "objectID": "history-timeline.html#timeline-of-major-world-events-since-1843",
+    "href": "history-timeline.html#timeline-of-major-world-events-since-1843",
+    "title": "history timelines",
+    "section": "Timeline of Major World Events (Since 1843)",
+    "text": "Timeline of Major World Events (Since 1843)\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n1848\nRevolutions of 1848 across Europe advocating for democratic reforms.\n\n\n1853-1856\nCrimean War between Russia and an alliance of Britain, France, and the Ottoman Empire.\n\n\n1861-1865\nAmerican Civil War in the United States over issues of slavery and state sovereignty.\n\n\n1869\nTranscontinental Railroad completed in the U.S., connecting the East and West coasts.\n\n\n1882\nTriple Alliance formed between Germany, Austria-Hungary, and Italy, marking alliances that would lead to World War I.\n\n\n1885\nBerlin Conference divides Africa among European powers, intensifying colonialism.\n\n\n1914-1918\nWorld War I, a global war involving most world powers, ending with the Treaty of Versailles.\n\n\n1917\nRussian Revolution, leading to the rise of the Soviet Union.\n\n\n1929\nGreat Depression begins, causing worldwide economic hardship.\n\n\n1939-1945\nWorld War II, a global conflict involving the Allies and Axis powers, resulting in major changes to global politics.\n\n\n1945\nUnited Nations founded to promote international cooperation and prevent future wars.\n\n\n1947\nIndia gains independence from British rule, marking the end of the British Empire’s dominance in South Asia.\n\n\n1949\nNATO established as a military alliance among Western nations; People’s Republic of China founded under communist rule.\n\n\n1957\nLaunch of Sputnik by the Soviet Union, beginning the Space Race.\n\n\n1969\nFirst Moon Landing by Apollo 11, a major milestone in space exploration.\n\n\n1989\nFall of the Berlin Wall, signaling the end of the Cold War.\n\n\n1991\nDissolution of the Soviet Union, leading to the independence of several states and the end of the Cold War.\n\n\n2001\nSeptember 11 Attacks in the U.S., leading to global anti-terrorism efforts.\n\n\n2008\nGlobal Financial Crisis, affecting economies worldwide.\n\n\n2020\nCOVID-19 Pandemic begins, causing global health crises, economic impact, and social change."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my general exam preparation",
+    "section": "",
+    "text": "the purpose of this site:\n\nhelp me prepare for my phd general exams\ndocument my research\nshare my research with others"
+  },
+  {
+    "objectID": "what-is-economics.html",
+    "href": "what-is-economics.html",
+    "title": "what is economics",
+    "section": "",
+    "text": "economics is the study of how people allocate scarce resources to satisfy their unlimited wants.\n\nmicroeconomics\nmicroeconomics is the study of how individuals and firms make decisions and how these decisions interact.\n\n\nmacroeconomics\nmacroeconomics is the study of the economy as a whole. it is concerned with the behavior of the economy as a whole, including topics such as inflation, unemployment, and economic growth."
+  },
+  {
+    "objectID": "history-stuff.html",
+    "href": "history-stuff.html",
+    "title": "history stuff",
+    "section": "",
+    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
+  },
+  {
+    "objectID": "history-stuff.html#what-is-capitalism",
+    "href": "history-stuff.html#what-is-capitalism",
+    "title": "history stuff",
+    "section": "",
+    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
+  },
+  {
+    "objectID": "history-stuff.html#before-capitalism",
+    "href": "history-stuff.html#before-capitalism",
+    "title": "history stuff",
+    "section": "Before Capitalism",
+    "text": "Before Capitalism\nBefore capitalism, most economies were structured around feudalism (up to the 15th century in Europe). Under feudalism, land was the main source of wealth, controlled by nobles, and labor was provided by serfs bound to the land. Production was for subsistence rather than profit, with little to no focus on market-based exchange."
+  },
+  {
+    "objectID": "history-stuff.html#origins-and-timeline-of-capitalism",
+    "href": "history-stuff.html#origins-and-timeline-of-capitalism",
+    "title": "history stuff",
+    "section": "Origins and Timeline of Capitalism",
+    "text": "Origins and Timeline of Capitalism\n\nEarly 16th to 18th Century: Proto-capitalist structures began emerging with the Commercial Revolution in Europe. Trade expanded, and early banking and joint-stock companies were created, laying the groundwork for capitalism.\nLate 18th Century: Capitalism as we recognize it took root with the Industrial Revolution (starting around the 1760s in Britain). This period saw significant technological advancements and mechanization, leading to mass production and factory systems.\n1776: Adam Smith’s seminal work, The Wealth of Nations, was published, advocating for free markets and explaining productivity gains from the division of labor. Smith’s pin factory example demonstrated how dividing tasks increased output significantly."
+  },
+  {
+    "objectID": "history-stuff.html#division-of-labor",
+    "href": "history-stuff.html#division-of-labor",
+    "title": "history stuff",
+    "section": "Division of Labor",
+    "text": "Division of Labor\nIn the pin factory example, Smith describes how dividing the production of pins into specialized tasks allowed workers to produce thousands of pins per day, compared to the few they could make individually. This concept became a foundational element of capitalist production, emphasizing efficiency and specialization to maximize profit."
+  },
+  {
+    "objectID": "reading-list-by-topic.html",
+    "href": "reading-list-by-topic.html",
+    "title": "reading list",
+    "section": "",
+    "text": "Understanding Early Childhood Development and Its Importance"
+  },
+  {
+    "objectID": "reading-list-by-topic.html#early-childhood-education",
+    "href": "reading-list-by-topic.html#early-childhood-education",
+    "title": "reading list",
+    "section": "",
+    "text": "Understanding Early Childhood Development and Its Importance"
+  },
+  {
+    "objectID": "key-players.html",
+    "href": "key-players.html",
+    "title": "key players",
+    "section": "",
+    "text": "daron acemoglu\nsummary:\nDaron Acemoglu is a Turkish economist who is a professor at MIT. He is best known for his work on political economy and economic development. He has written several books, including “Why Nations Fail” and “Economic Origins of Dictatorship and Democracy.”\nkey contributions:\nAcemoglu has made several key contributions to the field of economics. He is known for his work on the role of institutions in economic development, and has argued that inclusive institutions are essential for long-term growth. He has also studied the relationship between political institutions and economic outcomes, and has shown that democratic institutions are associated with higher levels of economic development (?).\n\n\ndavid autor\nsummary:\nDavid Autor is an American economist who is a professor at MIT. He is best known for his work on labor economics and the impact of technology on the labor market. He has written several influential papers on the subject, including “The China Shock” and “Why Are There Still So Many Jobs?”\nkey contributions:\nAutor has made several key contributions to the field of economics. He is known for his work on the impact of technology on the labor market, and has shown that technological change has had a significant impact on the distribution of income. He has also studied the role of trade in shaping the labor market, and has shown that trade with China has had a negative impact on the employment prospects of low-skilled workers."
   },
   {
     "objectID": "ci-and-hypothesis-testing.html",
@@ -210,20 +245,6 @@
     "text": "Duality Between Confidence Intervals and Hypothesis Tests\nA value \\(m\\) is in a 95% confidence interval for \\(\\mu\\) if we do not reject the null hypothesis \\(H_0: \\mu = m\\) at the 5% level. If \\(m\\) is outside this interval, we reject \\(H_0\\).\nThis section covers essential tools for interpreting confidence intervals, one-sample and two-sample hypothesis tests, and the connection to significance testing."
   },
   {
-    "objectID": "reading-list-by-topic.html",
-    "href": "reading-list-by-topic.html",
-    "title": "reading list",
-    "section": "",
-    "text": "Understanding Early Childhood Development and Its Importance"
-  },
-  {
-    "objectID": "reading-list-by-topic.html#early-childhood-education",
-    "href": "reading-list-by-topic.html#early-childhood-education",
-    "title": "reading list",
-    "section": "",
-    "text": "Understanding Early Childhood Development and Its Importance"
-  },
-  {
     "objectID": "linear-regression.html",
     "href": "linear-regression.html",
     "title": "linear regression",
@@ -243,61 +264,5 @@
     "title": "linear regression",
     "section": "Deriving the argmin Function in Linear Regression",
     "text": "Deriving the argmin Function in Linear Regression\nIn the context of Ordinary Least Squares (OLS) regression, the argmin function identifies the values of the coefficients \\(\\beta = (\\beta_0, \\beta_1, \\ldots, \\beta_k)\\) that minimize the average squared difference between the observed values and the values predicted by the model.\n\nStep 1: Setting up the Problem\nTo find the best linear approximation of \\(Y\\) in terms of \\(X\\), we express \\(Y\\) as:\n\\[\nY = X'\\beta + u\n\\]\nwhere: - \\(Y\\) is the dependent variable. - \\(X\\) is a matrix of independent variables (each row represents an observation, and each column represents a variable). - \\(\\beta\\) is the vector of coefficients we aim to estimate. - \\(u\\) is the error term, assumed to have a mean of zero, i.e., \\(E[u | X] = 0\\).\nGiven this setup, we seek the \\(\\beta\\) that minimizes the expected squared error, or the mean squared error function:\n\\[\n\\beta = \\text{argmin}_{b \\in \\mathbb{R}^k} E[(Y - X'b)^2]\n\\]\n\n\nStep 2: Using the Property of Expectations to Define the Objective\nFor any value \\(c\\), we know that:\n\\[\nE[(Y - E[Y])^2] \\leq E[(Y - c)^2]\n\\]\nThis property implies that the optimal \\(b\\) minimizes the squared deviation of \\(Y\\) from its conditional expectation \\(E[Y | X]\\). Hence, \\(\\beta\\) is the value that minimizes:\n\\[\nE[(Y - X'b)^2]\n\\]\nThis function is minimized when \\(E[Y | X] = X'\\beta\\), which forms the basis of the OLS estimation.\n\n\nStep 3: Sample-Based Minimization (Estimation with Observed Data)\nIn practice, we estimate \\(\\beta\\) using a sample of data points \\((Y_1, X_1), (Y_2, X_2), \\ldots, (Y_n, X_n)\\). The sample-based version of the minimization problem becomes:\n\\[\n\\hat{\\beta} = \\text{argmin}_{b \\in \\mathbb{R}^k} \\frac{1}{n} \\sum_{i=1}^n (Y_i - X_i'b)^2\n\\]\nAlternatively, this can be simplified as:\n\\[\n\\hat{\\beta} = \\text{argmin}_{b \\in \\mathbb{R}^k} \\sum_{i=1}^n (Y_i - X_i'b)^2\n\\]\n\n\nStep 4: Solving for \\(\\hat{\\beta}\\)\nTo find the values of \\(\\hat{\\beta}\\) that minimize the sum of squared residuals, we differentiate the objective function with respect to each element of \\(\\beta\\), set these derivatives to zero, and solve for \\(\\beta\\). This yields the OLS estimator:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\nThis solution for \\(\\hat{\\beta}\\) provides the regression coefficients that minimize the sum of squared residuals, making it the best linear predictor of \\(Y\\) based on \\(X\\)."
-  },
-  {
-    "objectID": "history-timeline.html",
-    "href": "history-timeline.html",
-    "title": "history timelines",
-    "section": "",
-    "text": "A timeline of key events in history according to me. To help with my Economist Dateline score (this is why it starts in 1843) ;)"
-  },
-  {
-    "objectID": "history-timeline.html#timeline-of-major-world-events-since-1843",
-    "href": "history-timeline.html#timeline-of-major-world-events-since-1843",
-    "title": "history timelines",
-    "section": "Timeline of Major World Events (Since 1843)",
-    "text": "Timeline of Major World Events (Since 1843)\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n1848\nRevolutions of 1848 across Europe advocating for democratic reforms.\n\n\n1853-1856\nCrimean War between Russia and an alliance of Britain, France, and the Ottoman Empire.\n\n\n1861-1865\nAmerican Civil War in the United States over issues of slavery and state sovereignty.\n\n\n1869\nTranscontinental Railroad completed in the U.S., connecting the East and West coasts.\n\n\n1882\nTriple Alliance formed between Germany, Austria-Hungary, and Italy, marking alliances that would lead to World War I.\n\n\n1885\nBerlin Conference divides Africa among European powers, intensifying colonialism.\n\n\n1914-1918\nWorld War I, a global war involving most world powers, ending with the Treaty of Versailles.\n\n\n1917\nRussian Revolution, leading to the rise of the Soviet Union.\n\n\n1929\nGreat Depression begins, causing worldwide economic hardship.\n\n\n1939-1945\nWorld War II, a global conflict involving the Allies and Axis powers, resulting in major changes to global politics.\n\n\n1945\nUnited Nations founded to promote international cooperation and prevent future wars.\n\n\n1947\nIndia gains independence from British rule, marking the end of the British Empire’s dominance in South Asia.\n\n\n1949\nNATO established as a military alliance among Western nations; People’s Republic of China founded under communist rule.\n\n\n1957\nLaunch of Sputnik by the Soviet Union, beginning the Space Race.\n\n\n1969\nFirst Moon Landing by Apollo 11, a major milestone in space exploration.\n\n\n1989\nFall of the Berlin Wall, signaling the end of the Cold War.\n\n\n1991\nDissolution of the Soviet Union, leading to the independence of several states and the end of the Cold War.\n\n\n2001\nSeptember 11 Attacks in the U.S., leading to global anti-terrorism efforts.\n\n\n2008\nGlobal Financial Crisis, affecting economies worldwide.\n\n\n2020\nCOVID-19 Pandemic begins, causing global health crises, economic impact, and social change."
-  },
-  {
-    "objectID": "history-timeline.html#us-presidents",
-    "href": "history-timeline.html#us-presidents",
-    "title": "history timelines",
-    "section": "US Presidents",
-    "text": "US Presidents"
-  },
-  {
-    "objectID": "history-stuff.html",
-    "href": "history-stuff.html",
-    "title": "history stuff",
-    "section": "",
-    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
-  },
-  {
-    "objectID": "history-stuff.html#what-is-capitalism",
-    "href": "history-stuff.html#what-is-capitalism",
-    "title": "history stuff",
-    "section": "",
-    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
-  },
-  {
-    "objectID": "history-stuff.html#before-capitalism",
-    "href": "history-stuff.html#before-capitalism",
-    "title": "history stuff",
-    "section": "Before Capitalism",
-    "text": "Before Capitalism\nBefore capitalism, most economies were structured around feudalism (up to the 15th century in Europe). Under feudalism, land was the main source of wealth, controlled by nobles, and labor was provided by serfs bound to the land. Production was for subsistence rather than profit, with little to no focus on market-based exchange."
-  },
-  {
-    "objectID": "history-stuff.html#origins-and-timeline-of-capitalism",
-    "href": "history-stuff.html#origins-and-timeline-of-capitalism",
-    "title": "history stuff",
-    "section": "Origins and Timeline of Capitalism",
-    "text": "Origins and Timeline of Capitalism\n\nEarly 16th to 18th Century: Proto-capitalist structures began emerging with the Commercial Revolution in Europe. Trade expanded, and early banking and joint-stock companies were created, laying the groundwork for capitalism.\nLate 18th Century: Capitalism as we recognize it took root with the Industrial Revolution (starting around the 1760s in Britain). This period saw significant technological advancements and mechanization, leading to mass production and factory systems.\n1776: Adam Smith’s seminal work, The Wealth of Nations, was published, advocating for free markets and explaining productivity gains from the division of labor. Smith’s pin factory example demonstrated how dividing tasks increased output significantly."
-  },
-  {
-    "objectID": "history-stuff.html#division-of-labor",
-    "href": "history-stuff.html#division-of-labor",
-    "title": "history stuff",
-    "section": "Division of Labor",
-    "text": "Division of Labor\nIn the pin factory example, Smith describes how dividing the production of pins into specialized tasks allowed workers to produce thousands of pins per day, compared to the few they could make individually. This concept became a foundational element of capitalist production, emphasizing efficiency and specialization to maximize profit."
   }
 ]
