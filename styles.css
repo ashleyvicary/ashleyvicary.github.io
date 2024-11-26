@@ -13,17 +13,17 @@
   font-style: normal;
 }
 
-/* Set body font */
+/* Set body font 
 body {
   font-family: 'Neue Haas Grotesk', sans-serif;
 }
-
-/* Set paragraph font */
+*/
+/* Set paragraph font
 p {
   font-family: 'MIT Regular Font', sans-serif;
 }
 
-/* Set default mark font size */
+/* Set default mark font size 
 mark {
   font-size: 160px;
 }
@@ -32,7 +32,7 @@ mark {
   list-style-type: '';
   font-size: 35px;
 }
-
+*/
 /* Style for medium-sized screens */
 @media (max-width: 1024px) {
   mark {

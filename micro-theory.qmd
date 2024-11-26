@@ -1,0 +1,1009 @@
+---
+title: "Micro Theory and Public Policy"
+---
+
+## Lecture 1: Introduction and the Minimum Wage Debate
+
+### Course Overview
+
+This course focuses on three main areas:
+
+1\. **Economic Theory**: Understanding predictions, origins, and applications.
+
+2\. **Causal Inference**: Determining cause and effect in economic relationships.
+
+3\. **Empirical Applications**: Using data and economic theory to interpret real-world events, especially through randomized experiments and quasi-experiments.
+
+------------------------------------------------------------------------
+
+### Minimum Wage and Employment
+
+The lecture opens with a practical application: understanding the effects of minimum wage policies on employment, which remains a heavily debated topic. The key concepts include:
+
+#### Competitive Labor Market Model
+
+In a standard model:
+
+\- **Supply and Demand Curves**: Represent the willingness of workers to work at various wages (supply) and employers' willingness to pay (demand).
+
+\- **Equilibrium Wage (**$w^*$): Wage rate where the supply of labor equals demand.
+
+\- **Minimum Wage (**$w_{min}$): If imposed above $w^*$, it reduces employment from $l^*$ to $l_{min}$.
+
+Key formula: $$
+\text{Total Earnings} = w \times l
+$$ Earnings may increase or decrease with a minimum wage depending on the **elasticity of demand** for labor: $$
+\sigma = \frac{\partial l}{\partial w} \cdot \frac{w}{l}
+$$
+
+#### Monopsony Model
+
+In monopsony (one employer with market power):
+
+\- **Labor Supply Curve**: The firm faces an upward-sloping supply curve, meaning hiring additional workers increases wages for all employees.
+
+\- **Marginal Cost of Labor (MCL)**: Higher than the wage rate due to wage increases across all employees.
+
+In monopsony, a binding minimum wage could increase both wages and employment, contrary to the competitive model.
+
+![](images/clipboard-2492317685.png)
+
+------------------------------------------------------------------------
+
+### Testing Minimum Wage Models: Card & Krueger (1994)
+
+**Natural Experiment**: Card and Krueger examined New Jersey’s 1992 minimum wage increase by comparing employment changes in New Jersey and Pennsylvania (control group). They found a relative increase in employment in New Jersey’s fast-food sector, suggesting monopsonistic characteristics.
+
+------------------------------------------------------------------------
+
+### Causal Inference in Economics
+
+Understanding cause and effect is fundamental in economics. Challenges include:
+
+\- **Fundamental Problem of Causal Inference**: We cannot observe both treated and untreated outcomes for the same individual.
+
+![](images/clipboard-2550823292.png){width="331"}
+
+\- **Solution Approaches**:
+
+\- **Randomization**: Assigning treatment randomly to balance characteristics across treatment and control groups.
+
+\- **Difference-in-Differences (DiD)**: Comparing changes over time between treated and control groups to account for pre-existing differences.
+
+**Example of DiD**: $$
+\text{Treatment Effect (T)} = (\text{Post-Treatment}_\text{Treated} - \text{Pre-Treatment}_\text{Treated}) - (\text{Post-Treatment}_\text{Control} - \text{Pre-Treatment}_\text{Control})
+$$
+
+------------------------------------------------------------------------
+
+### Methodology of Economics
+
+Economic methodology uses **positive economics** (what is) and **normative economics** (what ought to be) to analyze policy choices. It emphasizes:
+
+\- **Rigor**: Clear assumptions and formal methods.
+
+\- **Cohesiveness**: Theory-based predictions.
+
+\- **Refutability**: Testable predictions.
+
+------------------------------------------------------------------------
+
+This lecture sets the foundation for understanding how minimum wage impacts differ across models, the tools for causal analysis, and the role of economic theory in policymaking.
+
+------------------------------------------------------------------------
+
+## Lecture 2: Axioms of Consumer Preference and the Theory of Choice
+
+### Overview
+
+This lecture covers foundational concepts in consumer preference theory and the theory of choice, leading to an understanding of consumer demand. The main topics include:
+
+1.  **Utility Functions**: Cardinal and ordinal utility.
+2.  **Axioms of Consumer Preference**: Completeness, transitivity, continuity, non-satiation, and diminishing marginal rate of substitution.
+3.  **Indifference Curves and the Marginal Rate of Substitution**.
+4.  **Monotonic Transformations**: Preserving rankings and preferences in consumer theory.
+
+------------------------------------------------------------------------
+
+### 1. Axioms of Consumer Preference
+
+The following axioms form the basis for consumer theory, allowing for a well-defined utility function:
+
+1.  **Completeness**: For any two bundles, $A$ and $B$, the consumer can rank them: $A \succ B$, $B \succ A$, or $A \sim B$.
+2.  **Transitivity**: If $A \succ B$ and $B \succ C$, then $A \succ C$.
+3.  **Continuity**: Small changes in consumption bundles lead to small changes in utility.
+4.  **Non-Satiation**: More is always better; if bundle $A$ has more of at least one good than bundle $B$, then $A \succ B$.
+5.  **Diminishing Marginal Rate of Substitution (MRS)**: As consumption of one good increases, the willingness to give up another good decreases.
+
+------------------------------------------------------------------------
+
+### 2. Indifference Curves and the Marginal Rate of Substitution
+
+-   **Indifference Curve**: Represents combinations of goods yielding the same level of utility.
+-   **Marginal Rate of Substitution (MRS)**: Measures the rate at which a consumer is willing to trade one good for another while maintaining the same level of utility.
+
+#### Key Formula for MRS:
+
+$$
+\text{MRS}_{x,y} = -\frac{d y}{d x} = \frac{\partial U / \partial x}{\partial U / \partial y}
+$$
+
+![](images/clipboard-1675495527.png){width="339"}
+
+------------------------------------------------------------------------
+
+### 3. Monotonic Transformations
+
+A monotonic transformation of a utility function preserves the order of preferences while discarding specific values. For example, if $U(x, y) = x^{\alpha} y^{\beta}$, a monotonic transformation like $U_2(x, y) = \ln(U(x, y)) = \alpha \ln x + \beta \ln y$ preserves the same preference rankings.
+
+Here’s a Markdown summary of **Lecture 3** for your website, including key formulas and placeholders for visuals.
+
+------------------------------------------------------------------------
+
+Here's the updated summary for **Lecture 3** with adjustments for optimal rendering in `.qmd`:
+
+------------------------------------------------------------------------
+
+## Lecture 3: Theory of Choice and Individual Demand
+
+### Key Topics Covered:
+
+1.  **Utility Maximization**: Solving consumer choice with budget constraints.
+2.  **Indirect Utility Function**: Deriving utility as a function of prices and income.
+3.  **Expenditure Function**: Determining minimum expenditure to reach a utility level.
+4.  **Demand Functions**: Applications in policy, such as health insurance demand.
+5.  **Income and Substitution Effects**: Understanding changes in demand with prices.
+6.  **Normal and Inferior Goods**: Distinguishing based on responses to income changes.
+7.  **Hicksian (compensated) vs. Marshallian (uncompensated) Demand**.
+
+![](images/clipboard-3696136144.png){width="403"}
+
+------------------------------------------------------------------------
+
+### 1. Utility Maximization with Budget Constraints
+
+Consumers maximize utility given a budget constraint:
+
+$$
+\max_{x, y} U(x, y) \quad \text{s.t.} \quad p_x x + p_y y \leq I
+$$
+
+Using a Lagrangian:
+
+$$
+L = U(x, y) + \lambda (I - p_x x - p_y y)
+$$
+
+The solution requires:
+
+$$
+\frac{\partial L}{\partial x} = 0, \quad \frac{\partial L}{\partial y} = 0, \quad \frac{\partial L}{\partial \lambda} = 0
+$$
+
+#### Solution Characteristics:
+
+-   **Budget Exhaustion**: Consumers use all available income.
+-   **Marginal Rate of Substitution (MRS)**: Equal to the price ratio for optimal choices, $\text{MRS} = -\frac{p_x}{p_y}$.
+
+![](images/clipboard-3933898301.png){width="361"}
+
+------------------------------------------------------------------------
+
+### 2. Indirect Utility Function
+
+Defines utility given prices and income. For optimal $x^*$ and $y^*$:
+
+$$
+V(p_x, p_y, I) = U(x^*(p_x, p_y, I), y^*(p_x, p_y, I))
+$$
+
+#### Example:
+
+With utility function $U(x, y) = x^{0.5} y^{0.5}$:
+
+$$
+V(p_x, p_y, I) = \left(\frac{I}{2 p_x}\right)^{0.5} \left(\frac{I}{2 p_y}\right)^{0.5}
+$$
+
+**Purpose**: Simplifies determining utility without recalculating optimal consumption for every price/income change.
+
+------------------------------------------------------------------------
+
+### 3. Expenditure Function
+
+Dual of utility maximization: minimizes spending for a given utility level $U^*$:
+
+$$
+\min_{x, y} p_x x + p_y y \quad \text{s.t.} \quad U(x, y) \geq U^*
+$$
+
+#### Example:
+
+For $U(x, y) = x^{0.5} y^{0.5}$, expenditure to reach $U^*$:
+
+$$
+E(p_x, p_y, U^*) = 2 p_x^{0.5} p_y^{0.5} U^*
+$$
+
+------------------------------------------------------------------------
+
+### 4. Hicksian vs. Marshallian Demand
+
+-   **Marshallian Demand**: Demand based on maximizing utility with a fixed budget.
+
+![](images/clipboard-204857720.png){width="410"}
+
+-   **Hicksian Demand**: Compensated demand that holds utility constant, isolating substitution effects.
+
+![](images/clipboard-702473004.png){width="413"}
+
+### 5. Income and Substitution Effects
+
+Price changes alter quantity demanded via:
+
+\- **Substitution Effect**: Shift to relatively cheaper goods.
+
+\- **Income Effect**: Change in demand based on altered real income.
+
+#### Slutsky Equation:
+
+$$
+\frac{\partial x}{\partial p} = \frac{\partial x}{\partial p}|_{U} + \frac{\partial x}{\partial I} x
+$$
+
+------------------------------------------------------------------------
+
+Here’s the summary formatted to match the previous style:
+
+------------------------------------------------------------------------
+
+### Lecture 4: *Demand Functions: Income Effects, Substitution Effects, and Labor Supply*
+
+#### Key Concepts
+
+1.  **Types of Demand Curves**
+    -   **Marshallian (Uncompensated) Demand**: Reflects how demand varies with price while holding income constant. It captures both the **income effect** (impact of income changes on demand) and **substitution effect** (impact of relative price changes).
+        -   **Mathematical Example**: For a utility function $U(x, y) = x^{0.5} y^{0.5}$:
+            -   $x(px, py, I) = \frac{0.5I}{px}$
+            -   $y(px, py, I) = \frac{0.5I}{py}$
+    -   **Hicksian (Compensated) Demand**: Represents only the substitution effect by holding utility constant. It answers how demand changes with price when maintaining a fixed level of utility.
+        -   **Mathematical Example**:
+            -   $x(px, py, U) = \left(\frac{py}{px}\right)^{0.5} U$
+            -   $y(px, py, U) = \left(\frac{px}{py}\right)^{0.5} U$
+2.  **Effects of Price Changes on Demand**
+    -   **Income Effect**: The change in demand due to altered purchasing power from price changes.
+    -   **Substitution Effect**: Reflects shifts in consumption based on new price ratios, independent of changes in purchasing power.
+3.  **Labor Supply and Demand Functions**
+    -   The framework extends to labor markets, where consumers decide between labor and leisure. The **Production Possibility Frontier (PPF)** illustrates this trade-off in available time and resources.
+    -   **Labor Supply and Wage Effects**: Changes in wages influence decisions between leisure and labor. Higher wages typically increase the opportunity cost of leisure, affecting labor supply choices.
+
+![](images/clipboard-884303194.png){width="411"}
+
+1.  **Impact of Wage Subsidies (EITC)**
+    -   **Earned Income Tax Credit (EITC)** modifies labor supply by boosting effective wages, producing varied income and substitution effects through its three phases:
+        -   **Phase-in**: Increases labor supply by raising the marginal benefit of additional work hours.
+        -   **Plateau**: Provides income support without affecting the marginal wage, potentially reducing labor supply.
+        -   **Phase-out**: Gradually reduces the wage benefit, decreasing labor supply.
+2.  **Application to Data: Tax Reform Act of 1986**
+    -   The EITC’s effects on labor force participation and work hours are empirically examined (e.g., Eissa and Liebman, 1996), showing how subsidies impact labor market behavior, reflecting theoretical income and substitution effects.
+
+------------------------------------------------------------------------
+
+## Lecture 5: Income and Substitution Effects & the Economics of Subsistence
+
+### Key Topics Covered:
+
+1.  **Types of Goods**: Normal, Inferior, and Giffen Goods
+2.  **Compensated vs. Uncompensated Demand**
+3.  **Shephard’s Lemma and the Expenditure Function**
+4.  **Slutsky Equation**
+5.  **Roy’s Identity**
+6.  **Giffen Behavior in Subsistence Consumption**: Jensen and Miller (2008)
+
+------------------------------------------------------------------------
+
+### 1. Types of Goods and Effects
+
+-   **Normal Goods**:
+    -   Positive income effect, negative substitution effect.
+    -   Higher price reduces consumption.
+    -   Formula: $\frac{\partial X}{\partial I} > 0$, $\frac{\partial X}{\partial p_x} < 0$
+-   **Inferior Goods**:
+    -   Negative income effect, negative substitution effect.
+    -   Income and substitution effects counterbalance each other.
+    -   Formula: $\frac{\partial X}{\partial I} < 0$, $\frac{\partial X}{\partial p_x} < 0$
+-   **Giffen Goods**:
+    -   Strongly inferior with dominant income effect over substitution effect.
+    -   Higher price increases consumption (upward-sloping demand).
+    -   Formula: $\left| \frac{\partial X}{\partial I} \right| > \left| \frac{\partial X}{\partial p_x} \right|$
+
+![](images/clipboard-1049063704.png){width="356"}
+
+![](images/clipboard-3624382982.png){width="350"}
+
+![](images/clipboard-3014167091.png){width="367"}
+
+![](images/clipboard-3698349917.png){width="495"}
+
+------------------------------------------------------------------------
+
+### 2. Compensated vs. Uncompensated Demand
+
+-   **Uncompensated (Marshallian) Demand**: Accounts for income and substitution effects.
+-   **Compensated (Hicksian) Demand**: Isolates substitution effects by holding utility constant.
+
+The expenditure function $E(p_x, p_y, U)$ provides minimum expenditure to achieve utility $U$ at prices $p_x$ and $p_y$. Compensated and uncompensated demands are equal at a chosen utility level:
+
+$$
+h_x(p_x, p_y, U) = d_x(p_x, p_y, E(p_x, p_y, U))
+$$
+
+![](images/clipboard-1693285991.png)
+
+------------------------------------------------------------------------
+
+### 3. Shephard’s Lemma and the Expenditure Function
+
+**Shephard’s Lemma** states that the derivative of the expenditure function with respect to price yields compensated demand:
+
+$$
+\frac{\partial E}{\partial p_x} = h_x
+$$
+
+This result isolates the substitution effect and is essential for analyzing demand when utility is held constant.
+
+------------------------------------------------------------------------
+
+### 4. Slutsky Equation
+
+The **Slutsky Equation** decomposes the effect of a price change on demand into income and substitution components:
+
+$$
+\frac{\partial d_x}{\partial p_x} = \frac{\partial h_x}{\partial p_x} - \frac{\partial d_x}{\partial I} \cdot X
+$$
+
+For normal goods, income and substitution effects are complementary; for inferior and Giffen goods, they counterbalance.
+
+------------------------------------------------------------------------
+
+### 5. Roy’s Identity
+
+**Roy’s Identity** links the uncompensated demand function with the indirect utility function, showing how demand changes with income and prices:
+
+$$
+d_x = -\frac{\partial V / \partial p_x}{\partial V / \partial I}
+$$
+
+------------------------------------------------------------------------
+
+### 6. Giffen Behavior in Subsistence Consumption: Jensen and Miller (2008)
+
+The **Jensen and Miller (2008) experiment** on Giffen goods in China tested the theory using staple foods among the rural poor: - Households in Hunan (rice staple) and Gansu (wheat staple) showed Giffen behavior when a subsidy increased effective income, allowing them to purchase more “luxury” foods and less staple.
+
+This case demonstrated that, under subsistence constraints, a staple good could behave as a Giffen good, aligning with theoretical predictions.
+
+------------------------------------------------------------------------
+
+## Lecture 6: Applied Competitive Analysis Part I: Taxation and Market Equilibrium
+
+### Key Topics Covered:
+
+1.  **Consumer and Market Demand**: Determining prices and income in competitive markets.
+2.  **Tax Incidence**: Who bears the actual burden of a tax.
+3.  **Impact of Taxation on Wages, Prices, and Quantities**.
+4.  **Taxation and Behavioral Change**: How taxes influence consumption patterns, including the effect of rebates.
+
+------------------------------------------------------------------------
+
+### 1. Consumer Demand and Market Demand
+
+In competitive markets:
+
+\- **Price Formation**: Prices are determined by the interaction of supply and demand at the margin.
+
+\- **Market Equilibrium (Partial)**: Equilibrium wage or price is set where the supply curve intersects the demand curve.
+
+------------------------------------------------------------------------
+
+### 2. Tax Incidence: Who Really Pays?
+
+Benjamin Franklin’s notion that taxes are inevitable leads to a key economic question: *Who bears the burden of a tax—consumers or producers?*
+
+-   **Tax Burden Analysis**: Examines who ultimately pays for a tax imposed on a market.
+-   **Formal Incidence**: Whether the tax is nominally placed on consumers or producers does not alter who actually bears its economic impact.
+
+### 3. Effects of Taxation on Wages and Prices
+
+For an income tax on workers: 1. Workers keep only ( w - \tau ), where ( \tau ) is the tax. 2. The new equilibrium wage ( w\^\tau ) falls between ( w\^\* ) and ( w\^\* - \tau ), reducing employment from ( L\^\* ) to ( L\_\tau ).
+
+![](images/clipboard-453151534.png)
+
+For a tax on firms:
+
+![](images/clipboard-1056487075.png)
+
+\- **Similar Outcome**: Whether firms or workers are taxed, the gap between wages paid by firms and wages received by workers remains ( \tau ).
+
+------------------------------------------------------------------------
+
+### 4. Tax Impact on Quantities: Deadweight Loss (DWL)
+
+Taxation not only affects wages but also reduces employment, leading to **deadweight loss** (DWL) in the market.
+
+DWL is represented by the area lost between the supply and demand curves due to the tax:
+
+$$
+\text{DWL} = \text{Area between supply and demand curves from } L_\tau \text{ to } L^*
+$$
+
+This reduction in total surplus reflects inefficiency introduced by the tax.
+
+------------------------------------------------------------------------
+
+### 5. Taxation, Rebates, and Behavioral Change
+
+Taxes may be used to alter consumption behavior, as in taxes on fuel or sugary drinks. However, taxes can be regressive, disproportionately affecting lower-income households.
+
+**Tax and Rebate Model**: - Tax per unit ( \tau ) on good ( X ), with a rebate to the consumer:
+
+$$ \tau \times d_x(p_x + \tau, p_y, I + R) = R $$
+
+-   **Impact on Behavior**: The tax changes relative prices and encourages substitution, even with a rebate maintaining the original budget set.
+
+![](images/clipboard-967953961.png){width="507"}
+
+### Summary
+
+This lecture introduces the fundamentals of tax incidence and how taxes affect market equilibrium, wages, and consumption patterns. Taxes alter consumer and producer behavior, impacting welfare and generating deadweight losses in a competitive market.
+
+------------------------------------------------------------------------
+
+## Lecture 7: Applied Competitive Analysis II: The Labor Market for Real Estate Brokers
+
+### Key Topics Covered:
+
+1.  **Resource Allocation**: Pricing signals in efficient markets.
+2.  **Collusion and Rents in the Real Estate Market**: Fixed commission structure.
+3.  **Rent-Seeking Behavior**: Effects of excess entry into the broker market.
+4.  **Stylized Model of Broker Wages and Commissions**: Impact of rising house prices on broker wages.
+5.  **Deadweight Loss in Real Estate Brokerage**: Inefficiencies due to fixed commissions.
+
+------------------------------------------------------------------------
+
+### 1. Resource Allocation in Competitive Markets
+
+In competitive markets, the **price system** aligns production and consumption by signaling adjustments:
+
+\- **Rising Prices**: Encourage more production, less consumption.
+
+\- **Falling Prices**: Encourage more consumption, less production.
+
+In well-functioning markets, price signals maximize the sum of **consumer and producer surplus**.
+
+------------------------------------------------------------------------
+
+### 2. Collusion and Fixed Commissions in Real Estate Brokerage
+
+The real estate broker market exhibits features of **collusion**, with commissions largely fixed at 6% regardless of market conditions. According to **Hsieh and Moretti (2003)**, brokers enforce these prices through a national sales database (MLS), which records and penalizes commission discounts.
+
+#### Implications:
+
+-   Higher-priced properties yield higher absolute commissions, even if they don’t require more work.
+-   Broker fees rise automatically with increasing housing prices, potentially leading to **economic rents**—earnings above the broker’s opportunity cost.
+
+------------------------------------------------------------------------
+
+### 3. Rent-Seeking Behavior and Market Inefficiencies
+
+**Economic rents** create incentives for brokers to enter the market to capture these excess earnings, even when their entry doesn’t add value to consumers or the market.
+
+-   **Rent-seeking behavior**: Resources are spent on entry and competition for rents rather than creating value, leading to **social waste**.
+-   **Total Rent Dissipation**: In extreme cases, the costs of rent-seeking can equal or exceed the total rents available.
+
+**Graph Placeholder**: Show broker entry increasing as house prices rise, with rents dissipating due to excess competition.
+
+------------------------------------------------------------------------
+
+### 4. Stylized Model of Broker Wages and Commissions
+
+Using a simplified model:
+
+\- **Total Commissions**: $$
+  TC = P_H \times Q_H \times 0.06
+  $$ where $P_H$ is the price of housing, $Q_H$ is the quantity of houses sold, and 6% is the commission rate.
+
+-   **Wage per Realtor**: $$
+    w = \frac{TC}{Q_R}
+    $$ where $Q_R$ is the quantity of active realtors.
+
+#### Effects of Rising House Prices
+
+When $P_H$ rises without an increase in $Q_R$, the wage $w$ rises, transferring rents to incumbent brokers.
+
+**Graph Placeholder**: Show shifts in the wage curve as $P_H$ rises, with new equilibrium wages.
+
+------------------------------------------------------------------------
+
+### 5. Deadweight Loss (DWL) Due to Excess Entry
+
+As housing prices rise, new brokers enter the market, but their entry adds no consumer benefits. This results in a **deadweight loss (DWL)** due to inefficient allocation of resources.
+
+-   **DWL Calculation**: The area representing lost surplus from excess broker entry. The DWL is equal to the net loss in surplus, which is EC′GF− DC′G= EDGF.
+-   **Key Observations**:
+    1.  Home-sellers do not gain from additional brokers.
+    2.  Total commissions ($TC$) are constant regardless of broker entry.
+    3.  New brokers’ entry compensates them only for opportunity costs without net surplus gains.
+
+![](images/clipboard-1270013479.png)
+
+------------------------------------------------------------------------
+
+### Summary
+
+This lecture examines inefficiencies in the real estate broker market due to fixed commission structures, collusion, and rent-seeking. These conditions lead to deadweight losses and resource misallocation, undermining market efficiency.
+
+------------------------------------------------------------------------
+
+Here’s a summary of **Lecture 8a** and **Lecture 8b** in Markdown format, focusing on key formulas and placeholders for visuals.
+
+------------------------------------------------------------------------
+
+## Lecture 8a: General Equilibrium in a Pure Exchange Economy
+
+### Key Topics Covered:
+
+1.  **Interdependence of Markets**: How changes in one market affect others.
+2.  **Edgeworth Box**: Visualizing pure exchange between two agents with two goods.
+3.  **Pareto Efficiency and Contract Curve**: Conditions for achieving Pareto-efficient allocations.
+
+------------------------------------------------------------------------
+
+### 1. Motivation for General Equilibrium (GE) Model
+
+-   Unlike **Partial Equilibrium (PE)**, which looks at one market at a time, GE accounts for interactions across all markets.
+-   **Example**: Reducing tariffs on sugar impacts labor, land use, and consumer incomes, leading to broader economic shifts.
+
+------------------------------------------------------------------------
+
+### 2. Edgeworth Box
+
+The **Edgeworth Box** shows the potential gains from trade between two agents, A and B, with two goods (e.g., food and shelter): - **Dimensions**: Total endowment of each good in the economy. - **Agents' Consumption**: $X_A = E_A$ and $X_B = E_B$ represent initial endowments; trading allows each agent to improve.
+
+![](images/clipboard-765421693.png){width="484"}
+
+------------------------------------------------------------------------
+
+### 3. Pareto Efficiency and Contract Curve
+
+-   **Pareto Efficiency**: An allocation where no one can be made better off without making someone else worse off.
+-   **Contract Curve**: Set of all Pareto-efficient allocations where agents’ indifference curves are tangent.
+
+In the Edgeworth Box: $$
+\text{MRS}_{A} = \text{MRS}_{B}
+$$
+
+This equality at tangency points signifies that both agents' marginal rates of substitution (MRS) align, achieving efficiency.
+
+------------------------------------------------------------------------
+
+## Lecture 8b: Taxation vs. Lump-Sum Transfers in the Edgeworth Box
+
+### Key Topics Covered:
+
+1.  **Redistribution in Pure Exchange Economies**: Achieving desired allocations through price manipulation or lump-sum transfers.
+2.  **Distortionary Effects of Taxes**: How altering prices affects equilibrium and efficiency.
+3.  **Lump-Sum Transfers for Equitable Redistribution**: Supporting efficient allocations without distorting prices.
+
+------------------------------------------------------------------------
+
+### 1. Redistributing Endowments
+
+Consider an economy with two goods ($X$ and $Y$) and two agents ($A$ and $B$) with initial endowments: - Total endowment: $E = (2, 2)$ with individual endowments $E_A = (1, 2)$ and $E_B = (1, 0)$. - To move the economy to a desired point on the contract curve, the government could manipulate **initial endowments** rather than prices.
+
+**Graph Placeholder**: Edgeworth box with initial and post-transfer endowment points, showing the movement along the contract curve.
+
+------------------------------------------------------------------------
+
+### 2. Inefficiencies of Price Manipulation
+
+-   **Taxation**: Altering prices distorts consumer behavior, creating excess supply or demand.
+-   **Example Calculation**: Changing the price ratio alters optimal choices, but these choices will not clear the market due to excess demand or supply.
+
+------------------------------------------------------------------------
+
+### 3. Efficiency of Lump-Sum Transfers
+
+The **Second Welfare Theorem** states that any Pareto-efficient allocation on the contract curve can be supported by competitive equilibrium if initial endowments are appropriately allocated.
+
+-   **Lump-Sum Transfers**: By redistributing endowments without altering prices, the government can achieve equity without inefficiency.
+
+------------------------------------------------------------------------
+
+### Summary
+
+-   **First Welfare Theorem**: A competitive market equilibrium is Pareto efficient under no externalities, perfect competition, no transaction costs, and full information.
+-   **Second Welfare Theorem**: Any Pareto-efficient allocation can be supported as an equilibrium with the right endowment distribution.
+
+------------------------------------------------------------------------
+
+## First and Second Welfare Theorems
+
+### First Welfare Theorem (FWT)
+
+**Statement**: In a competitive market, if all firms and consumers are price-takers (i.e., they accept the market price as given), and if there are no externalities, transaction costs, or informational asymmetries, the resulting market equilibrium will be **Pareto efficient**.
+
+#### Key Points:
+
+1.  **Pareto Efficiency**: An allocation is Pareto efficient if no one can be made better off without making someone else worse off. In the context of the First Welfare Theorem, this means that all mutually beneficial trades have occurred, and resources are allocated in a way that maximizes total welfare.
+2.  **Conditions for FWT**:
+    -   **Perfect Competition**: All market participants are price-takers, with no single agent influencing prices.
+    -   **No Externalities**: All costs and benefits are contained within the market, so individuals and firms bear the full consequences of their actions.
+    -   **Full Information**: All agents have access to relevant information about prices and goods, ensuring well-informed decisions.
+    -   **No Transaction Costs**: There are no costs to making trades, so participants can exchange freely.
+
+#### Implications:
+
+-   The First Welfare Theorem implies that under these idealized conditions, markets can reach a socially optimal allocation of resources without any intervention.
+-   **Real-World Limitations**: In practice, deviations from these ideal conditions (e.g., monopolies, externalities, or information asymmetries) mean that real markets often fail to reach Pareto efficiency on their own.
+
+**Graph Placeholder**: Edgeworth box showing a Pareto-efficient allocation where both agents’ indifference curves are tangent at equilibrium.
+
+------------------------------------------------------------------------
+
+### Second Welfare Theorem (SWT)
+
+**Statement**: Any Pareto-efficient allocation can be achieved as a competitive market equilibrium if initial endowments (resources each agent starts with) are appropriately redistributed through lump-sum transfers.
+
+#### Key Points:
+
+1.  **Separation of Efficiency and Equity**:
+    -   The Second Welfare Theorem allows society to achieve **equitable** outcomes without sacrificing **efficiency**.
+    -   While FWT guarantees that competitive markets reach a Pareto-efficient outcome, this outcome may not be equitable. SWT suggests that by redistributing initial resources, it’s possible to reach any desired efficient outcome through the market mechanism.
+2.  **Lump-Sum Transfers**:
+    -   To achieve a specific efficient allocation, we can change the initial endowments of goods among individuals without distorting prices. Lump-sum transfers change wealth distribution but don’t alter relative prices, so they don’t introduce market inefficiencies.
+    -   **Example**: In an Edgeworth box for two goods and two consumers, moving the endowment point along the contract curve can achieve any point of Pareto efficiency, maintaining both efficiency and desired equity.
+
+#### Practical Application:
+
+-   The SWT is foundational for the idea that government intervention can be beneficial in redistributing resources (e.g., through taxes or subsidies) without reducing the efficiency of the market, provided the intervention is in the form of lump-sum transfers.
+-   **Limitations**: In reality, lump-sum transfers are often hard to implement without some form of distortion, so achieving pure SWT outcomes may be challenging.
+
+**Graph Placeholder**: Edgeworth box illustrating how moving the initial endowment along the contract curve can reach different efficient allocations, showing the separation of efficiency from equity concerns.
+
+------------------------------------------------------------------------
+
+### Summary
+
+-   **First Welfare Theorem**: Competitive markets naturally lead to Pareto-efficient outcomes.
+-   **Second Welfare Theorem**: With appropriate initial endowment changes, any desired Pareto-efficient allocation can be achieved through the market without sacrificing efficiency, highlighting that equity and efficiency can be aligned under certain conditions.
+
+This deeper look at the welfare theorems provides the theoretical underpinning for market efficiency and justifies government interventions aimed at equitable distribution.
+
+------------------------------------------------------------------------
+
+## Lecture 9: Applying the General Equilibrium Framework to Consumer Markets – The Fishing Industry in Kerala
+
+### Key Topics Covered:
+
+1.  **Gains from Trade**: Using the Edgeworth Box to illustrate trade benefits in Kerala.
+2.  **Market Integration and Welfare**: How integration enhances welfare.
+3.  **The Law of One Price**: Arbitrage and price equalization across markets.
+
+------------------------------------------------------------------------
+
+### 1. Gains from Trade in the Edgeworth Box
+
+In the fishing markets of Kerala, India, two consumers (A and B) have access to two resources: rice and fish. However, daily catches of fish fluctuate based on factors like location, creating an inverse relationship—when A has a large catch, B has a smaller one, and vice versa.
+
+In an **Edgeworth Box**:
+
+\- **Autarky (No Trade)**: A and B consume only their endowments, which results in an inefficient allocation.
+
+-   **Gains from Trade**: The contract curve illustrates Pareto-efficient allocations. By trading fish and rice, both consumers reach points on this curve, improving welfare compared to autarky.
+
+![](images/clipboard-167794097.png)
+
+------------------------------------------------------------------------
+
+### 2. Market Integration and Consumption Smoothing
+
+With daily fluctuations in fish availability, **market integration** allows consumers to smooth their consumption by trading fish and rice, even if endowments vary daily.
+
+-   **No Storage Option**: Fish cannot be stored, so trading serves as a mechanism for smoothing consumption over time.
+-   **Pooling Catch**: If A and B share their catch each day, they can consume a stable amount, rather than facing "feast and famine" cycles.
+
+#### Example Calculation:
+
+Assume the demand curve for fish is $Q = 60 - P$. Inverting gives the willingness to pay (WTP):
+
+$$
+P = 60 - Q
+$$
+
+**WTP for Different Quantities**: - For $Q = 40$, total WTP is:
+
+$$
+  WTP(40) = 60 \times 40 - \frac{40^2}{2} = 1600
+  $$
+
+-   For $Q = 20$, total WTP is:
+
+    $$
+    WTP(20) = 60 \times 20 - \frac{20^2}{2} = 1000
+    $$
+
+Total WTP across high and low days is $2600$, but with daily pooling at 30 fish, WTP rises to $2700$, showing the welfare gains from smoothing.
+
+**Graph Placeholder**: A WTP curve highlighting differences in consumer surplus between stable and volatile consumption.
+
+------------------------------------------------------------------------
+
+### 3. Law of One Price (LOOP) and Arbitrage
+
+The **Law of One Price** states that identical goods should sell at the same price across markets in competitive equilibrium. Arbitrage ensures that price discrepancies are minimized to the cost of transportation.
+
+#### Arbitrage Mechanism:
+
+1.  **Transport and Information Costs**: Arbitrage requires low transportation costs and access to information.
+2.  **Empirical Case in Kerala**: Before mobile phones, price differences were common across Kerala’s fish markets. The introduction of mobile phones enabled fishermen to identify price differences and trade across markets, aligning prices more closely and validating the LOOP.
+
+**Example**: In northern and southern regions of a country, if rice prices differ significantly, traders will move rice between markets until the price gap equals transportation costs.
+
+------------------------------------------------------------------------
+
+### Summary
+
+This lecture explores the application of general equilibrium in Kerala’s fish markets, highlighting:
+
+\- **Gains from trade and consumption smoothing** in fluctuating environments.
+
+\- The role of **market integration in enhancing welfare** through stable consumption.
+
+\- How **arbitrage enforces the Law of One Price** when information and transport are accessible.
+
+------------------------------------------------------------------------
+
+## Lecture 10: International Trade and the Principle of Comparative Advantage
+
+### Key Topics Covered:
+
+1.  **Comparative Advantage**: Foundation of gains from trade.
+2.  **General Equilibrium and Trade**: Impact of international trade on equilibrium and welfare.
+3.  **Law of One Price**: Price equalization across countries through trade.
+4.  **Winners and Losers in Trade**: Economic and political implications.
+
+------------------------------------------------------------------------
+
+### 1. Comparative Advantage and Gains from Trade
+
+**Comparative Advantage**: Countries benefit from trade when they specialize in producing goods for which they have a lower opportunity cost relative to other countries. This allows each country to: - Export goods in which they have a comparative advantage. - Import goods where other countries have a comparative advantage.
+
+#### Key Points:
+
+-   **Relative, Not Absolute Prices**: Only differences in relative prices across countries drive trade. Absolute price levels are less relevant.
+-   **Specialization**: Countries focus on goods they can produce at a lower opportunity cost.
+
+**Example Calculation**: If the opportunity cost of producing shelter relative to food is lower in one country (Home) than in the rest of the world, Home should specialize in shelter production and trade for food.
+
+------------------------------------------------------------------------
+
+### 2. General Equilibrium and Trade
+
+#### The Role of Trade in General Equilibrium
+
+In the general equilibrium framework, allowing trade expands a country’s consumption possibilities beyond its production possibility frontier (PPF), enabling higher utility levels.
+
+![](images/clipboard-100207487.png)
+
+#### Production and Consumption Shifts
+
+In a closed economy (autarky), the country consumes on its PPF. With trade: - **Production Point**: The country produces based on comparative advantage. - **Consumption Point**: The country can consume above its PPF by trading.
+
+### 3. Law of One Price (LOOP)
+
+The **Law of One Price** ensures identical goods sell at the same price globally due to arbitrage:
+
+1\. **Arbitrage**: When prices differ, traders buy low in one market and sell high in another until prices equalize.
+
+2\. **Price Ratio Adjustment**: In a competitive market, the price ratio (e.g., price of food to shelter) aligns globally, creating a single world price.
+
+------------------------------------------------------------------------
+
+### 4. Winners and Losers in Trade
+
+Trade generally increases national welfare (aggregate consumer surplus), but its effects are not uniformly distributed. Opening a market to international trade:
+
+\- **Raises overall consumption and utility** by enabling access to otherwise infeasible goods.
+
+\- **Creates winners and losers**: Some consumers benefit from lower prices, while others lose due to falling prices in the goods they produce.
+
+#### Welfare Analysis:
+
+1.  **Pareto Efficiency**: Trade is Pareto efficient relative to initial endowments since it benefits both trading partners in aggregate.
+2.  **Distributional Effects**:
+    -   Higher-income workers in developed countries tend to gain from trade with low-income countries.
+    -   Low-skilled workers in developed economies may lose out, while workers in developing countries benefit from access to international markets.
+
+![](images/clipboard-3837970723.png)
+
+------------------------------------------------------------------------
+
+### Summary
+
+This lecture provides an understanding of:
+
+\- How comparative advantage drives mutually beneficial trade.
+
+\- The role of trade in extending consumption possibilities beyond autarky.
+
+\- The fact that while trade enhances national welfare, it often creates winners and losers, prompting debates about redistribution.
+
+------------------------------------------------------------------------
+
+## Lecture 11: The Gains from International Trade: Aggregate Evidence and Distributional Consequences
+
+### Key Topics Covered:
+
+1.  **Causal Impact of Trade on GDP**: Empirical challenges in estimating trade’s effect on income.
+2.  **Instrumental Variables (IV) Approach**: Addressing endogeneity in trade and income relationships.
+3.  **James Feyrer’s IV Approach**: Using air-sea distance differences (ASDD) as an instrument.
+4.  **Distributional Implications**: Winners and losers of trade.
+
+------------------------------------------------------------------------
+
+### 1. Causal Effect of Trade on GDP
+
+Standard economic theory suggests trade enhances GDP by expanding consumption possibilities and increasing productivity. However, establishing a **causal link** between trade and income is challenging due to:
+
+\- **Endogeneity**: Richer countries may trade more, making it unclear if trade causes higher GDP or vice versa.
+
+\- **Omitted Variable Bias**: Other factors, such as policy choices, may drive both trade and income.
+
+**Fundamental Problem of Causal Inference**: We cannot observe a country’s income under both trade and autarky simultaneously, making direct causal inference impossible.
+
+------------------------------------------------------------------------
+
+### 2. Instrumental Variables (IV) Approach
+
+The **IV Method** helps isolate exogenous variation in trade to estimate its effect on GDP:
+
+\- **Instrumental Variable (Z)**: A variable correlated with trade (the endogenous variable) but not with GDP (the outcome) except through trade.
+
+\- **Conditions for a Valid IV**:
+
+1\. **Relevance (First Stage)**: The instrument affects the endogenous variable (trade).
+
+2\. **Exclusion Restriction**: The instrument affects the outcome (GDP) only through the endogenous variable.
+
+![](images/clipboard-2896771626.png)
+
+![](images/clipboard-2693621866.png)
+
+Wald Estimator = Reduced Form / First Stage
+
+------------------------------------------------------------------------
+
+### 3. James Feyrer’s ASDD Instrument
+
+**James Feyrer’s 2019 Study**: Leveraged **air-sea distance differences (ASDD)** as an instrument to measure the causal effect of trade on income. Feyrer’s approach:
+
+\- **ASDD Definition**: The air vs. sea distance between two countries (e.g., Japan and Western Europe have large ASDD, Spain and Brazil have low ASDD).
+
+\- **Hypothesis**: As air freight costs fell, countries with high ASDD traded more, independent of other growth factors.
+
+\- **Empirical Strategy**:
+
+\- Higher ASDD countries saw a larger increase in trade with reduced air freight costs.
+
+\- Assuming ASDD affects income only via trade, this provides a natural experiment.
+
+#### IV Estimation Steps:
+
+1.  **First Stage**: Use ASDD to predict changes in trade volume.
+2.  **Reduced Form**: Measure ASDD’s effect on GDP.
+3.  **Two-Stage Least Squares (2SLS)**: Estimate the causal effect of trade on GDP by scaling the GDP effect by ASDD’s impact on trade.
+
+**Equation**: $$
+\text{GDP Change} = \gamma \times \text{Trade Change}
+$$
+
+Feyrer found that a 1% increase in trade raises GDP per capita by about 0.6%.
+
+------------------------------------------------------------------------
+
+### 4. Distributional Consequences of Trade
+
+While trade raises aggregate income, it has **distributional effects**:
+
+\- **Winners**: Sectors with a comparative advantage gain through expanded markets.
+
+\- **Losers**: Sectors facing new foreign competition may experience reduced demand, job losses, or lower wages.
+
+\- **Policy Considerations**: Redistribution policies (e.g., training, subsidies) are often necessary to support those disadvantaged by trade.
+
+**Graph Placeholder**: A Lorenz curve showing the shift in income distribution due to trade.
+
+------------------------------------------------------------------------
+
+### Summary
+
+This lecture examines methods for establishing the causal effects of trade on national income using instrumental variables, specifically through Feyrer’s ASDD instrument. It also highlights the distributional impacts of trade, suggesting the need for policies that address inequalities.
+
+------------------------------------------------------------------------
+
+## Lecture 12: Externalities, the Coase Theorem, and Market Remedies
+
+### Key Topics Covered:
+
+1.  **Externalities**: Types, examples, and impact on social welfare.
+2.  **The Coase Theorem**: Conditions for efficient bargaining solutions.
+3.  **Market Remedies for Externalities**: Command-and-control regulation, Pigouvian taxes, and cap-and-trade systems.
+4.  **Historical Application**: Hornbeck’s barbed wire study.
+
+------------------------------------------------------------------------
+
+### 1. Externalities and Inefficiencies
+
+Externalities occur when an individual or firm does not face the “correct” (marginal social) cost for their actions, leading to **overproduction of negative externalities** or **underproduction of positive externalities**.
+
+**Examples**:
+
+\- **Negative Externalities**: Traffic congestion, pollution, unvaccinated individuals increasing disease risk.
+
+\- **Positive Externalities**: Vaccination benefits to society, clean public spaces.
+
+When externalities exist, the private benefits and costs deviate from social benefits and costs, leading to **market inefficiency**.
+
+------------------------------------------------------------------------
+
+### 2. The Coase Theorem
+
+The **Coase Theorem** suggests that if property rights are well-defined and transaction costs are negligible, private parties can negotiate to reach an **efficient outcome** regardless of who holds the rights.
+
+#### Key Insights:
+
+-   **Efficiency Over Assignment**: The final allocation will be efficient if bargaining is feasible, though the distribution of wealth depends on the assignment of rights.
+-   **Limitations**: High transaction costs or poorly defined rights prevent efficient outcomes.
+
+**Example**: In the **Sturges v. Bridgman** case, a baker’s machinery disturbed a neighboring doctor. If they could negotiate costlessly, they would settle on the solution with the lowest total cost, regardless of who held the noise rights.
+
+------------------------------------------------------------------------
+
+### 3. Remedies for Externalities
+
+#### Command-and-Control Regulation
+
+A **quantity-based regulation** that mandates specific limits on externality-generating activities. It is often rigid and requires detailed knowledge of each firm’s operations.
+
+#### Pigouvian Taxes
+
+**Price-based regulation** that taxes externalities at the rate of their marginal social damage, aligning private costs with social costs.
+
+-   **Optimal Tax**: For pollution, if social damage is \$0.01 per cubic foot, a \$0.01 tax per unit internalizes the externality.
+-   **Challenges**: Requires accurate knowledge of marginal social damage and risks if damage is non-linear.
+
+#### Cap-and-Trade System
+
+Assigns property rights to a capped quantity of pollution permits, which firms can trade, ensuring efficient allocation through market forces.
+
+-   **Advantages**: Balances control of pollution quantity with flexibility for firms, allowing low-cost abatement.
+-   **Example**: U.S. Clean Air Act’s sulfur dioxide permit trading, which successfully reduced pollution at lower costs than anticipated.
+
+------------------------------------------------------------------------
+
+### 4. Historical Application: Barbed Wire and Property Rights (Hornbeck, 2010)
+
+Hornbeck examined how barbed wire fencing impacted agriculture in timber-scarce U.S. counties by reducing the cost of property rights protection, resulting in increased land productivity.
+
+-   **Key Findings**: Increased agricultural investment and productivity in timber-scarce areas post-barbed wire.
+-   **Interpretation**: The introduction of barbed wire either lowered transaction costs for negotiating over grazing or reduced abatement costs, allowing farmers to secure their land efficiently.
+
+------------------------------------------------------------------------
+
+### Summary
+
+This lecture examines how externalities can be managed through the Coase Theorem and various market-based remedies, each with its own advantages and limitations. Historical applications, like the barbed wire study, reveal how changes in the cost of enforcing property rights can enhance efficiency.
+
+------------------------------------------------------------------------
+
+![](images/clipboard-3007849234.png)

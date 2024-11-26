@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "my brain"
+  title: "a world view"
   navbar:
     left:
       - href: index.qmd
@@ -21,6 +21,7 @@ website:
           - what-is-economics.qmd
           - reading-list-by-topic.qmd
           - history-timeline.qmd
+          - micro-theory.qmd
 
 format:
   html:
