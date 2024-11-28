@@ -19,9 +19,10 @@ website:
       - text: topics 
         menu:
           - what-is-economics.qmd
-          - reading-list-by-topic.qmd
           - history-timeline.qmd
           - micro-theory.qmd
+    right:
+      - reading-list-by-topic.qmd
 
 format:
   html:
