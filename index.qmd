@@ -5,6 +5,15 @@ format:
     page-layout: full
     
 ---
+```{r cache=FALSE, include=FALSE}
+knitr::read_chunk('assets.R')
+```
+
+
+<div style="text-align: center;">
+```{mermaid mindmap-a}
+```
+</div>
 
 # Goals
 
@@ -13,25 +22,6 @@ format:
 -   Learn about topics that are **meaningful** to me
 
 -   Becoming a Professor! (or, a World Bank Economist)
-
-# Site Map
-<div style="text-align: center;">
-```{mermaid}
-mindmap
-  root((me))
-    Research Topics
-      Public Transit
-      Education
-    Tools
-      Maths
-      Econometrics
-      Causal<br/>Inference
-    Theory
-      International Development
-    Blog
-    About
-```
-</div>
 
 # Schedule
 ## High-level

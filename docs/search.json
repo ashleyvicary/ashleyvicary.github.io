@@ -137,7 +137,7 @@
     "href": "index.html",
     "title": "my phd",
     "section": "",
-    "text": "Do meaningful research, that I enjoy, that will have an impact\nLearn about topics that are meaningful to me\nBecoming a Professor! (or, a World Bank Economist)"
+    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About"
   },
   {
     "objectID": "key-players.html",
@@ -149,16 +149,16 @@
   {
     "objectID": "reading-list-by-topic.html",
     "href": "reading-list-by-topic.html",
-    "title": "reading list",
+    "title": "Reading List",
     "section": "",
-    "text": "Understanding Early Childhood Development and Its Importance"
+    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About\nNotes: - Read with a question in mind?"
   },
   {
     "objectID": "reading-list-by-topic.html#early-childhood-education",
     "href": "reading-list-by-topic.html#early-childhood-education",
     "title": "reading list",
-    "section": "",
-    "text": "Understanding Early Childhood Development and Its Importance"
+    "section": "Early Childhood Education",
+    "text": "Early Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
   },
   {
     "objectID": "history-stuff.html",
@@ -383,5 +383,145 @@
     "title": "my phd",
     "section": "Detailed",
     "text": "Detailed\n\nYear 1Year 2Year 3Year 4Year 5\n\n\n\nHighlights:\n\nWon a $20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.\nCompleted subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it.\nI successfully led the effort to increase the Conference Fund for PhD students from $600 to $1,300 per year.\nI sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester. I was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution. I also became a Resident Advisor for my graduate dormitory, The Warehouse.\nI was an RA for Prof. Wen-Chi Liao (NUS) in the Fall and a TA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot.\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\nCS50\nIntroduction to Computer Science\n12\nN\nP\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\nResearch:\n\n\nTeaching/Research Assistantship\n\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\n\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\n\n\n\n11.919\nPhD Workshop\n1\nG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContent for Tab 3.\n\n\nContent for Tab 4.\n\n\nContent for Tab 5."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#ai",
+    "href": "reading-list-by-topic.html#ai",
+    "title": "reading list",
+    "section": "AI",
+    "text": "AI"
+  },
+  {
+    "objectID": "reading-list-by-topic.html#econometrics",
+    "href": "reading-list-by-topic.html#econometrics",
+    "title": "Reading List",
+    "section": "Econometrics",
+    "text": "Econometrics\n\nIntroductory Econometrics\n\nStock, J.H. & Watson, M.W. (2003, updated editions). Introduction to Econometrics: A highly accessible introduction to econometric methods, focusing on real-world applications and intuition.\n\n\n\n\nIntermediate and Applied Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2009). Mostly Harmless Econometrics: An Empiricist’s Companion: Focuses on applied econometrics with clear explanations of causal inference techniques.\n\n\n\n\nAdvanced Econometrics\n\nHayashi, F. (2000). Econometrics: An excellent resource for graduate-level econometrics, with a rigorous approach to the theoretical foundations.\n\n\n\n\nCausal Inference and Experimental Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2014). Mastering ’Metrics: The Path from Cause to Effect: A user-friendly book on causal inference with real-world examples.\n\n\n\n\nHistorical and Conceptual Perspectives\n\nHoover, K.D. (2001). Causality in Macroeconomics: Explores the philosophical and econometric foundations of causality."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#detailed",
+    "href": "reading-list-by-topic.html#detailed",
+    "title": "reading list",
+    "section": "Detailed",
+    "text": "Detailed\n\nTheoryToolsResearch Topics\n\n\n\n\n\n\nEconometrics\n\nMastering Metrics, Josh Angrist and Jorn-Steffen Pischke\n\n\n\n\n\nEducation\n\nEarly Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
+  },
+  {
+    "objectID": "reading-list-by-topic.html#education",
+    "href": "reading-list-by-topic.html#education",
+    "title": "Reading List",
+    "section": "Education",
+    "text": "Education\n\nEarly Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
+  },
+  {
+    "objectID": "reading-list-by-topic.html#classical-economics",
+    "href": "reading-list-by-topic.html#classical-economics",
+    "title": "Reading List",
+    "section": "1. Classical Economics",
+    "text": "1. Classical Economics\n\nSmith, A. (1776). The Wealth of Nations: Foundational text for classical economics, focusing on free markets, division of labor, and the “invisible hand.”\nRicardo, D. (1817). The Principles of Political Economy and Taxation: Key text in classical economics, discussing comparative advantage and trade.\nMill, J.S. (1848). Principles of Political Economy: An important synthesis of classical economics, bridging the works of Smith and Ricardo with social philosophy."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#political-economy-and-critique-of-capitalism",
+    "href": "reading-list-by-topic.html#political-economy-and-critique-of-capitalism",
+    "title": "Reading List",
+    "section": "2. Political Economy and Critique of Capitalism",
+    "text": "2. Political Economy and Critique of Capitalism\n\nMarx, K. (1973). Capital: A Critique of Political Economy: Marx’s analysis of capitalism, focusing on class struggle, labor value, and exploitation.\nPolanyi, K. (1957). The Great Transformation: Critique of market society and its social and political impacts.\nVeblen, T. (1899). The Theory of the Leisure Class: A critique of consumerism and capitalism, introducing the concept of “conspicuous consumption.”\nLenin, V.I. (1917). Imperialism, the Highest Stage of Capitalism: Marxist analysis of capitalism’s expansion through imperialism."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#economic-growth-and-development",
+    "href": "reading-list-by-topic.html#economic-growth-and-development",
+    "title": "Reading List",
+    "section": "3. Economic Growth and Development",
+    "text": "3. Economic Growth and Development\n\nSchumpeter, J. (1934). The Theory of Economic Development: Focus on innovation, entrepreneurship, and their roles in economic growth.\nRostow, W.W. (1960). The Stages of Economic Growth: A Non-Communist Manifesto: A theory of economic modernization and development."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#population-and-resource-economics",
+    "href": "reading-list-by-topic.html#population-and-resource-economics",
+    "title": "Reading List",
+    "section": "4. Population and Resource Economics",
+    "text": "4. Population and Resource Economics\n\nMalthus, T. (1798). An Essay on the Principle of Population: Early work on population dynamics and resource scarcity.\nGeorge, H. (1879). Progress and Poverty: Examines the relationship between economic progress, poverty, and land ownership, advocating a land value tax."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#modern-economic-thought",
+    "href": "reading-list-by-topic.html#modern-economic-thought",
+    "title": "Reading List",
+    "section": "5. Modern Economic Thought",
+    "text": "5. Modern Economic Thought\n\nKeynes, J. M. (1936). The General Theory of Employment, Interest and Money: Groundbreaking work in macroeconomics, introducing concepts like aggregate demand and government intervention.\nFriedman, M. (1962). Capitalism and Freedom: Advocates for free markets and critiques government intervention, foundational for neoliberal thought.\nSamuelson, P.A. (1947). Foundations of Economic Analysis: Establishes mathematical foundations for modern economics.\nHayek, F.A. (1944). The Road to Serfdom: Critique of central planning and defense of free-market liberalism."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#historical-and-institutional-economics",
+    "href": "reading-list-by-topic.html#historical-and-institutional-economics",
+    "title": "Reading List",
+    "section": "6. Historical and Institutional Economics",
+    "text": "6. Historical and Institutional Economics\n\nWeber, M. (1905). The Protestant Ethic and the Spirit of Capitalism: Explores the cultural and religious origins of capitalism.\nGalbraith, J.K. (1958). The Affluent Society: Critique of postwar consumerism and a call for public investment."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#macroeconomics-and-monetary-theory",
+    "href": "reading-list-by-topic.html#macroeconomics-and-monetary-theory",
+    "title": "Reading List",
+    "section": "7. Macroeconomics and Monetary Theory",
+    "text": "7. Macroeconomics and Monetary Theory\n\nKeynes, J.M. (1936). The General Theory of Employment, Interest, and Money: Though published in the interwar period, it profoundly shaped post-war macroeconomics.\nSamuelson, P.A. (1947). Foundations of Economic Analysis: Introduced mathematical rigor to economics, emphasizing optimization and equilibrium.\nFriedman, M. (1968). A Monetary History of the United States: A landmark work in monetarism, advocating the importance of monetary policy.\nLucas, R.E. (1976). Studies in Business Cycle Theory: Laid the foundation for rational expectations and modern macroeconomic modeling."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#microeconomics-and-game-theory",
+    "href": "reading-list-by-topic.html#microeconomics-and-game-theory",
+    "title": "Reading List",
+    "section": "8. Microeconomics and Game Theory",
+    "text": "8. Microeconomics and Game Theory\n\nvon Neumann, J. & Morgenstern, O. (1944). Theory of Games and Economic Behavior: The foundational text of game theory.\nDebreu, G. (1959). Theory of Value: Introduced general equilibrium theory using formal mathematics.\nBecker, G.S. (1976). The Economic Approach to Human Behavior: Extended economic analysis to areas like education, family, and crime."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#development-economics",
+    "href": "reading-list-by-topic.html#development-economics",
+    "title": "Reading List",
+    "section": "9. Development Economics",
+    "text": "9. Development Economics\n\nSen, A. (1981). Poverty and Famines: Introduced the capabilities approach, shifting the focus of development from income to well-being.\nLewis, W.A. (1954). Economic Development with Unlimited Supplies of Labor: A key text in development economics, explaining the dual-sector model.\nRostow, W.W. (1960). The Stages of Economic Growth: A theory of economic modernization."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#behavioral-and-experimental-economics",
+    "href": "reading-list-by-topic.html#behavioral-and-experimental-economics",
+    "title": "Reading List",
+    "section": "10. Behavioral and Experimental Economics",
+    "text": "10. Behavioral and Experimental Economics\n\nKahneman, D. & Tversky, A. (1979). Prospect Theory: An Analysis of Decision under Risk: A foundational paper in behavioral economics.\nThaler, R.H. (1991). Quasi-Rational Economics: Explores how psychological factors influence economic decision-making."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#institutional-and-political-economy",
+    "href": "reading-list-by-topic.html#institutional-and-political-economy",
+    "title": "Reading List",
+    "section": "11. Institutional and Political Economy",
+    "text": "11. Institutional and Political Economy\n\nNorth, D.C. (1990). Institutions, Institutional Change, and Economic Performance: A classic in institutional economics, exploring how institutions shape economic outcomes.\nOstrom, E. (1990). Governing the Commons: Analyzes how communities manage shared resources without relying on markets or central governments."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#inequality-and-capitalism",
+    "href": "reading-list-by-topic.html#inequality-and-capitalism",
+    "title": "Reading List",
+    "section": "12. Inequality and Capitalism",
+    "text": "12. Inequality and Capitalism\n\nPiketty, T. (2013). Capital in the Twenty-First Century: Explores inequality dynamics and the accumulation of wealth.\nStiglitz, J.E. (2012). The Price of Inequality: Examines the economic and political consequences of inequality."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#environmental-and-resource-economics",
+    "href": "reading-list-by-topic.html#environmental-and-resource-economics",
+    "title": "Reading List",
+    "section": "13. Environmental and Resource Economics",
+    "text": "13. Environmental and Resource Economics\n\nCoase, R.H. (1960). The Problem of Social Cost: Introduced the Coase theorem, a key idea in environmental economics.\nSolow, R.M. (1956). A Contribution to the Theory of Economic Growth: Introduced the concept of sustainable economic growth."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#other",
+    "href": "reading-list-by-topic.html#other",
+    "title": "Reading List",
+    "section": "14. Other",
+    "text": "14. Other\n\n\nIntroductory and General Overviews\n\nSamuelson, P.A. & Nordhaus, W.D. (1948, updated editions). Economics: A classic introductory textbook covering both microeconomics and macroeconomics.\nMankiw, N.G. (1998, updated editions). Principles of Economics: A popular textbook with a clear and accessible introduction to core economic principles.\nKrugman, P. & Wells, R. (2005, updated editions). Economics: Offers a modern perspective with a focus on policy and practical applications.\n\n\n\n\nHistorical Perspectives\n\nHeilbroner, R. (1953). The Worldly Philosophers: A highly readable history of economic thought, introducing key thinkers like Adam Smith, Karl Marx, and John Maynard Keynes.\nBackhouse, R.E. (2002). The Penguin History of Economics: Traces the evolution of economic thought from ancient times to the modern day.\n\n\n\n\nModern Overviews\n\nBanerjee, A.V. & Duflo, E. (2019). Good Economics for Hard Times: Provides insights into contemporary economic challenges like inequality, trade, and migration.\nAcemoglu, D. & Robinson, J. (2012). Why Nations Fail: Examines the role of institutions in shaping economic success and failure.\n\n\n\n\nBehavioral Economics and Decision-Making\n\nThaler, R.H. & Sunstein, C.R. (2008). Nudge: Explores how small interventions can influence economic decision-making.\nKahneman, D. (2011). Thinking, Fast and Slow: Examines how cognitive biases affect decisions, including economic choices.\n\n\n\n\nAdvanced Surveys\n\nBlanchard, O. (2017). Macroeconomics: A comprehensive macroeconomics textbook, often used in advanced undergraduate and graduate courses.\nVarian, H.R. (1992, updated editions). Microeconomic Analysis: A rigorous treatment of microeconomics for advanced students.\nRomer, D. (1996, updated editions). Advanced Macroeconomics: Provides deeper insights into macroeconomic theory.\n\n\n\n\nFor Critical Perspectives\n\nSkidelsky, R. (2009). Keynes: The Return of the Master: Revisits Keynesian economics in light of the global financial crisis."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#mathematics",
+    "href": "reading-list-by-topic.html#mathematics",
+    "title": "Reading List",
+    "section": "Mathematics",
+    "text": "Mathematics\n\nMathematics for Economics\n\nChiang, A.C. & Wainwright, K. (2005). Fundamental Methods of Mathematical Economics: A widely-used, accessible textbook introducing calculus, linear algebra, and optimization techniques in economic contexts."
+  },
+  {
+    "objectID": "reading-list-by-topic.html#software",
+    "href": "reading-list-by-topic.html#software",
+    "title": "Reading List",
+    "section": "Software",
+    "text": "Software\n\nData Science and Computational Tools for Economists\n\nWickham, H. & Grolemund, G. (2017). R for Data Science: An excellent introduction to data science workflows and statistical analysis using R, invaluable for economists handling data."
   }
 ]
