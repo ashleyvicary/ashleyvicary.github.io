@@ -151,7 +151,7 @@
     "href": "reading-list-by-topic.html",
     "title": "Reading List",
     "section": "",
-    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About\nNotes: - Read with a question in mind?"
+    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n      China\n      Left behind workers\n        Wealth and Income Inequality\n        Optimal trump tariffs\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About\nNotes: - Read with a question in mind?"
   },
   {
     "objectID": "reading-list-by-topic.html#early-childhood-education",
@@ -396,7 +396,7 @@
     "href": "reading-list-by-topic.html#econometrics",
     "title": "Reading List",
     "section": "Econometrics",
-    "text": "Econometrics\n\nIntroductory Econometrics\n\nStock, J.H. & Watson, M.W. (2003, updated editions). Introduction to Econometrics: A highly accessible introduction to econometric methods, focusing on real-world applications and intuition.\n\n\n\n\nIntermediate and Applied Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2009). Mostly Harmless Econometrics: An Empiricist’s Companion: Focuses on applied econometrics with clear explanations of causal inference techniques.\n\n\n\n\nAdvanced Econometrics\n\nHayashi, F. (2000). Econometrics: An excellent resource for graduate-level econometrics, with a rigorous approach to the theoretical foundations.\n\n\n\n\nCausal Inference and Experimental Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2014). Mastering ’Metrics: The Path from Cause to Effect: A user-friendly book on causal inference with real-world examples.\n\n\n\n\nHistorical and Conceptual Perspectives\n\nHoover, K.D. (2001). Causality in Macroeconomics: Explores the philosophical and econometric foundations of causality."
+    "text": "Econometrics\n\nIntroductory Econometrics\n\nStock, J.H. & Watson, M.W. (2003, updated editions). Introduction to Econometrics: A highly accessible introduction to econometric methods, focusing on real-world applications and intuition. finished\n\n\n\n\nIntermediate and Applied Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2009). Mostly Harmless Econometrics: An Empiricist’s Companion: Focuses on applied econometrics with clear explanations of causal inference techniques.\n\n\n\n\nAdvanced Econometrics\n\nHayashi, F. (2000). Econometrics: An excellent resource for graduate-level econometrics, with a rigorous approach to the theoretical foundations.\n\n\n\n\nCausal Inference and Experimental Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2014). Mastering ’Metrics: The Path from Cause to Effect: A user-friendly book on causal inference with real-world examples.\n\n\n\n\nHistorical and Conceptual Perspectives\n\nHoover, K.D. (2001). Causality in Macroeconomics: Explores the philosophical and econometric foundations of causality."
   },
   {
     "objectID": "reading-list-by-topic.html#detailed",
@@ -445,7 +445,7 @@
     "href": "reading-list-by-topic.html#modern-economic-thought",
     "title": "Reading List",
     "section": "5. Modern Economic Thought",
-    "text": "5. Modern Economic Thought\n\nKeynes, J. M. (1936). The General Theory of Employment, Interest and Money: Groundbreaking work in macroeconomics, introducing concepts like aggregate demand and government intervention.\nFriedman, M. (1962). Capitalism and Freedom: Advocates for free markets and critiques government intervention, foundational for neoliberal thought.\nSamuelson, P.A. (1947). Foundations of Economic Analysis: Establishes mathematical foundations for modern economics.\nHayek, F.A. (1944). The Road to Serfdom: Critique of central planning and defense of free-market liberalism."
+    "text": "5. Modern Economic Thought\n\nKeynes, J. M. (1936). The General Theory of Employment, Interest and Money: Groundbreaking work in macroeconomics, introducing concepts like aggregate demand and government intervention.\nFriedman, M. (1962). Capitalism and Freedom: Advocates for free markets and critiques government intervention, foundational for neoliberal thought. finished\nSamuelson, P.A. (1947). Foundations of Economic Analysis: Establishes mathematical foundations for modern economics.\nHayek, F.A. (1944). The Road to Serfdom: Critique of central planning and defense of free-market liberalism."
   },
   {
     "objectID": "reading-list-by-topic.html#historical-and-institutional-economics",
@@ -508,20 +508,41 @@
     "href": "reading-list-by-topic.html#other",
     "title": "Reading List",
     "section": "14. Other",
-    "text": "14. Other\n\n\nIntroductory and General Overviews\n\nSamuelson, P.A. & Nordhaus, W.D. (1948, updated editions). Economics: A classic introductory textbook covering both microeconomics and macroeconomics.\nMankiw, N.G. (1998, updated editions). Principles of Economics: A popular textbook with a clear and accessible introduction to core economic principles.\nKrugman, P. & Wells, R. (2005, updated editions). Economics: Offers a modern perspective with a focus on policy and practical applications.\n\n\n\n\nHistorical Perspectives\n\nHeilbroner, R. (1953). The Worldly Philosophers: A highly readable history of economic thought, introducing key thinkers like Adam Smith, Karl Marx, and John Maynard Keynes.\nBackhouse, R.E. (2002). The Penguin History of Economics: Traces the evolution of economic thought from ancient times to the modern day.\n\n\n\n\nModern Overviews\n\nBanerjee, A.V. & Duflo, E. (2019). Good Economics for Hard Times: Provides insights into contemporary economic challenges like inequality, trade, and migration.\nAcemoglu, D. & Robinson, J. (2012). Why Nations Fail: Examines the role of institutions in shaping economic success and failure.\n\n\n\n\nBehavioral Economics and Decision-Making\n\nThaler, R.H. & Sunstein, C.R. (2008). Nudge: Explores how small interventions can influence economic decision-making.\nKahneman, D. (2011). Thinking, Fast and Slow: Examines how cognitive biases affect decisions, including economic choices.\n\n\n\n\nAdvanced Surveys\n\nBlanchard, O. (2017). Macroeconomics: A comprehensive macroeconomics textbook, often used in advanced undergraduate and graduate courses.\nVarian, H.R. (1992, updated editions). Microeconomic Analysis: A rigorous treatment of microeconomics for advanced students.\nRomer, D. (1996, updated editions). Advanced Macroeconomics: Provides deeper insights into macroeconomic theory.\n\n\n\n\nFor Critical Perspectives\n\nSkidelsky, R. (2009). Keynes: The Return of the Master: Revisits Keynesian economics in light of the global financial crisis."
+    "text": "14. Other\n\n\nIntroductory and General Overviews\n\nSamuelson, P.A. & Nordhaus, W.D. (1948, updated editions). Economics: A classic introductory textbook covering both microeconomics and macroeconomics.\nMankiw, N.G. (1998, updated editions). Principles of Economics: A popular textbook with a clear and accessible introduction to core economic principles.\nKrugman, P. & Wells, R. (2005, updated editions). Economics: Offers a modern perspective with a focus on policy and practical applications.\n\n\n\n\nHistorical Perspectives\n\nHeilbroner, R. (1953). The Worldly Philosophers: A highly readable history of economic thought, introducing key thinkers like Adam Smith, Karl Marx, and John Maynard Keynes. finished\nBackhouse, R.E. (2002). The Penguin History of Economics: Traces the evolution of economic thought from ancient times to the modern day.\n\n\n\n\nModern Overviews\n\nBanerjee, A.V. & Duflo, E. (2019). Good Economics for Hard Times: Provides insights into contemporary economic challenges like inequality, trade, and migration.\nAcemoglu, D. & Robinson, J. (2012). Why Nations Fail: Examines the role of institutions in shaping economic success and failure.\nBanergee, A. & Duflo, E. (2011). Poor Economics: Explores the economics of poverty and development, drawing on field experiments and empirical research. finished\n\n\n\n\nBehavioral Economics and Decision-Making\n\nThaler, R.H. & Sunstein, C.R. (2008). Nudge: Explores how small interventions can influence economic decision-making. finished\nKahneman, D. (2011). Thinking, Fast and Slow: Examines how cognitive biases affect decisions, including economic choices. finished\n\n\n\n\nAdvanced Surveys\n\nBlanchard, O. (2017). Macroeconomics: A comprehensive macroeconomics textbook, often used in advanced undergraduate and graduate courses.\nVarian, H.R. (1992, updated editions). Microeconomic Analysis: A rigorous treatment of microeconomics for advanced students.\nRomer, D. (1996, updated editions). Advanced Macroeconomics: Provides deeper insights into macroeconomic theory.\n\n\n\n\nFor Critical Perspectives\n\nSkidelsky, R. (2009). Keynes: The Return of the Master: Revisits Keynesian economics in light of the global financial crisis."
   },
   {
     "objectID": "reading-list-by-topic.html#mathematics",
     "href": "reading-list-by-topic.html#mathematics",
     "title": "Reading List",
     "section": "Mathematics",
-    "text": "Mathematics\n\nMathematics for Economics\n\nChiang, A.C. & Wainwright, K. (2005). Fundamental Methods of Mathematical Economics: A widely-used, accessible textbook introducing calculus, linear algebra, and optimization techniques in economic contexts."
+    "text": "Mathematics\n\nMathematics for Economics\n\nChiang, A.C. & Wainwright, K. (2005). Fundamental Methods of Mathematical Economics: A widely-used, accessible textbook introducing calculus, linear algebra, and optimization techniques in economic contexts. 10%"
   },
   {
     "objectID": "reading-list-by-topic.html#software",
     "href": "reading-list-by-topic.html#software",
     "title": "Reading List",
     "section": "Software",
-    "text": "Software\n\nData Science and Computational Tools for Economists\n\nWickham, H. & Grolemund, G. (2017). R for Data Science: An excellent introduction to data science workflows and statistical analysis using R, invaluable for economists handling data."
+    "text": "Software\n\nData Science and Computational Tools for Economists\n\nWickham, H. & Grolemund, G. (2017). R for Data Science: An excellent introduction to data science workflows and statistical analysis using R, invaluable for economists handling data. finished"
+  },
+  {
+    "objectID": "general-exam/index.html#going-to-sleep",
+    "href": "general-exam/index.html#going-to-sleep",
+    "title": "General Exam Plan",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "general-exam/index.html#hello-there",
+    "href": "general-exam/index.html#hello-there",
+    "title": "General Exam Plan",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nActivating scroll view\n\n…and much more"
+  },
+  {
+    "objectID": "general-exam/index.html#pretty-code",
+    "href": "general-exam/index.html#pretty-code",
+    "title": "General Exam Plan",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
   }
 ]
