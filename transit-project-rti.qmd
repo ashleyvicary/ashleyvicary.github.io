@@ -1,0 +1,28 @@
+---
+title: "Final Project"
+subtitle: "Impact of real time crowding information on public transit usage"
+---
+
+# a) Empirical Question
+
+I would like to study the impact of real-time crowding information on public transportation usage. Overcrowding is linked to passengers' on-board discomfort and dissatisfaction. Overcrowding can also lead to denied boarding incidents and imbalances in crowding levels across vehicles on the same route. Real-time crowding information could help passengers make informed decisions about their travel, potentially increasing passenger satisfaction and overall public transit usage.
+
+Specifically, I would like to know if providing real-time crowding information to public transit users increases overall passenger satisfaction and usage of the public transit system. I would also like to study if real-time information has other behavioral impacts, such as on routing choice, travel time, and mode choice.
+
+## Background
+
+## Why is it important?
+
+This is important because:
+-   Crowding is a concern for public transit users, this information could increase passenger satisfaction
+-   Real-time crowding information could increase overall public transit usage, important for reducing congestion and emissions
+-   Real-time crowding information could reduce the large variation is crowding levels on vehicles on the same route
+
+# b) Data Collection and Feasibility
+
+# c) Empirical Specification
+
+Outcome variables:
+-   Number of weekly trips
+
+# d) Interpretation of Empircal Results

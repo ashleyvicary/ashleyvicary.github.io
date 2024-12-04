@@ -544,5 +544,96 @@
     "title": "General Exam Plan",
     "section": "Pretty Code",
     "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#the-post-cold-war-world",
+    "href": "ppt/capitalism/index.html#the-post-cold-war-world",
+    "title": "Capitalism",
+    "section": "The Post-Cold War World",
+    "text": "The Post-Cold War World\n\nCapitalism is now the sole socio-economic system in the world\nNo historical precedent to world entirely operating under the same economic principles. Production operating for profit using legally free wage labour and mostly privately owned capital, with decentralised coordination\nTwo types of capitalism: (i) liberal meritocratic and (ii) state lead political, or authoritarian\nIndustrial Revolution led to increasing global inequality. ICT revolution led to decreasing global inequality through rise of Asia.\nThese two types appear to be competing with each other. Political provides greater autonomy to political elites, seems to promise higher growth to ordinary people. Liberal provides democracy, rule of law and social mobility.\nReduce social mobility is a threat to the systems, attractiveness and survival."
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#pretty-code",
+    "href": "ppt/capitalism/index.html#pretty-code",
+    "title": "Capitalism",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#books",
+    "href": "ppt/capitalism/index.html#books",
+    "title": "Capitalism",
+    "section": "Books",
+    "text": "Books\n\nMilanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#liberal-meritocratic-capitalism",
+    "href": "ppt/capitalism/index.html#liberal-meritocratic-capitalism",
+    "title": "Capitalism",
+    "section": "Liberal meritocratic capitalism",
+    "text": "Liberal meritocratic capitalism\n\nCapitalism:\n\nProduction mostly carried out by privately owned means of production. Capital hires legally free labour, coordination decentralised. Most investment decisions made by private companies or individual entrepreneurs.\n\n“Meritocratic” - careers are open to talent. No legal obstacles preventing individuals from achieving given position in society.\n“Liberal” - high inheritance tax, free education"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#cont.",
+    "href": "ppt/capitalism/index.html#cont.",
+    "title": "Capitalism",
+    "section": "Cont.",
+    "text": "Cont.\n“Liberal”: how much social mobility?\n“Meritocratic”: how goods are distributed?\n“Capitalism”: how good are produce/distributed?"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#transition",
+    "href": "ppt/capitalism/index.html#transition",
+    "title": "Capitalism",
+    "section": "Transition",
+    "text": "Transition\n\n\n\n\n\n\n\n\n\n\nClassical capitalism\nSocial democratic capital\nLiberal meritocratic capitalism\n\n\n\n\nRising share of capital income in net production\nYes\nNo\nYes\n\n\nHigh concentration of capital ownership\nYes\nYes\nYes\n\n\nAbundant individuals are rich\nYes\nYes\nYes\n\n\nCapital income rich are also labour income rich\nNo\nNo\nYes\n\n\nRich (Or potentially rich) marry each other (homogamy)\nYes (to some extent)\nNo\nYes\n\n\nHigh correlation of income between parents and children (transmission of advantage)\nYes\nYes, but in some cases weak\nYes\n\n\n\nUK before 1914\nUS, Europe after World War II\nUS in the early 21st century"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#features",
+    "href": "ppt/capitalism/index.html#features",
+    "title": "Capitalism",
+    "section": "Features",
+    "text": "Features\n\n\n\n\n\n\n\n\n\n\nClassical capitalism\nSocial democratic capital\nLiberal meritocratic capitalism\n\n\n\n\nRising share of capital income in net production\nYes\nNo\nYes\n\n\nHigh concentration of capital ownership\nYes\nYes\nYes\n\n\nAbundant individuals are rich\nYes\nYes\nYes\n\n\nCapital income rich are also labour income rich\nNo\nNo\nYes\n\n\nRich (Or potentially rich) marry each other (homogamy)\nYes (to some extent)\nNo\nYes\n\n\nHigh correlation of income between parents and children (transmission of advantage)\nYes\nYes, but in some cases weak\nYes\n\n\n\nUK before 1914\nUS, Europe after World War II\nUS in the early 21st century"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#systemic-inequalities",
+    "href": "ppt/capitalism/index.html#systemic-inequalities",
+    "title": "Capitalism",
+    "section": "Systemic Inequalities",
+    "text": "Systemic Inequalities\n\nIncreasing capital share of income\n\nMultiple possible reasons: increasing monopolies, less organised labour, declining cost of capital goods, bargaining power change, increased outsourcing\nWill impact income in a quality because of distribution of capital\n\n\n\nHigh capital ownership concentration\n\nOnly shock to it has come from wars, revolutions and in some cases unanticipated hyperinflation.\nCapital income is extremely concentrated and is received mostly by the rich\nRicher countries will “naturally” tend to be more unequal\n\n\n\nHigher rate of return on the assets of the rich\n\nMiddle class have housing. Rich or more diversified into financial assets.\nHigher returns that the rich earned come from: (1) holding proportionally more assets whose long-term returns is higher (asset composition effect), (2) pay less tax per dollar earned from wealth (tax advantage), and (3) entry fees and management cost per dollar (effect of lower barriers to entry)\n\n\n\nAssociation of high capital and high labour income is increasing\n\nAuthor calls this ‘homoploutia’ (homo for same, ploutia for wealth)\nCaused by some combination of: capital rich people -&gt; high education -&gt; high wages OR high wage earners -&gt; saving -&gt; rich capitalists.\nPreliminary guess is that first is happening more.\n\n\n\nGreater homogamy (or assortative mating)\n\nClearly increasing. Woman in 1970 had no preference between poor and rich men. Now prefer rich 5 to 1.\nEducated highly skilled and affluent people tend to marry each other.\nRich parents pass on both wealth and better early childhood education to their children. Inheritance might not be the most important gift from rich parents.\n\n\n\nGreater transmission of income and wealth across generations\n\nRelative and absolute intergenerational mobility has declined overtime."
+  },
+  {
+    "objectID": "transit-project-rti.html",
+    "href": "transit-project-rti.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "I would like to study the impact of real-time crowding information on public transportation usage. Overcrowding is linked to passengers’ on-board discomfort and dissatisfaction. Overcrowding can also lead to denied boarding incidents and imbalances in crowding levels across vehicles on the same route. Real-time crowding information could help passengers make informed decisions about their travel, potentially increasing passenger satisfaction and overall public transit usage.\nSpecifically, I would like to know if providing real-time crowding information to public transit users increases overall passenger satisfaction and usage of the public transit system. I would also like to study if real-time information has other behavioral impacts, such as on routing choice, travel time, and mode choice.\n\n\n\n\n\nThis is important because: - Crowding is a concern for public transit users, this information could increase passenger satisfaction - Real-time crowding information could increase overall public transit usage, important for reducing congestion and emissions - Real-time crowding information could reduce the large variation is crowding levels on vehicles on the same route"
+  },
+  {
+    "objectID": "transit-project-rti.html#why-is-it-important",
+    "href": "transit-project-rti.html#why-is-it-important",
+    "title": "Final Project",
+    "section": "",
+    "text": "This is important because: - Crowding is a concern for public transit users, this information could increase passenger satisfaction - Real-time crowding information could increase overall public transit usage, important for reducing congestion and emissions - Real-time crowding information could reduce the large variation is crowding levels on vehicles on the same route"
+  },
+  {
+    "objectID": "ppt/capitalism/index.html",
+    "href": "ppt/capitalism/index.html",
+    "title": "Capitalism",
+    "section": "",
+    "text": "Milanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#source",
+    "href": "ppt/capitalism/index.html#source",
+    "title": "Capitalism",
+    "section": "",
+    "text": "Milanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
+  },
+  {
+    "objectID": "ppt/capitalism/index.html#new-social-policies",
+    "href": "ppt/capitalism/index.html#new-social-policies",
+    "title": "Capitalism",
+    "section": "New Social Policies",
+    "text": "New Social Policies"
   }
 ]

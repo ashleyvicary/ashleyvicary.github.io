@@ -1,0 +1,92 @@
+---
+title: "Capitalism"
+format: 
+  revealjs:
+    slide-number: true
+    controls: true
+    smaller: true
+---
+
+## Source
+
+-   Milanovic, Branko. 2019. *Capitalism, Alone: The Future of the System That Rules the World*. Harvard University Press.
+
+## The Post-Cold War World
+
+-   Capitalism is now the sole socio-economic system in the world
+-   No historical precedent to world entirely operating under the same economic principles. Production operating for profit using legally free wage labour and mostly privately owned capital, with decentralised coordination
+-   Two types of capitalism: (i) liberal meritocratic and (ii) state lead political, or authoritarian
+-   Industrial Revolution led to increasing global inequality. ICT revolution led to decreasing global inequality through rise of Asia.
+-   These two types appear to be competing with each other. Political provides greater autonomy to political elites, seems to promise higher growth to ordinary people. Liberal provides democracy, rule of law and social mobility.
+-   Reduce social mobility is a threat to the systems, attractiveness and survival.
+
+## Liberal meritocratic capitalism {auto-animate="true"}
+
+-   Capitalism:
+    -   Production mostly carried out by privately owned means of production. Capital hires legally free labour, coordination decentralised. Most investment decisions made by private companies or individual entrepreneurs.
+-   "Meritocratic" - careers are open to talent. No legal obstacles preventing individuals from achieving given position in society.
+-   "Liberal" - high inheritance tax, free education
+
+## Cont.
+
+"Liberal": how much social mobility?
+
+"Meritocratic": how goods are distributed?
+
+"Capitalism": how good are produce/distributed?
+
+## Features
+
+|                                                                                     | Classical capitalism | Social democratic capital     | Liberal meritocratic capitalism |
+|-------------------------------------------------------------------------------------|----------------------|-------------------------------|---------------------------------|
+| Rising share of capital income in net production                                    | Yes                  | No                            | Yes                             |
+| High concentration of capital ownership                                             | Yes                  | Yes                           | Yes                             |
+| Abundant individuals are rich                                                       | Yes                  | Yes                           | Yes                             |
+| Capital income rich are also labour income rich                                     | No                   | No                            | Yes                             |
+| Rich (Or potentially rich) marry each other (homogamy)                              | Yes (to some extent) | No                            | Yes                             |
+| High correlation of income between parents and children (transmission of advantage) | Yes                  | Yes, but in some cases weak   | Yes                             |
+|                                                                                     | UK before 1914       | US, Europe after World War II | US in the early 21st century    |
+
+## Systemic Inequalities
+
+### Increasing capital share of income
+
+-   Multiple possible reasons: increasing monopolies, less organised labour, declining cost of capital goods, bargaining power change, increased outsourcing
+
+-   Will impact income in a quality because of distribution of capital
+
+### High capital ownership concentration
+
+-   Only shock to it has come from wars, revolutions and in some cases unanticipated hyperinflation.
+
+-   Capital income is extremely concentrated and is received mostly by the rich
+
+-   Richer countries will "naturally" tend to be more unequal
+
+### Higher rate of return on the assets of the rich
+
+-   Middle class have housing. Rich or more diversified into financial assets.
+
+-   Higher returns that the rich earned come from: (1) holding proportionally more assets whose long-term returns is higher (asset composition effect), (2) pay less tax per dollar earned from wealth (tax advantage), and (3) entry fees and management cost per dollar (effect of lower barriers to entry)
+
+### Association of high capital and high labour income is increasing
+
+-   Author calls this 'homoploutia' (homo for same, ploutia for wealth)
+
+-   Caused by some combination of: capital rich people -\> high education -\> high wages OR high wage earners -\> saving -\> rich capitalists.
+
+-   Preliminary guess is that first is happening more.
+
+### Greater homogamy (or assortative mating)
+
+-   Clearly increasing. Woman in 1970 had no preference between poor and rich men. Now prefer rich 5 to 1.
+
+-   Educated highly skilled and affluent people tend to marry each other.
+
+-   Rich parents pass on both wealth and better early childhood education to their children. Inheritance might not be the most important gift from rich parents.
+
+### Greater transmission of income and wealth across generations
+
+-   Relative and absolute intergenerational mobility has declined overtime.
+
+## New Social Policies
