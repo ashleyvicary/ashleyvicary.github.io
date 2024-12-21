@@ -8,19 +8,28 @@ website:
     left:
       - href: index.qmd
         text: home
-      - text: math
+      - text: semester summaries 
+        menu:
+          - phd-summary-s1.qmd
+          - phd-summary-s2.qmd
+          - phd-summary-s2-5.qmd
+          - phd-summary-s3.qmd
+      - text: courses
+        menu:
+          - economics-general.qmd
+          - econometrics-intro.qmd
+          - chinas-growth.qmd
+          - micro-theory.qmd
+      - text: research
+        menu:
+          - rio-project.qmd
+          - world-bank-rct-1.qmd
+          - world-bank-rct-2.qmd
+      - text: random
         menu:
           - math-tools.qmd
           - causal-inference.qmd
           - ci-and-hypothesis-testing.qmd
-      - text: people
-        menu:
-          - key-players.qmd
-      - text: topics 
-        menu:
-          - what-is-economics.qmd
-          - history-timeline.qmd
-          - micro-theory.qmd
     right:
       - reading-list-by-topic.qmd
 

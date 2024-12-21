@@ -137,7 +137,7 @@
     "href": "index.html",
     "title": "my phd",
     "section": "",
-    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About"
+    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n      China\n      Left behind workers\n        Wealth and Income Inequality\n        Optimal trump tariffs\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About"
   },
   {
     "objectID": "key-players.html",
@@ -604,16 +604,16 @@
   {
     "objectID": "transit-project-rti.html",
     "href": "transit-project-rti.html",
-    "title": "Final Project",
+    "title": "Impact of real time crowding information on public transit usage",
     "section": "",
-    "text": "I would like to study the impact of real-time crowding information on public transportation usage. Overcrowding is linked to passengers’ on-board discomfort and dissatisfaction. Overcrowding can also lead to denied boarding incidents and imbalances in crowding levels across vehicles on the same route. Real-time crowding information could help passengers make informed decisions about their travel, potentially increasing passenger satisfaction and overall public transit usage.\nSpecifically, I would like to know if providing real-time crowding information to public transit users increases overall passenger satisfaction and usage of the public transit system. I would also like to study if real-time information has other behavioral impacts, such as on routing choice, travel time, and mode choice.\n\n\n\n\n\nThis is important because: - Crowding is a concern for public transit users, this information could increase passenger satisfaction - Real-time crowding information could increase overall public transit usage, important for reducing congestion and emissions - Real-time crowding information could reduce the large variation is crowding levels on vehicles on the same route"
+    "text": "I would like to study the impact of real-time crowding information on public transportation usage through a randomized control trial (RCT).\nOvercrowding contributes to passenger discomfort, dissatisfaction, denied boarding, and uneven crowd distribution across vehicles on the same route. Specific groups, such as the health-conscious, elderly, or pregnant, may strongly prefer less crowded vehicles. Real-time crowding data could help passengers make informed travel decisions, potentially boosting satisfaction and public transit usage. Increasing transit use is vital for reducing congestion and emissions.\nThis study will explore whether providing real-time crowding information improves passenger satisfaction and overall transit use. Additionally, it will examine other behavioral effects, such as changes in routing, travel time, and mode choice.\nPreliminary research indicates that few studies have examined the impact of real-time crowding information on public transit usage (Brakewood and Watkins 2019; Kim, Lee, and Oh 2009; Yu et al. 2015; Zhang 2015; Dennis, Metcalfe, and Cristina Ruiz 2024a). Existing literature suggests that other forms of real-time information, such as arrival, departure, and delay times, positively influence perceptions of wait time and safety, enhance overall satisfaction, enable informed transit choices, and increase public transit usage (Dennis, Metcalfe, and Cristina Ruiz 2024b).\nThis study will focus on Rio de Janeiro, Brazil, where public buses account for over 53% of all motorized trips. The city’s transit system, used for approximately 1.6 million trips daily, is known for severe overcrowding, with many passengers expressing dissatisfaction with crowding levels.\nCurrently, no applications in Rio de Janeiro offer accurate real-time crowding information. Google Maps provides only general estimates of crowding and lacks real-time location data. This project aims to deliver precise, real-time crowding information and evaluate its causal effects on transit usage and satisfaction."
   },
   {
     "objectID": "transit-project-rti.html#why-is-it-important",
     "href": "transit-project-rti.html#why-is-it-important",
-    "title": "Final Project",
+    "title": "Impact of real time crowding information on public transit usage",
     "section": "",
-    "text": "This is important because: - Crowding is a concern for public transit users, this information could increase passenger satisfaction - Real-time crowding information could increase overall public transit usage, important for reducing congestion and emissions - Real-time crowding information could reduce the large variation is crowding levels on vehicles on the same route"
+    "text": "This is important because:\n\nReal-time crowding information could increase passenger satisfaction with public transit\nReal-time crowding information could increase overall public transit usage, important for reducing congestion and emissions"
   },
   {
     "objectID": "ppt/capitalism/index.html",
@@ -635,5 +635,96 @@
     "title": "Capitalism",
     "section": "New Social Policies",
     "text": "New Social Policies"
+  },
+  {
+    "objectID": "transit-project-rti.html#context",
+    "href": "transit-project-rti.html#context",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "",
+    "text": "I want to study this in the context of the public transit system in Rio de Janeiro, Brazil. The public transit system in Rio de Janeiro is used by a large portion of the population, with over 53% of all motorized trips undertaken by public buses. It’s public transit system is also known for its overcrowding issues, with many passengers reporting dissatisfaction with the crowding levels on vehicles.\nApproximately 1.6 million trips are made daily on the public transit system in Rio de Janeiro.\nAs far as I am aware, no applications currently provide accurate real time crowding information in Rio de Janeiro. Google Maps provides no real time location information and only broad, approximate crowding levels. The goal for this project is to provide more concrete and accurate crowding information and to observe its causal effects."
+  },
+  {
+    "objectID": "transit-project-rti.html#treatment-design",
+    "href": "transit-project-rti.html#treatment-design",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Treatment Design",
+    "text": "Treatment Design\nA mobile application will be developed for this study. The application will be designed exclusively for Android, which accounts for over 82% of Brazil’s mobile market (Statista 2024). A working prototype is shown below.\n\n\n\n\n\nApplication screen capture showing live location and vehicle details\n\n\n\n\n\n\nApplication screen capture showing a user selected bus line"
+  },
+  {
+    "objectID": "transit-project-rti.html#research-design",
+    "href": "transit-project-rti.html#research-design",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Research Design",
+    "text": "Research Design\n\n\n\n\n\n\nflowchart LR\n    A[Participant Recruitment] --&gt; F(Eligibility Determination) --&gt; L(Pre-Study Survey)\n    L --&gt; G(\"Stratify Sample (Optional)\") --&gt; H(Random Assignment)\n    H --&gt; I(Control)\n    H --&gt; J(Treatment)\n    I --&gt; M(Post-Study Survey)\n    J --&gt; M\n\n\n\n\n\n\n\n\nSteps\n\nParticipant Recruitment: Participants will be recruited from the general public in Rio de Janeiro. Participants will be recruited through social media, flyers placed on vehicles, and community centers. A cash incentive will be offered to participants.\nEligibility Determination: Participants will be screened for eligibility. Participants must be over 18 years old, have an Android phone, and use public transit at least once a week.\nPre-Study Survey: Participants will complete a pre-study survey to collect demographic information, RioCard ID number, travel patterns, modal choice, and satisfaction with public transit. The RioCard ID will be used to track participants’ travel patterns using RioCard data.\nStratify Sample (Optional): If the sample size in certain subgroups is too small (potentially due to the recruitment method), then participants may be stratified by key demographic variables such as age and income bracket.\nRandom Assignment: Participants will be randomly assigned to one of two groups: control and treatment. A stratified random assignment may be used. Otherwise pure random assignment will be used.\nControl: Participants in the control group will receive access to the application which will provide real-time location data but will not receive any real-time crowding information.\nTreatment: Participants in treatment will receive real-time crowding information for all buses.\nPost-Study Survey: On a monthly basis, participants will complete a post-study survey to collect information on satisfaction with public transit, usage of public transit, routing choice, travel time, and mode choice. The study will end after 6 months."
+  },
+  {
+    "objectID": "transit-project-rti.html#application-design",
+    "href": "transit-project-rti.html#application-design",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Application Design",
+    "text": "Application Design\nA mobile application with different variants will be developed for this study. The application will be available for only Android as Android accounts for over 82% of the mobile market in Brazil (Statista 2024). A proto-type application is shown below.\n\n\n\n\n\nApplication screen capture showing live location and vehicle details\n\n\n\n\n\n\nApplication screen capture showing a user selected bus line"
+  },
+  {
+    "objectID": "transit-project-rti.html#data-collection",
+    "href": "transit-project-rti.html#data-collection",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Data Collection",
+    "text": "Data Collection\nThe following data will be collected:\n\n\n\n\n\n\n\n\nCategory\nSource\nVariables\n\n\n\n\nDemographic Information\nPre-Study Survey\nAge, income bracket, gender, education level, employment status, RioCard number\n\n\nUser satisfaction\nPre-Study Survey, Post-Study Survey\nSatisfaction with public transit, satisfaction with crowding levels, satisfaction with real-time information\n\n\nUsage of public transit\nRio-Card data\nNumber of trips taken, line choice, routing choice\n\n\nAlighting location and travel duration\nApplication data\nDestination of trip, travel time, travel duration"
+  },
+  {
+    "objectID": "transit-project-rti.html#threats-to-validity",
+    "href": "transit-project-rti.html#threats-to-validity",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Threats to validity",
+    "text": "Threats to validity\n\nSelection Bias: Participants may not represent the general population of Rio de Janeiro. They are likely to be younger and more tech-savvy, which could affect external validity. They are also regular public transit users (i.e. not tourists or non-public transit users).\nHawthorne Effect: Participants may alter their behavior because they are aware of being observed and involved in the study. Initial excitement from using a new application may influence outcomes, though this effect is expected to diminish over time as the study progresses.\nNon-Compliance: Control group participants cannot access the application and are unlikely to interact with treatment participants, minimizing spillover effects. However, some treatment participants may fail to use the application. Strategies such as app reminders or gamification could encourage engagement. If non-compliance becomes significant, an instrumental variables (IV) approach could be employed, using treatment assignment as the instrument and application usage as the \\(X\\) variable. This approach would estimate the local average treatment effect (LATE) of application usage."
+  },
+  {
+    "objectID": "transit-project-rti.html#feasibility",
+    "href": "transit-project-rti.html#feasibility",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Feasibility",
+    "text": "Feasibility\nThe key feasibility questions are:\n\nRecruitment: Recruitment is not expected to pose significant challenges. A small monetary incentive, funded by a recently received MIT Sloan grant, will be offered to participants.\nData Collection: Access to clean and easily accessible transportation agency data has already been secured.\nReal-Time Crowding Estimates: While historical crowding estimates are reasonably accurate, generating real-time estimates will be challenging and is a potential risk to the study. Inaccurate estimates could undermine the validity of the findings.\nApplication Development: A prototype web application has been developed but must be converted into a mobile app, improved, and tested. This will likely be the most time-consuming part of the study."
+  },
+  {
+    "objectID": "transit-project-rti.html#subgroup-analysis",
+    "href": "transit-project-rti.html#subgroup-analysis",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Subgroup Analysis",
+    "text": "Subgroup Analysis\nTo estimate the average treatment effect for different subgroups, I will estimate the following regression:\n\\[\ny_i = \\beta_0 + \\beta_1 \\cdot \\text{Treatment}_i + \\beta_2 \\cdot \\text{Subgroup}_i + \\beta_3 \\cdot (\\text{Treatment}_i \\cdot \\text{Subgroup}_i) + \\epsilon_i\n\\] Where the subgroup variable could be a variable such as over/under-35 years old or high-income/low-income. It would be interesting to see if the treatment was more or less effective for certain groups.\nFor example, if \\(\\text{Subgroup}_i\\) was equal to 1 if the participant was over 35 years old, then \\(\\beta_1\\) would be the average treatment effect for participants under 35 years old, and \\(\\beta_3\\) would be the difference in the average treatment effect between participants over 35 years old and under 35 years old. \\(\\beta_1 + \\beta_3\\) would be the average treatment effect for participants over 35 years old."
+  },
+  {
+    "objectID": "phd-summary-s3.html#classes",
+    "href": "phd-summary-s3.html#classes",
+    "title": "s3",
+    "section": "Classes!",
+    "text": "Classes!"
+  },
+  {
+    "objectID": "phd-summary-s3.html#pictures",
+    "href": "phd-summary-s3.html#pictures",
+    "title": "s3",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\ndorm welcome pizza session (back when it was warm!)\n\n\n\n\n\nThe best dormitory Resident Assistant (RA) team ever!\n\n\n\n\n\nFull moon sailing in the Charles River\n\n\n\n\n\n\n\n\nmy microeconomics friend, Kathy :) The best study buddy one could ask for\n\n\n\n\n\na fun late night bonding session w Larry and Haewon!\n\n\n\n\n\nfall hiking in Middlesex Fells!\n\n\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)\n\n\n\n\n\nwinning trivia team hehe XD\n\n\n\n\n\nlunch w Prof Alberto Abadie (our stats teacher) and my fav undergrads (who I was honoured to be invited by)\n\n\n\n\n\nPublic econ team gathering! :D Super fun night. I got to build a gingerbread house with a cute little child!"
+  },
+  {
+    "objectID": "phd-summary-s3.html#dorm-welcome-pizza-session-back-when-it-was-warmpictures",
+    "href": "phd-summary-s3.html#dorm-welcome-pizza-session-back-when-it-was-warmpictures",
+    "title": "Semester 3!",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)"
+  },
+  {
+    "objectID": "phd-summary-s3.html",
+    "href": "phd-summary-s3.html",
+    "title": "s3",
+    "section": "",
+    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
+  },
+  {
+    "objectID": "phd-summary-s3.html#highlights",
+    "href": "phd-summary-s3.html#highlights",
+    "title": "s3",
+    "section": "",
+    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
   }
 ]
