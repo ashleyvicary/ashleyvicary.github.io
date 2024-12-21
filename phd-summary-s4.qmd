@@ -1,0 +1,36 @@
+---
+title: "s4"
+format: 
+  html:
+    toc: true
+    page-layout: full
+---
+
+## Goals
+
+-   Read lots (in prep for general exams)
+-   Complete my general exams by mid-year
+-   Improve my relationship with my core advisor
+-   Continue to swim weekly with the Tech Masters team
+
+## Pictures!
+
+:::::::: columns
+::: {.column width="30%"}
+pics
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+pics
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+pics
+:::
+::::::::

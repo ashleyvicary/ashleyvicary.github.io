@@ -3,19 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "a world view"
+  title: "ashley's phd notes"
   navbar:
     left:
       - href: index.qmd
         text: home
       - text: semester summaries 
         menu:
+          - phd-summary-goals-plan.qmd
           - phd-summary-s1.qmd
           - phd-summary-s2.qmd
           - phd-summary-s2-5.qmd
           - phd-summary-s3.qmd
-      - text: courses
+          - phd-summary-s4.qmd
+      - text: general exams
         menu:
+          - reading-list-by-topic.qmd
           - economics-general.qmd
           - econometrics-intro.qmd
           - chinas-growth.qmd
@@ -25,13 +28,11 @@ website:
           - rio-project.qmd
           - world-bank-rct-1.qmd
           - world-bank-rct-2.qmd
-      - text: random
+      - text: random/other
         menu:
           - math-tools.qmd
           - causal-inference.qmd
           - ci-and-hypothesis-testing.qmd
-    right:
-      - reading-list-by-topic.qmd
 
 format:
   html:
