@@ -42,4 +42,4 @@ format:
     toc-location: left
     self-contained: true
 
-editor: visual
+editor: source

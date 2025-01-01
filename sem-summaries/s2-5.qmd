@@ -1,5 +1,5 @@
 ---
-title: "s2.5 summer"
+title: "Summer 1"
 format: 
   html:
     toc: true
