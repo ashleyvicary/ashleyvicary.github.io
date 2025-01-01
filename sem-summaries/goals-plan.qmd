@@ -27,27 +27,13 @@ flowchart TD
 ```
 :::
 
-## Detailed
+## Classes
 
 ::: panel-tabset
 ### Year 1
 
-#### Highlights:
-
--   Won a \$20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.
-
--   Completed subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it.
-
--   I successfully led the effort to increase the Conference Fund for PhD students from \$600 to \$1,300 per year.
-
--   I sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester. I was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution. I also became a Resident Advisor for my graduate dormitory, The Warehouse.
-
--   I was an RA for Prof. Wen-Chi Liao (NUS) in the Fall and a TA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot.
-
-#### Coursework:
-
 | Subject | Title | Units | Level | Grade |
-|--------|----------------------------------------|--------|--------|--------|
+|-----------|-------------------------------|-----------|-----------|-----------|
 | 11.233 | Research Design for Policy Analysis and Planning | 12 | G | A |
 | 11.258 | Sustainable Urbanization Research Seminar | 3 | G | P |
 | 11.919 | PhD Workshop | 1 | G | P |
@@ -58,20 +44,14 @@ flowchart TD
 | 11.801 | Doctoral Research Paper | 9 | G | A |
 | 11.919 | PhD Workshop | 1 | G | P |
 
-#### Research:
-
-#### Teaching/Research Assistantship
-
 ### Year 2
 
-#### Coursework:
-
 | Subject | Title                                            | Units | Level | Grade |
-|----------|----------------------------------|----------|----------|----------|
+|------------|--------------------------|------------|------------|------------|
 | 14.003  | Microeconomic Theory and Public Policy           | 12    | G     |       |
-| 14.300  | Introduction to Statistical Methods in Economics | 12    | G     |       |
-| 14.410  | Public Finance and Public Policy                 | 12    | G     |       |
-| 11.919  | PhD Workshop                                     | 1     | G     |       |
+| 14.300  | Introduction to Statistical Methods in Economics | 12    | G     | A+    |
+| 14.410  | Public Finance and Public Policy                 | 12    | G     | A     |
+| 11.919  | PhD Workshop                                     | 1     | G     | P     |
 |         |                                                  |       |       |       |
 |         |                                                  |       |       |       |
 |         |                                                  |       |       |       |

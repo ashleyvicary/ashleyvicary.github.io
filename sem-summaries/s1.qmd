@@ -8,7 +8,9 @@ format:
 
 ## Highlights
 
--   sds
+-   CS50
+-   I was an RA for Prof. Wen-Chi Liao (NUS) in the Fall
+-   Completed subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it.
 
 ## Pictures!
 
