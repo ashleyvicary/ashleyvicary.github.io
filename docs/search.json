@@ -70,137 +70,144 @@
     "text": "Integration by Parts\nIntegration by parts is a technique for integrating the product of two functions. It’s especially useful in economics when dealing with functions like demand or production functions. The formula for integration by parts is:\n\\[\n\\int u \\, dv = uv - \\int v \\, du\n\\]\nwhere \\(u\\) and \\(dv\\) are chosen from the original integrand.\n\nSteps for Applying Integration by Parts\n\nIdentify parts of the function to set as \\(u\\) and \\(dv\\).\nDifferentiate \\(u\\) to find \\(du\\) and integrate \\(dv\\) to find \\(v\\).\nSubstitute into the formula and simplify.\n\n\n\nExamples\n\nExample 1: \\(\\int x e^x \\, dx\\)\n\nSet \\(u = x\\) (so \\(du = dx\\)) and \\(dv = e^x \\, dx\\) (so \\(v = e^x\\)).\nApplying the formula: \\[\n\\int x e^x \\, dx = x e^x - \\int e^x \\, dx = x e^x - e^x + C = e^x(x - 1) + C\n\\]\n\nExample 2: \\(\\int x \\ln(x) \\, dx\\)\n\nSet \\(u = \\ln(x)\\) (so \\(du = \\frac{1}{x} \\, dx\\)) and \\(dv = x \\, dx\\) (so \\(v = \\frac{x^2}{2}\\)).\nApplying the formula: \\[\n\\int x \\ln(x) \\, dx = \\frac{x^2}{2} \\ln(x) - \\int \\frac{x^2}{2} \\cdot \\frac{1}{x} \\, dx = \\frac{x^2}{2} \\ln(x) - \\int \\frac{x}{2} \\, dx\n\\]\nIntegrating the remaining term: \\[\n= \\frac{x^2}{2} \\ln(x) - \\frac{x^2}{4} + C\n\\]\n\nExample 3: \\(\\int x \\cos(x) \\, dx\\)\n\nSet \\(u = x\\) (so \\(du = dx\\)) and \\(dv = \\cos(x) \\, dx\\) (so \\(v = \\sin(x)\\)).\nApplying the formula: \\[\n\\int x \\cos(x) \\, dx = x \\sin(x) - \\int \\sin(x) \\, dx = x \\sin(x) + \\cos(x) + C\n\\]\n\n\n\n\nApplication\nIntegration by parts is commonly applied in economics when dealing with elasticity, consumer surplus, or certain probability functions. It helps decompose complex integrals into manageable parts."
   },
   {
-    "objectID": "causal-inference.html",
-    "href": "causal-inference.html",
-    "title": "causal inference",
+    "objectID": "sem-summaries/s2-5.html",
+    "href": "sem-summaries/s2-5.html",
+    "title": "Summer 1",
     "section": "",
-    "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
+    "text": "Moved into new room"
   },
   {
-    "objectID": "causal-inference.html#introduction",
-    "href": "causal-inference.html#introduction",
-    "title": "causal inference",
+    "objectID": "sem-summaries/s2-5.html#highlights",
+    "href": "sem-summaries/s2-5.html#highlights",
+    "title": "Summer 1",
     "section": "",
-    "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
+    "text": "Moved into new room"
   },
   {
-    "objectID": "causal-inference.html#regression-discontinuity-rd",
-    "href": "causal-inference.html#regression-discontinuity-rd",
-    "title": "causal inference",
-    "section": "Regression Discontinuity (RD)",
-    "text": "Regression Discontinuity (RD)\nThe Regression Discontinuity (RD) design is a method for identifying causal effects when treatment assignment is based on a threshold in a continuous variable. It’s widely used in economics to evaluate policies, such as eligibility rules or cutoff points.\n\nKey Concepts\n\nAssignment Variable: A continuous variable that determines treatment eligibility at a specific cutoff (e.g., test scores, income level).\nThreshold/Cutoff: The point at which treatment is assigned. Units just above and below the cutoff provide a natural experiment for causal inference.\nTreatment and Control Groups: Units above the cutoff receive the treatment, while those below do not. The RD design assumes units near the threshold are similar except for treatment.\n\n\n\nRD Estimator\nThe RD design compares outcomes just above and below the cutoff to estimate the treatment effect. Formally, let \\(Y\\) be the outcome and \\(X\\) the assignment variable with cutoff \\(c\\). The causal effect at the cutoff is:\n\\[\n\\tau_{RD} = \\lim_{x \\to c^+} E[Y | X = x] - \\lim_{x \\to c^-} E[Y | X = x]\n\\]\n\n\nTypes of RD Designs\n\nSharp RD: Treatment assignment is strictly determined by the cutoff, i.e., everyone above the cutoff receives treatment, and no one below it does.\nFuzzy RD: Treatment assignment increases at the cutoff, but not perfectly. This is common when there’s imperfect compliance with treatment rules.\n\n\n\nExample: Scholarship Eligibility and Academic Outcomes\nImagine a scholarship awarded to students with a test score above 85. In a sharp RD design, students with scores of 85+ receive the scholarship, while those with scores just below do not. The RD design estimates the causal effect of receiving the scholarship on academic outcomes by comparing students just above and below the 85 threshold.\n\n\nAssumptions and Validity\n\nContinuity Assumption: Units just above and below the cutoff are assumed to be similar, differing only in treatment status.\nNo Manipulation: The assignment variable should not be manipulable; individuals cannot precisely control their score to just surpass the cutoff.\n\n\n\nApplication in Economics\nRD designs are useful when randomized experiments aren’t feasible, providing a credible estimate of causal effects in cases like educational policy evaluations, welfare eligibility, and more."
+    "objectID": "sem-summaries/s2-5.html#pictures",
+    "href": "sem-summaries/s2-5.html#pictures",
+    "title": "Summer 1",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
   },
   {
-    "objectID": "causal-inference.html#difference-in-differences-did",
-    "href": "causal-inference.html#difference-in-differences-did",
-    "title": "causal inference",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nDifference-in-Differences (DiD) is a method for estimating causal effects by comparing the change in outcomes over time between treated and control groups. DiD is particularly useful when randomization isn’t feasible but we can observe the same groups before and after a treatment.\n\nKey Concepts\n\nPre- and Post-Treatment Comparisons: DiD compares the change in outcomes for the treated group with the change in outcomes for the control group.\nParallel Trends Assumption: The treated and control groups must have followed similar trends in the absence of treatment.\n\n\n\nDiD Estimator\nThe DiD estimator calculates the treatment effect as:\n\\[\n\\Delta Y_{DiD} = (Y_{after}^{treated} - Y_{before}^{treated}) - (Y_{after}^{control} - Y_{before}^{control})\n\\]\n\n\nExample: Minimum Wage and Employment\nCard and Krueger’s (1994) study on the impact of minimum wage increases used DiD by comparing fast-food employment changes in New Jersey (where minimum wage increased) and Pennsylvania (where it did not). They found an increase in employment in New Jersey relative to Pennsylvania, challenging traditional predictions."
-  },
-  {
-    "objectID": "causal-inference.html#instrumental-variables-iv",
-    "href": "causal-inference.html#instrumental-variables-iv",
-    "title": "causal inference",
-    "section": "Instrumental Variables (IV)",
-    "text": "Instrumental Variables (IV)\nInstrumental Variables (IV) is a technique used to estimate causal effects when there’s endogeneity—when an explanatory variable is correlated with the error term. An IV helps isolate the exogenous variation in the endogenous variable.\n\nKey Concepts\n\nInstrument: A variable that affects the endogenous variable (treatment) but has no direct effect on the outcome except through this treatment.\nExclusion Restriction: The instrument affects the outcome only through the treatment, not directly.\n\n\n\nIV Estimator\nIf \\(Z\\) is the instrument for \\(X\\), and \\(Y\\) is the outcome, the IV estimator (two-stage least squares) can be calculated as:\n\nFirst Stage: \\(X = \\alpha + \\beta Z + \\epsilon\\)\nSecond Stage: \\(Y = \\gamma + \\delta \\hat{X} + \\eta\\)\n\n\n\nExample: Education and Earnings\nTo estimate the causal effect of education on earnings, distance to college might serve as an instrument. Distance affects the likelihood of attending college (the treatment) but doesn’t directly affect earnings, isolating the causal impact of education."
-  },
-  {
-    "objectID": "causal-inference.html#randomized-controlled-trials-rcts",
-    "href": "causal-inference.html#randomized-controlled-trials-rcts",
-    "title": "causal inference",
-    "section": "Randomized Controlled Trials (RCTs)",
-    "text": "Randomized Controlled Trials (RCTs)\nRandomized Controlled Trials (RCTs) are the gold standard in causal inference, where random assignment to treatment and control groups ensures that any differences in outcomes can be attributed to the treatment.\n\nKey Concepts\n\nRandom Assignment: Units are randomly assigned to treatment and control groups, balancing confounders across groups.\nControl Group: Provides a baseline for comparison to the treatment group.\n\n\n\nRCT Estimator\nThe average treatment effect in an RCT is calculated as:\n\\[\nATE = E[Y | X = 1] - E[Y | X = 0]\n\\]\nwhere \\(X = 1\\) indicates the treatment group and \\(X = 0\\) the control group.\n\n\nExample: Drug Trials\nIn a clinical trial, participants are randomly assigned to receive either a new drug or a placebo. The difference in health outcomes between the groups estimates the causal effect of the drug, assuming random assignment balances all other factors."
-  },
-  {
-    "objectID": "history-timeline.html",
-    "href": "history-timeline.html",
-    "title": "history timelines",
+    "objectID": "sem-summaries/s3.html",
+    "href": "sem-summaries/s3.html",
+    "title": "Semester 3",
     "section": "",
-    "text": "A timeline of key events in history according to me. To help with my Economist Dateline score (this is why it starts in 1843) ;)"
+    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
   },
   {
-    "objectID": "history-timeline.html#us-presidents",
-    "href": "history-timeline.html#us-presidents",
-    "title": "history timelines",
-    "section": "US Presidents",
-    "text": "US Presidents"
-  },
-  {
-    "objectID": "history-timeline.html#timeline-of-major-world-events-since-1843",
-    "href": "history-timeline.html#timeline-of-major-world-events-since-1843",
-    "title": "history timelines",
-    "section": "Timeline of Major World Events (Since 1843)",
-    "text": "Timeline of Major World Events (Since 1843)\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n1848\nRevolutions of 1848 across Europe advocating for democratic reforms.\n\n\n1853-1856\nCrimean War between Russia and an alliance of Britain, France, and the Ottoman Empire.\n\n\n1861-1865\nAmerican Civil War in the United States over issues of slavery and state sovereignty.\n\n\n1869\nTranscontinental Railroad completed in the U.S., connecting the East and West coasts.\n\n\n1882\nTriple Alliance formed between Germany, Austria-Hungary, and Italy, marking alliances that would lead to World War I.\n\n\n1885\nBerlin Conference divides Africa among European powers, intensifying colonialism.\n\n\n1914-1918\nWorld War I, a global war involving most world powers, ending with the Treaty of Versailles.\n\n\n1917\nRussian Revolution, leading to the rise of the Soviet Union.\n\n\n1929\nGreat Depression begins, causing worldwide economic hardship.\n\n\n1939-1945\nWorld War II, a global conflict involving the Allies and Axis powers, resulting in major changes to global politics.\n\n\n1945\nUnited Nations founded to promote international cooperation and prevent future wars.\n\n\n1947\nIndia gains independence from British rule, marking the end of the British Empire’s dominance in South Asia.\n\n\n1949\nNATO established as a military alliance among Western nations; People’s Republic of China founded under communist rule.\n\n\n1957\nLaunch of Sputnik by the Soviet Union, beginning the Space Race.\n\n\n1969\nFirst Moon Landing by Apollo 11, a major milestone in space exploration.\n\n\n1989\nFall of the Berlin Wall, signaling the end of the Cold War.\n\n\n1991\nDissolution of the Soviet Union, leading to the independence of several states and the end of the Cold War.\n\n\n2001\nSeptember 11 Attacks in the U.S., leading to global anti-terrorism efforts.\n\n\n2008\nGlobal Financial Crisis, affecting economies worldwide.\n\n\n2020\nCOVID-19 Pandemic begins, causing global health crises, economic impact, and social change."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "my phd",
+    "objectID": "sem-summaries/s3.html#highlights",
+    "href": "sem-summaries/s3.html#highlights",
+    "title": "Semester 3",
     "section": "",
-    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n      China\n      Left behind workers\n        Wealth and Income Inequality\n        Optimal trump tariffs\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About"
+    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
   },
   {
-    "objectID": "key-players.html",
-    "href": "key-players.html",
-    "title": "key players",
+    "objectID": "sem-summaries/s3.html#pictures",
+    "href": "sem-summaries/s3.html#pictures",
+    "title": "Semester 3",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\ndorm welcome pizza session (back when it was warm!)\n\n\n\n\n\nThe best dormitory Resident Assistant (RA) team ever!\n\n\n\n\n\nFull moon sailing in the Charles River\n\n\n\n\n\n\n\n\nmy microeconomics friend, Kathy :) The best study buddy one could ask for\n\n\n\n\n\na fun late night bonding session w Larry and Haewon!\n\n\n\n\n\nfall hiking in Middlesex Fells!\n\n\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)\n\n\n\n\n\nwinning trivia team hehe XD\n\n\n\n\n\nlunch w Prof Alberto Abadie (our stats teacher) and my fav undergrads (who I was honoured to be invited by)\n\n\n\n\n\nPublic econ team gathering! :D Super fun night. I got to build a gingerbread house with a cute little child!"
+  },
+  {
+    "objectID": "sem-summaries/s4.html",
+    "href": "sem-summaries/s4.html",
+    "title": "Semester 4",
     "section": "",
-    "text": "daron acemoglu\nsummary:\nDaron Acemoglu is a Turkish economist who is a professor at MIT. He is best known for his work on political economy and economic development. He has written several books, including “Why Nations Fail” and “Economic Origins of Dictatorship and Democracy.”\nkey contributions:\nAcemoglu has made several key contributions to the field of economics. He is known for his work on the role of institutions in economic development, and has argued that inclusive institutions are essential for long-term growth. He has also studied the relationship between political institutions and economic outcomes, and has shown that democratic institutions are associated with higher levels of economic development (?).\n\n\ndavid autor\nsummary:\nDavid Autor is an American economist who is a professor at MIT. He is best known for his work on labor economics and the impact of technology on the labor market. He has written several influential papers on the subject, including “The China Shock” and “Why Are There Still So Many Jobs?”\nkey contributions:\nAutor has made several key contributions to the field of economics. He is known for his work on the impact of technology on the labor market, and has shown that technological change has had a significant impact on the distribution of income. He has also studied the role of trade in shaping the labor market, and has shown that trade with China has had a negative impact on the employment prospects of low-skilled workers."
+    "text": "Read lots (in prep for general exams)\nComplete my general exams by mid-year\nImprove my relationship with my core advisor\nContinue to swim weekly with the Tech Masters team"
   },
   {
-    "objectID": "reading-list-by-topic.html",
-    "href": "reading-list-by-topic.html",
-    "title": "Reading List",
+    "objectID": "sem-summaries/s4.html#goals",
+    "href": "sem-summaries/s4.html#goals",
+    "title": "Semester 4",
     "section": "",
-    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n      China\n      Left behind workers\n        Wealth and Income Inequality\n        Optimal trump tariffs\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About\nNotes: - Read with a question in mind?"
+    "text": "Read lots (in prep for general exams)\nComplete my general exams by mid-year\nImprove my relationship with my core advisor\nContinue to swim weekly with the Tech Masters team"
   },
   {
-    "objectID": "reading-list-by-topic.html#early-childhood-education",
-    "href": "reading-list-by-topic.html#early-childhood-education",
-    "title": "reading list",
-    "section": "Early Childhood Education",
-    "text": "Early Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
+    "objectID": "sem-summaries/s4.html#pictures",
+    "href": "sem-summaries/s4.html#pictures",
+    "title": "Semester 4",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
   },
   {
-    "objectID": "history-stuff.html",
-    "href": "history-stuff.html",
-    "title": "history stuff",
+    "objectID": "general-exams/index.html#hello-there",
+    "href": "general-exams/index.html#hello-there",
+    "title": "General Exam Plan",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nActivating scroll view\n\n…and much more"
+  },
+  {
+    "objectID": "general-exams/index.html#pretty-code",
+    "href": "general-exams/index.html#pretty-code",
+    "title": "General Exam Plan",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "linear-regression.html",
+    "href": "linear-regression.html",
+    "title": "linear regression",
     "section": "",
-    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
+    "text": "Linear regression is a fundamental statistical method for estimating the relationship between a dependent variable and one or more independent variables.\n\n\nThe population regression function describes the expected value of the outcome \\(Y\\) given the value of \\(X\\):\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X\n\\]\nFor a binary variable \\(X\\), this function indicates the difference in \\(Y\\) between two groups: - \\(E[Y | X = 1] - E[Y | X = 0] = \\beta_1\\)\nFor multiple variables (e.g., education \\(X_1\\) and experience \\(X_2\\)), the function becomes:\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2\n\\]\n\n\n\nThe Law of Iterated Expectations states:\n\\[\nE[Y] = E[E[Y | X]]\n\\]\nFor binary \\(X\\), it simplifies to:\n\\[\nE[Y] = E[Y | X = 1] \\cdot P(X = 1) + E[Y | X = 0] \\cdot P(X = 0)\n\\] Where \\(P\\) is a proportion.\n\n\n\nThe regression model includes an error term \\(u\\) to capture the variation in \\(Y\\) unexplained by \\(X\\):\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nwhere \\(E[u | X] = 0\\). The full model for multiple variables \\(X_1, X_2, \\ldots, X_k\\) is:\n\\[\nY = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2 + \\ldots + \\beta_k X_k + u\n\\]\n\n\n\nThe OLS estimator minimizes the sum of squared residuals (differences between observed and predicted values):\n\\[\n\\hat{\\beta} = \\text{argmin}_\\beta \\sum_{i=1}^n (Y_i - X_i' \\beta)^2\n\\]\nwhere \\(X_i'\\) is the vector of regressors for observation \\(i\\). The solution for \\(\\hat{\\beta}\\), the OLS estimator, is:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\n\n\nFor a simple linear model with one regressor:\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nThe slope coefficient \\(\\beta_1\\) is:\n\\[\n\\beta_1 = \\frac{\\text{cov}(Y, X)}{\\text{var}(X)}\n\\]\nand the intercept \\(\\beta_0\\) is:\n\\[\n\\beta_0 = E[Y] - \\beta_1 E[X]\n\\]\n\n\n\n\n\nFitted values: \\(\\hat{Y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 X_i\\)\nResiduals: \\(\\hat{u}_i = Y_i - \\hat{Y}_i\\)\n\n\n\n\n\nUnbiasedness: Under the assumption \\(E[u | X] = 0\\), the OLS estimator is unbiased: \\[\nE[\\hat{\\beta}] = \\beta\n\\]\nConsistency: As the sample size \\(n \\to \\infty\\), \\(\\hat{\\beta}\\) converges to the true \\(\\beta\\).\n\n\n\n\nIf \\(u\\) has constant variance (homoskedasticity), the variance of \\(\\hat{\\beta}\\) is:\n\\[\n\\text{var}(\\hat{\\beta}) = \\sigma^2 (X'X)^{-1}\n\\]\nwhere \\(\\sigma^2 = \\text{var}(u)\\). Under heteroskedasticity, robust standard errors are often used instead.\n\n\n\nTo test if a coefficient \\(\\beta_j = 0\\), we calculate the t-statistic:\n\\[\nt = \\frac{\\hat{\\beta}_j}{\\text{se}(\\hat{\\beta}_j)}\n\\]\nwhere \\(\\text{se}(\\hat{\\beta}_j)\\) is the standard error of \\(\\hat{\\beta}_j\\). For a 5% significance level, if \\(|t| &gt; 1.96\\), we reject the null hypothesis \\(\\beta_j = 0\\).\n\n\n\n\nR-Squared: Measures the proportion of variance in \\(Y\\) explained by \\(X\\). \\[\nR^2 = 1 - \\frac{\\sum_{i=1}^n \\hat{u}_i^2}{\\sum_{i=1}^n (Y_i - \\bar{Y})^2}\n\\]\nInterpretation: An \\(R^2\\) close to 1 suggests a strong relationship between \\(Y\\) and \\(X\\), while an \\(R^2\\) close to 0 suggests a weak relationship.\n\n\n\n\nMulticollinearity occurs when predictors in \\(X\\) are highly correlated, making it difficult to isolate the effect of each predictor on \\(Y\\). This can cause large variances in \\(\\hat{\\beta}\\), leading to unreliable estimates.\n\n\n\nFor large samples, \\(\\hat{\\beta}\\) is approximately normally distributed:\n\\[\n\\sqrt{n}(\\hat{\\beta} - \\beta) \\sim N(0, V)\n\\]\nwhere \\(V = Q^{-1} \\Sigma Q^{-1}\\), with \\(Q = E[X'X]\\) and \\(\\Sigma = E[u^2 X X']\\)."
   },
   {
-    "objectID": "history-stuff.html#what-is-capitalism",
-    "href": "history-stuff.html#what-is-capitalism",
-    "title": "history stuff",
+    "objectID": "linear-regression.html#linear-regression",
+    "href": "linear-regression.html#linear-regression",
+    "title": "linear regression",
     "section": "",
-    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
+    "text": "Linear regression is a fundamental statistical method for estimating the relationship between a dependent variable and one or more independent variables.\n\n\nThe population regression function describes the expected value of the outcome \\(Y\\) given the value of \\(X\\):\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X\n\\]\nFor a binary variable \\(X\\), this function indicates the difference in \\(Y\\) between two groups: - \\(E[Y | X = 1] - E[Y | X = 0] = \\beta_1\\)\nFor multiple variables (e.g., education \\(X_1\\) and experience \\(X_2\\)), the function becomes:\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2\n\\]\n\n\n\nThe Law of Iterated Expectations states:\n\\[\nE[Y] = E[E[Y | X]]\n\\]\nFor binary \\(X\\), it simplifies to:\n\\[\nE[Y] = E[Y | X = 1] \\cdot P(X = 1) + E[Y | X = 0] \\cdot P(X = 0)\n\\] Where \\(P\\) is a proportion.\n\n\n\nThe regression model includes an error term \\(u\\) to capture the variation in \\(Y\\) unexplained by \\(X\\):\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nwhere \\(E[u | X] = 0\\). The full model for multiple variables \\(X_1, X_2, \\ldots, X_k\\) is:\n\\[\nY = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2 + \\ldots + \\beta_k X_k + u\n\\]\n\n\n\nThe OLS estimator minimizes the sum of squared residuals (differences between observed and predicted values):\n\\[\n\\hat{\\beta} = \\text{argmin}_\\beta \\sum_{i=1}^n (Y_i - X_i' \\beta)^2\n\\]\nwhere \\(X_i'\\) is the vector of regressors for observation \\(i\\). The solution for \\(\\hat{\\beta}\\), the OLS estimator, is:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\n\n\nFor a simple linear model with one regressor:\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nThe slope coefficient \\(\\beta_1\\) is:\n\\[\n\\beta_1 = \\frac{\\text{cov}(Y, X)}{\\text{var}(X)}\n\\]\nand the intercept \\(\\beta_0\\) is:\n\\[\n\\beta_0 = E[Y] - \\beta_1 E[X]\n\\]\n\n\n\n\n\nFitted values: \\(\\hat{Y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 X_i\\)\nResiduals: \\(\\hat{u}_i = Y_i - \\hat{Y}_i\\)\n\n\n\n\n\nUnbiasedness: Under the assumption \\(E[u | X] = 0\\), the OLS estimator is unbiased: \\[\nE[\\hat{\\beta}] = \\beta\n\\]\nConsistency: As the sample size \\(n \\to \\infty\\), \\(\\hat{\\beta}\\) converges to the true \\(\\beta\\).\n\n\n\n\nIf \\(u\\) has constant variance (homoskedasticity), the variance of \\(\\hat{\\beta}\\) is:\n\\[\n\\text{var}(\\hat{\\beta}) = \\sigma^2 (X'X)^{-1}\n\\]\nwhere \\(\\sigma^2 = \\text{var}(u)\\). Under heteroskedasticity, robust standard errors are often used instead.\n\n\n\nTo test if a coefficient \\(\\beta_j = 0\\), we calculate the t-statistic:\n\\[\nt = \\frac{\\hat{\\beta}_j}{\\text{se}(\\hat{\\beta}_j)}\n\\]\nwhere \\(\\text{se}(\\hat{\\beta}_j)\\) is the standard error of \\(\\hat{\\beta}_j\\). For a 5% significance level, if \\(|t| &gt; 1.96\\), we reject the null hypothesis \\(\\beta_j = 0\\).\n\n\n\n\nR-Squared: Measures the proportion of variance in \\(Y\\) explained by \\(X\\). \\[\nR^2 = 1 - \\frac{\\sum_{i=1}^n \\hat{u}_i^2}{\\sum_{i=1}^n (Y_i - \\bar{Y})^2}\n\\]\nInterpretation: An \\(R^2\\) close to 1 suggests a strong relationship between \\(Y\\) and \\(X\\), while an \\(R^2\\) close to 0 suggests a weak relationship.\n\n\n\n\nMulticollinearity occurs when predictors in \\(X\\) are highly correlated, making it difficult to isolate the effect of each predictor on \\(Y\\). This can cause large variances in \\(\\hat{\\beta}\\), leading to unreliable estimates.\n\n\n\nFor large samples, \\(\\hat{\\beta}\\) is approximately normally distributed:\n\\[\n\\sqrt{n}(\\hat{\\beta} - \\beta) \\sim N(0, V)\n\\]\nwhere \\(V = Q^{-1} \\Sigma Q^{-1}\\), with \\(Q = E[X'X]\\) and \\(\\Sigma = E[u^2 X X']\\)."
   },
   {
-    "objectID": "history-stuff.html#before-capitalism",
-    "href": "history-stuff.html#before-capitalism",
-    "title": "history stuff",
-    "section": "Before Capitalism",
-    "text": "Before Capitalism\nBefore capitalism, most economies were structured around feudalism (up to the 15th century in Europe). Under feudalism, land was the main source of wealth, controlled by nobles, and labor was provided by serfs bound to the land. Production was for subsistence rather than profit, with little to no focus on market-based exchange."
+    "objectID": "linear-regression.html#deriving-the-argmin-function-in-linear-regression",
+    "href": "linear-regression.html#deriving-the-argmin-function-in-linear-regression",
+    "title": "linear regression",
+    "section": "Deriving the argmin Function in Linear Regression",
+    "text": "Deriving the argmin Function in Linear Regression\nIn the context of Ordinary Least Squares (OLS) regression, the argmin function identifies the values of the coefficients \\(\\beta = (\\beta_0, \\beta_1, \\ldots, \\beta_k)\\) that minimize the average squared difference between the observed values and the values predicted by the model.\n\nStep 1: Setting up the Problem\nTo find the best linear approximation of \\(Y\\) in terms of \\(X\\), we express \\(Y\\) as:\n\\[\nY = X'\\beta + u\n\\]\nwhere: - \\(Y\\) is the dependent variable. - \\(X\\) is a matrix of independent variables (each row represents an observation, and each column represents a variable). - \\(\\beta\\) is the vector of coefficients we aim to estimate. - \\(u\\) is the error term, assumed to have a mean of zero, i.e., \\(E[u | X] = 0\\).\nGiven this setup, we seek the \\(\\beta\\) that minimizes the expected squared error, or the mean squared error function:\n\\[\n\\beta = \\text{argmin}_{b \\in \\mathbb{R}^k} E[(Y - X'b)^2]\n\\]\n\n\nStep 2: Using the Property of Expectations to Define the Objective\nFor any value \\(c\\), we know that:\n\\[\nE[(Y - E[Y])^2] \\leq E[(Y - c)^2]\n\\]\nThis property implies that the optimal \\(b\\) minimizes the squared deviation of \\(Y\\) from its conditional expectation \\(E[Y | X]\\). Hence, \\(\\beta\\) is the value that minimizes:\n\\[\nE[(Y - X'b)^2]\n\\]\nThis function is minimized when \\(E[Y | X] = X'\\beta\\), which forms the basis of the OLS estimation.\n\n\nStep 3: Sample-Based Minimization (Estimation with Observed Data)\nIn practice, we estimate \\(\\beta\\) using a sample of data points \\((Y_1, X_1), (Y_2, X_2), \\ldots, (Y_n, X_n)\\). The sample-based version of the minimization problem becomes:\n\\[\n\\hat{\\beta} = \\text{argmin}_{b \\in \\mathbb{R}^k} \\frac{1}{n} \\sum_{i=1}^n (Y_i - X_i'b)^2\n\\]\nAlternatively, this can be simplified as:\n\\[\n\\hat{\\beta} = \\text{argmin}_{b \\in \\mathbb{R}^k} \\sum_{i=1}^n (Y_i - X_i'b)^2\n\\]\n\n\nStep 4: Solving for \\(\\hat{\\beta}\\)\nTo find the values of \\(\\hat{\\beta}\\) that minimize the sum of squared residuals, we differentiate the objective function with respect to each element of \\(\\beta\\), set these derivatives to zero, and solve for \\(\\beta\\). This yields the OLS estimator:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\nThis solution for \\(\\hat{\\beta}\\) provides the regression coefficients that minimize the sum of squared residuals, making it the best linear predictor of \\(Y\\) based on \\(X\\)."
   },
   {
-    "objectID": "history-stuff.html#origins-and-timeline-of-capitalism",
-    "href": "history-stuff.html#origins-and-timeline-of-capitalism",
-    "title": "history stuff",
-    "section": "Origins and Timeline of Capitalism",
-    "text": "Origins and Timeline of Capitalism\n\nEarly 16th to 18th Century: Proto-capitalist structures began emerging with the Commercial Revolution in Europe. Trade expanded, and early banking and joint-stock companies were created, laying the groundwork for capitalism.\nLate 18th Century: Capitalism as we recognize it took root with the Industrial Revolution (starting around the 1760s in Britain). This period saw significant technological advancements and mechanization, leading to mass production and factory systems.\n1776: Adam Smith’s seminal work, The Wealth of Nations, was published, advocating for free markets and explaining productivity gains from the division of labor. Smith’s pin factory example demonstrated how dividing tasks increased output significantly."
-  },
-  {
-    "objectID": "history-stuff.html#division-of-labor",
-    "href": "history-stuff.html#division-of-labor",
-    "title": "history stuff",
-    "section": "Division of Labor",
-    "text": "Division of Labor\nIn the pin factory example, Smith describes how dividing the production of pins into specialized tasks allowed workers to produce thousands of pins per day, compared to the few they could make individually. This concept became a foundational element of capitalist production, emphasizing efficiency and specialization to maximize profit."
-  },
-  {
-    "objectID": "what-is-economics.html",
-    "href": "what-is-economics.html",
-    "title": "what is economics",
+    "objectID": "ci-and-hypothesis-testing.html",
+    "href": "ci-and-hypothesis-testing.html",
+    "title": "confidence intervals and hypothesis testing",
     "section": "",
-    "text": "economics is the study of how people allocate scarce resources to satisfy their unlimited wants.\n\nmicroeconomics\nmicroeconomics is the study of how individuals and firms make decisions and how these decisions interact.\n\n\nmacroeconomics\nmacroeconomics is the study of the economy as a whole. it is concerned with the behavior of the economy as a whole, including topics such as inflation, unemployment, and economic growth."
+    "text": "Confidence intervals provide a range around a sample estimate, indicating where the true population parameter is likely to lie with a given confidence level.\n\n\nFor a large sample with sample mean \\(\\bar{X}\\), standard deviation \\(\\sigma\\), and sample size \\(n\\), the confidence interval for the population mean \\(\\mu\\) is:\n\\[\n\\bar{X} \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\n\\]\nwhere: - \\(z_{\\alpha/2}\\) is the critical value from the standard normal distribution (e.g., \\(1.96\\) for 95% confidence). - \\(\\frac{\\sigma}{\\sqrt{n}}\\) is the standard error of the mean.\n\n\n\n95% Confidence Interval: \\(\\bar{X} \\pm 1.96 \\frac{\\sigma}{\\sqrt{n}}\\)\n90% Confidence Interval: \\(\\bar{X} \\pm 1.64 \\frac{\\sigma}{\\sqrt{n}}\\)\n99% Confidence Interval: \\(\\bar{X} \\pm 2.58 \\frac{\\sigma}{\\sqrt{n}}\\)\n\nAs \\(n\\) increases, the interval becomes narrower, indicating greater precision in estimating \\(\\mu\\)."
+  },
+  {
+    "objectID": "ci-and-hypothesis-testing.html#confidence-intervals",
+    "href": "ci-and-hypothesis-testing.html#confidence-intervals",
+    "title": "confidence intervals and hypothesis testing",
+    "section": "",
+    "text": "Confidence intervals provide a range around a sample estimate, indicating where the true population parameter is likely to lie with a given confidence level.\n\n\nFor a large sample with sample mean \\(\\bar{X}\\), standard deviation \\(\\sigma\\), and sample size \\(n\\), the confidence interval for the population mean \\(\\mu\\) is:\n\\[\n\\bar{X} \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\n\\]\nwhere: - \\(z_{\\alpha/2}\\) is the critical value from the standard normal distribution (e.g., \\(1.96\\) for 95% confidence). - \\(\\frac{\\sigma}{\\sqrt{n}}\\) is the standard error of the mean.\n\n\n\n95% Confidence Interval: \\(\\bar{X} \\pm 1.96 \\frac{\\sigma}{\\sqrt{n}}\\)\n90% Confidence Interval: \\(\\bar{X} \\pm 1.64 \\frac{\\sigma}{\\sqrt{n}}\\)\n99% Confidence Interval: \\(\\bar{X} \\pm 2.58 \\frac{\\sigma}{\\sqrt{n}}\\)\n\nAs \\(n\\) increases, the interval becomes narrower, indicating greater precision in estimating \\(\\mu\\)."
+  },
+  {
+    "objectID": "ci-and-hypothesis-testing.html#hypothesis-testing",
+    "href": "ci-and-hypothesis-testing.html#hypothesis-testing",
+    "title": "confidence intervals and hypothesis testing",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\nHypothesis testing assesses whether a sample provides sufficient evidence to reject a hypothesis about a population parameter.\n\nSteps in Hypothesis Testing\n\nSet Null and Alternative Hypotheses:\n\nNull Hypothesis \\(H_0\\): The parameter equals a specific value (e.g., \\(\\mu = m\\)).\nAlternative Hypothesis \\(H_1\\): The parameter differs from this value (e.g., \\(\\mu \\neq m\\)).\n\nCalculate the Test Statistic:\n\nFor large \\(n\\), the test statistic for the mean is: \\[\nt = \\frac{\\bar{X} - m}{\\text{s.e.}(\\bar{X})}\n\\] where \\(\\text{s.e.}(\\bar{X}) = \\frac{\\sigma}{\\sqrt{n}}\\).\n\nDecision Rule:\n\nFor a 5% significance level, reject \\(H_0\\) if \\(|t| &gt; 1.96\\).\nAlternatively, if \\(p\\)-value &lt; 0.05, reject \\(H_0\\).\n\n\n\nCommon Significance Levels\n\n5% Level: Critical value of \\(|t| &gt; 1.96\\)\n1% Level: Critical value of \\(|t| &gt; 2.58\\)\n10% Level: Critical value of \\(|t| &gt; 1.64\\)"
+  },
+  {
+    "objectID": "ci-and-hypothesis-testing.html#one-sample-test",
+    "href": "ci-and-hypothesis-testing.html#one-sample-test",
+    "title": "confidence intervals and hypothesis testing",
+    "section": "One-Sample Test",
+    "text": "One-Sample Test\nThe one-sample test compares the sample mean \\(\\bar{X}\\) to a hypothesized population mean \\(m\\).\n\nOne-Sample \\(t\\)-Test Statistic\nFor large \\(n\\), use:\n\\[\nt = \\frac{\\bar{X} - m}{\\text{s.e.}(\\bar{X})} = \\frac{\\bar{X} - m}{\\sigma / \\sqrt{n}}\n\\]\nwhere: - \\(\\bar{X}\\) is the sample mean. - \\(\\sigma\\) is the population standard deviation (or use sample standard deviation if unknown). - \\(n\\) is the sample size.\n\nDecision Rule\n\nReject \\(H_0\\) if \\(|t| &gt; 1.96\\) (for a 5% significance level).\n\n\n\nExample\nAssume \\(\\bar{X} = 50\\), \\(m = 52\\), \\(\\sigma = 10\\), and \\(n = 100\\). Calculate \\(t\\):\n\\[\nt = \\frac{50 - 52}{10 / \\sqrt{100}} = -2\n\\]\nSince \\(|t| = 2 &gt; 1.96\\), reject \\(H_0\\) at the 5% significance level."
+  },
+  {
+    "objectID": "ci-and-hypothesis-testing.html#two-sample-test",
+    "href": "ci-and-hypothesis-testing.html#two-sample-test",
+    "title": "confidence intervals and hypothesis testing",
+    "section": "Two-Sample Test",
+    "text": "Two-Sample Test\nThe two-sample test compares the means of two independent samples to determine if they are statistically different.\n\nTwo-Sample \\(t\\)-Test Statistic\nFor two samples with means \\(\\bar{X}_1\\) and \\(\\bar{X}_2\\), standard deviations \\(\\sigma_1\\) and \\(\\sigma_2\\), and sample sizes \\(n_1\\) and \\(n_2\\), the test statistic is:\n\\[\nt = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}}\n\\]\n\nHypotheses\n\nNull Hypothesis \\(H_0\\): \\(\\mu_1 = \\mu_2\\) (the two means are equal).\nAlternative Hypothesis \\(H_1\\): \\(\\mu_1 \\neq \\mu_2\\) (the means differ).\n\n\n\nDecision Rule\n\nReject \\(H_0\\) if \\(|t| &gt; 1.96\\) (for a 5% significance level).\n\n\n\nExample\nSuppose \\(\\bar{X}_1 = 0.0965\\), \\(\\bar{X}_2 = 0.0645\\), \\(n_1 = n_2 = 2435\\). Assume \\(X\\) is binary with variance \\(p(1 - p)\\), so:\n\\[\n\\sigma_1^2 = 0.0965 \\times (1 - 0.0965) / 2435\n\\] \\[\n\\sigma_2^2 = 0.0645 \\times (1 - 0.0645) / 2435\n\\]\nCalculate \\(t\\):\n\\[\nt = \\frac{0.0965 - 0.0645}{\\sqrt{0.0060 + 0.0050}} = 4.11\n\\]\nSince \\(|t| = 4.11 &gt; 1.96\\), reject \\(H_0\\) at the 5% significance level, concluding a significant difference between the two means."
+  },
+  {
+    "objectID": "ci-and-hypothesis-testing.html#duality-between-confidence-intervals-and-hypothesis-tests",
+    "href": "ci-and-hypothesis-testing.html#duality-between-confidence-intervals-and-hypothesis-tests",
+    "title": "confidence intervals and hypothesis testing",
+    "section": "Duality Between Confidence Intervals and Hypothesis Tests",
+    "text": "Duality Between Confidence Intervals and Hypothesis Tests\nA value \\(m\\) is in a 95% confidence interval for \\(\\mu\\) if we do not reject the null hypothesis \\(H_0: \\mu = m\\) at the 5% level. If \\(m\\) is outside this interval, we reject \\(H_0\\).\nThis section covers essential tools for interpreting confidence intervals, one-sample and two-sample hypothesis tests, and the connection to significance testing."
   },
   {
     "objectID": "micro-theory.html",
@@ -301,305 +308,46 @@
     "text": "Lecture 12: Externalities, the Coase Theorem, and Market Remedies\n\nKey Topics Covered:\n\nExternalities: Types, examples, and impact on social welfare.\nThe Coase Theorem: Conditions for efficient bargaining solutions.\nMarket Remedies for Externalities: Command-and-control regulation, Pigouvian taxes, and cap-and-trade systems.\nHistorical Application: Hornbeck’s barbed wire study.\n\n\n\n\n1. Externalities and Inefficiencies\nExternalities occur when an individual or firm does not face the “correct” (marginal social) cost for their actions, leading to overproduction of negative externalities or underproduction of positive externalities.\nExamples:\n- Negative Externalities: Traffic congestion, pollution, unvaccinated individuals increasing disease risk.\n- Positive Externalities: Vaccination benefits to society, clean public spaces.\nWhen externalities exist, the private benefits and costs deviate from social benefits and costs, leading to market inefficiency.\n\n\n\n2. The Coase Theorem\nThe Coase Theorem suggests that if property rights are well-defined and transaction costs are negligible, private parties can negotiate to reach an efficient outcome regardless of who holds the rights.\n\nKey Insights:\n\nEfficiency Over Assignment: The final allocation will be efficient if bargaining is feasible, though the distribution of wealth depends on the assignment of rights.\nLimitations: High transaction costs or poorly defined rights prevent efficient outcomes.\n\nExample: In the Sturges v. Bridgman case, a baker’s machinery disturbed a neighboring doctor. If they could negotiate costlessly, they would settle on the solution with the lowest total cost, regardless of who held the noise rights.\n\n\n\n\n3. Remedies for Externalities\n\nCommand-and-Control Regulation\nA quantity-based regulation that mandates specific limits on externality-generating activities. It is often rigid and requires detailed knowledge of each firm’s operations.\n\n\nPigouvian Taxes\nPrice-based regulation that taxes externalities at the rate of their marginal social damage, aligning private costs with social costs.\n\nOptimal Tax: For pollution, if social damage is $0.01 per cubic foot, a $0.01 tax per unit internalizes the externality.\nChallenges: Requires accurate knowledge of marginal social damage and risks if damage is non-linear.\n\n\n\nCap-and-Trade System\nAssigns property rights to a capped quantity of pollution permits, which firms can trade, ensuring efficient allocation through market forces.\n\nAdvantages: Balances control of pollution quantity with flexibility for firms, allowing low-cost abatement.\nExample: U.S. Clean Air Act’s sulfur dioxide permit trading, which successfully reduced pollution at lower costs than anticipated.\n\n\n\n\n\n4. Historical Application: Barbed Wire and Property Rights (Hornbeck, 2010)\nHornbeck examined how barbed wire fencing impacted agriculture in timber-scarce U.S. counties by reducing the cost of property rights protection, resulting in increased land productivity.\n\nKey Findings: Increased agricultural investment and productivity in timber-scarce areas post-barbed wire.\nInterpretation: The introduction of barbed wire either lowered transaction costs for negotiating over grazing or reduced abatement costs, allowing farmers to secure their land efficiently.\n\n\n\n\nSummary\nThis lecture examines how externalities can be managed through the Coase Theorem and various market-based remedies, each with its own advantages and limitations. Historical applications, like the barbed wire study, reveal how changes in the cost of enforcing property rights can enhance efficiency."
   },
   {
-    "objectID": "ci-and-hypothesis-testing.html",
-    "href": "ci-and-hypothesis-testing.html",
-    "title": "confidence intervals and hypothesis testing",
+    "objectID": "what-is-economics.html",
+    "href": "what-is-economics.html",
+    "title": "what is economics",
     "section": "",
-    "text": "Confidence intervals provide a range around a sample estimate, indicating where the true population parameter is likely to lie with a given confidence level.\n\n\nFor a large sample with sample mean \\(\\bar{X}\\), standard deviation \\(\\sigma\\), and sample size \\(n\\), the confidence interval for the population mean \\(\\mu\\) is:\n\\[\n\\bar{X} \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\n\\]\nwhere: - \\(z_{\\alpha/2}\\) is the critical value from the standard normal distribution (e.g., \\(1.96\\) for 95% confidence). - \\(\\frac{\\sigma}{\\sqrt{n}}\\) is the standard error of the mean.\n\n\n\n95% Confidence Interval: \\(\\bar{X} \\pm 1.96 \\frac{\\sigma}{\\sqrt{n}}\\)\n90% Confidence Interval: \\(\\bar{X} \\pm 1.64 \\frac{\\sigma}{\\sqrt{n}}\\)\n99% Confidence Interval: \\(\\bar{X} \\pm 2.58 \\frac{\\sigma}{\\sqrt{n}}\\)\n\nAs \\(n\\) increases, the interval becomes narrower, indicating greater precision in estimating \\(\\mu\\)."
+    "text": "economics is the study of how people allocate scarce resources to satisfy their unlimited wants.\n\nmicroeconomics\nmicroeconomics is the study of how individuals and firms make decisions and how these decisions interact.\n\n\nmacroeconomics\nmacroeconomics is the study of the economy as a whole. it is concerned with the behavior of the economy as a whole, including topics such as inflation, unemployment, and economic growth."
   },
   {
-    "objectID": "ci-and-hypothesis-testing.html#confidence-intervals",
-    "href": "ci-and-hypothesis-testing.html#confidence-intervals",
-    "title": "confidence intervals and hypothesis testing",
+    "objectID": "history-stuff.html",
+    "href": "history-stuff.html",
+    "title": "history stuff",
     "section": "",
-    "text": "Confidence intervals provide a range around a sample estimate, indicating where the true population parameter is likely to lie with a given confidence level.\n\n\nFor a large sample with sample mean \\(\\bar{X}\\), standard deviation \\(\\sigma\\), and sample size \\(n\\), the confidence interval for the population mean \\(\\mu\\) is:\n\\[\n\\bar{X} \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}\n\\]\nwhere: - \\(z_{\\alpha/2}\\) is the critical value from the standard normal distribution (e.g., \\(1.96\\) for 95% confidence). - \\(\\frac{\\sigma}{\\sqrt{n}}\\) is the standard error of the mean.\n\n\n\n95% Confidence Interval: \\(\\bar{X} \\pm 1.96 \\frac{\\sigma}{\\sqrt{n}}\\)\n90% Confidence Interval: \\(\\bar{X} \\pm 1.64 \\frac{\\sigma}{\\sqrt{n}}\\)\n99% Confidence Interval: \\(\\bar{X} \\pm 2.58 \\frac{\\sigma}{\\sqrt{n}}\\)\n\nAs \\(n\\) increases, the interval becomes narrower, indicating greater precision in estimating \\(\\mu\\)."
+    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
   },
   {
-    "objectID": "ci-and-hypothesis-testing.html#hypothesis-testing",
-    "href": "ci-and-hypothesis-testing.html#hypothesis-testing",
-    "title": "confidence intervals and hypothesis testing",
-    "section": "Hypothesis Testing",
-    "text": "Hypothesis Testing\nHypothesis testing assesses whether a sample provides sufficient evidence to reject a hypothesis about a population parameter.\n\nSteps in Hypothesis Testing\n\nSet Null and Alternative Hypotheses:\n\nNull Hypothesis \\(H_0\\): The parameter equals a specific value (e.g., \\(\\mu = m\\)).\nAlternative Hypothesis \\(H_1\\): The parameter differs from this value (e.g., \\(\\mu \\neq m\\)).\n\nCalculate the Test Statistic:\n\nFor large \\(n\\), the test statistic for the mean is: \\[\nt = \\frac{\\bar{X} - m}{\\text{s.e.}(\\bar{X})}\n\\] where \\(\\text{s.e.}(\\bar{X}) = \\frac{\\sigma}{\\sqrt{n}}\\).\n\nDecision Rule:\n\nFor a 5% significance level, reject \\(H_0\\) if \\(|t| &gt; 1.96\\).\nAlternatively, if \\(p\\)-value &lt; 0.05, reject \\(H_0\\).\n\n\n\nCommon Significance Levels\n\n5% Level: Critical value of \\(|t| &gt; 1.96\\)\n1% Level: Critical value of \\(|t| &gt; 2.58\\)\n10% Level: Critical value of \\(|t| &gt; 1.64\\)"
-  },
-  {
-    "objectID": "ci-and-hypothesis-testing.html#one-sample-test",
-    "href": "ci-and-hypothesis-testing.html#one-sample-test",
-    "title": "confidence intervals and hypothesis testing",
-    "section": "One-Sample Test",
-    "text": "One-Sample Test\nThe one-sample test compares the sample mean \\(\\bar{X}\\) to a hypothesized population mean \\(m\\).\n\nOne-Sample \\(t\\)-Test Statistic\nFor large \\(n\\), use:\n\\[\nt = \\frac{\\bar{X} - m}{\\text{s.e.}(\\bar{X})} = \\frac{\\bar{X} - m}{\\sigma / \\sqrt{n}}\n\\]\nwhere: - \\(\\bar{X}\\) is the sample mean. - \\(\\sigma\\) is the population standard deviation (or use sample standard deviation if unknown). - \\(n\\) is the sample size.\n\nDecision Rule\n\nReject \\(H_0\\) if \\(|t| &gt; 1.96\\) (for a 5% significance level).\n\n\n\nExample\nAssume \\(\\bar{X} = 50\\), \\(m = 52\\), \\(\\sigma = 10\\), and \\(n = 100\\). Calculate \\(t\\):\n\\[\nt = \\frac{50 - 52}{10 / \\sqrt{100}} = -2\n\\]\nSince \\(|t| = 2 &gt; 1.96\\), reject \\(H_0\\) at the 5% significance level."
-  },
-  {
-    "objectID": "ci-and-hypothesis-testing.html#two-sample-test",
-    "href": "ci-and-hypothesis-testing.html#two-sample-test",
-    "title": "confidence intervals and hypothesis testing",
-    "section": "Two-Sample Test",
-    "text": "Two-Sample Test\nThe two-sample test compares the means of two independent samples to determine if they are statistically different.\n\nTwo-Sample \\(t\\)-Test Statistic\nFor two samples with means \\(\\bar{X}_1\\) and \\(\\bar{X}_2\\), standard deviations \\(\\sigma_1\\) and \\(\\sigma_2\\), and sample sizes \\(n_1\\) and \\(n_2\\), the test statistic is:\n\\[\nt = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\sqrt{\\frac{\\sigma_1^2}{n_1} + \\frac{\\sigma_2^2}{n_2}}}\n\\]\n\nHypotheses\n\nNull Hypothesis \\(H_0\\): \\(\\mu_1 = \\mu_2\\) (the two means are equal).\nAlternative Hypothesis \\(H_1\\): \\(\\mu_1 \\neq \\mu_2\\) (the means differ).\n\n\n\nDecision Rule\n\nReject \\(H_0\\) if \\(|t| &gt; 1.96\\) (for a 5% significance level).\n\n\n\nExample\nSuppose \\(\\bar{X}_1 = 0.0965\\), \\(\\bar{X}_2 = 0.0645\\), \\(n_1 = n_2 = 2435\\). Assume \\(X\\) is binary with variance \\(p(1 - p)\\), so:\n\\[\n\\sigma_1^2 = 0.0965 \\times (1 - 0.0965) / 2435\n\\] \\[\n\\sigma_2^2 = 0.0645 \\times (1 - 0.0645) / 2435\n\\]\nCalculate \\(t\\):\n\\[\nt = \\frac{0.0965 - 0.0645}{\\sqrt{0.0060 + 0.0050}} = 4.11\n\\]\nSince \\(|t| = 4.11 &gt; 1.96\\), reject \\(H_0\\) at the 5% significance level, concluding a significant difference between the two means."
-  },
-  {
-    "objectID": "ci-and-hypothesis-testing.html#duality-between-confidence-intervals-and-hypothesis-tests",
-    "href": "ci-and-hypothesis-testing.html#duality-between-confidence-intervals-and-hypothesis-tests",
-    "title": "confidence intervals and hypothesis testing",
-    "section": "Duality Between Confidence Intervals and Hypothesis Tests",
-    "text": "Duality Between Confidence Intervals and Hypothesis Tests\nA value \\(m\\) is in a 95% confidence interval for \\(\\mu\\) if we do not reject the null hypothesis \\(H_0: \\mu = m\\) at the 5% level. If \\(m\\) is outside this interval, we reject \\(H_0\\).\nThis section covers essential tools for interpreting confidence intervals, one-sample and two-sample hypothesis tests, and the connection to significance testing."
-  },
-  {
-    "objectID": "linear-regression.html",
-    "href": "linear-regression.html",
-    "title": "linear regression",
+    "objectID": "history-stuff.html#what-is-capitalism",
+    "href": "history-stuff.html#what-is-capitalism",
+    "title": "history stuff",
     "section": "",
-    "text": "Linear regression is a fundamental statistical method for estimating the relationship between a dependent variable and one or more independent variables.\n\n\nThe population regression function describes the expected value of the outcome \\(Y\\) given the value of \\(X\\):\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X\n\\]\nFor a binary variable \\(X\\), this function indicates the difference in \\(Y\\) between two groups: - \\(E[Y | X = 1] - E[Y | X = 0] = \\beta_1\\)\nFor multiple variables (e.g., education \\(X_1\\) and experience \\(X_2\\)), the function becomes:\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2\n\\]\n\n\n\nThe Law of Iterated Expectations states:\n\\[\nE[Y] = E[E[Y | X]]\n\\]\nFor binary \\(X\\), it simplifies to:\n\\[\nE[Y] = E[Y | X = 1] \\cdot P(X = 1) + E[Y | X = 0] \\cdot P(X = 0)\n\\] Where \\(P\\) is a proportion.\n\n\n\nThe regression model includes an error term \\(u\\) to capture the variation in \\(Y\\) unexplained by \\(X\\):\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nwhere \\(E[u | X] = 0\\). The full model for multiple variables \\(X_1, X_2, \\ldots, X_k\\) is:\n\\[\nY = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2 + \\ldots + \\beta_k X_k + u\n\\]\n\n\n\nThe OLS estimator minimizes the sum of squared residuals (differences between observed and predicted values):\n\\[\n\\hat{\\beta} = \\text{argmin}_\\beta \\sum_{i=1}^n (Y_i - X_i' \\beta)^2\n\\]\nwhere \\(X_i'\\) is the vector of regressors for observation \\(i\\). The solution for \\(\\hat{\\beta}\\), the OLS estimator, is:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\n\n\nFor a simple linear model with one regressor:\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nThe slope coefficient \\(\\beta_1\\) is:\n\\[\n\\beta_1 = \\frac{\\text{cov}(Y, X)}{\\text{var}(X)}\n\\]\nand the intercept \\(\\beta_0\\) is:\n\\[\n\\beta_0 = E[Y] - \\beta_1 E[X]\n\\]\n\n\n\n\n\nFitted values: \\(\\hat{Y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 X_i\\)\nResiduals: \\(\\hat{u}_i = Y_i - \\hat{Y}_i\\)\n\n\n\n\n\nUnbiasedness: Under the assumption \\(E[u | X] = 0\\), the OLS estimator is unbiased: \\[\nE[\\hat{\\beta}] = \\beta\n\\]\nConsistency: As the sample size \\(n \\to \\infty\\), \\(\\hat{\\beta}\\) converges to the true \\(\\beta\\).\n\n\n\n\nIf \\(u\\) has constant variance (homoskedasticity), the variance of \\(\\hat{\\beta}\\) is:\n\\[\n\\text{var}(\\hat{\\beta}) = \\sigma^2 (X'X)^{-1}\n\\]\nwhere \\(\\sigma^2 = \\text{var}(u)\\). Under heteroskedasticity, robust standard errors are often used instead.\n\n\n\nTo test if a coefficient \\(\\beta_j = 0\\), we calculate the t-statistic:\n\\[\nt = \\frac{\\hat{\\beta}_j}{\\text{se}(\\hat{\\beta}_j)}\n\\]\nwhere \\(\\text{se}(\\hat{\\beta}_j)\\) is the standard error of \\(\\hat{\\beta}_j\\). For a 5% significance level, if \\(|t| &gt; 1.96\\), we reject the null hypothesis \\(\\beta_j = 0\\).\n\n\n\n\nR-Squared: Measures the proportion of variance in \\(Y\\) explained by \\(X\\). \\[\nR^2 = 1 - \\frac{\\sum_{i=1}^n \\hat{u}_i^2}{\\sum_{i=1}^n (Y_i - \\bar{Y})^2}\n\\]\nInterpretation: An \\(R^2\\) close to 1 suggests a strong relationship between \\(Y\\) and \\(X\\), while an \\(R^2\\) close to 0 suggests a weak relationship.\n\n\n\n\nMulticollinearity occurs when predictors in \\(X\\) are highly correlated, making it difficult to isolate the effect of each predictor on \\(Y\\). This can cause large variances in \\(\\hat{\\beta}\\), leading to unreliable estimates.\n\n\n\nFor large samples, \\(\\hat{\\beta}\\) is approximately normally distributed:\n\\[\n\\sqrt{n}(\\hat{\\beta} - \\beta) \\sim N(0, V)\n\\]\nwhere \\(V = Q^{-1} \\Sigma Q^{-1}\\), with \\(Q = E[X'X]\\) and \\(\\Sigma = E[u^2 X X']\\)."
+    "text": "Capitalism is an economic system where trade, industry, and the means of production are largely or entirely privately owned and operated for profit. In capitalism, capital (money or other assets) is invested with the aim of generating returns, with markets primarily guiding production and distribution."
   },
   {
-    "objectID": "linear-regression.html#linear-regression",
-    "href": "linear-regression.html#linear-regression",
-    "title": "linear regression",
-    "section": "",
-    "text": "Linear regression is a fundamental statistical method for estimating the relationship between a dependent variable and one or more independent variables.\n\n\nThe population regression function describes the expected value of the outcome \\(Y\\) given the value of \\(X\\):\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X\n\\]\nFor a binary variable \\(X\\), this function indicates the difference in \\(Y\\) between two groups: - \\(E[Y | X = 1] - E[Y | X = 0] = \\beta_1\\)\nFor multiple variables (e.g., education \\(X_1\\) and experience \\(X_2\\)), the function becomes:\n\\[\nE[Y | X] = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2\n\\]\n\n\n\nThe Law of Iterated Expectations states:\n\\[\nE[Y] = E[E[Y | X]]\n\\]\nFor binary \\(X\\), it simplifies to:\n\\[\nE[Y] = E[Y | X = 1] \\cdot P(X = 1) + E[Y | X = 0] \\cdot P(X = 0)\n\\] Where \\(P\\) is a proportion.\n\n\n\nThe regression model includes an error term \\(u\\) to capture the variation in \\(Y\\) unexplained by \\(X\\):\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nwhere \\(E[u | X] = 0\\). The full model for multiple variables \\(X_1, X_2, \\ldots, X_k\\) is:\n\\[\nY = \\beta_0 + \\beta_1 X_1 + \\beta_2 X_2 + \\ldots + \\beta_k X_k + u\n\\]\n\n\n\nThe OLS estimator minimizes the sum of squared residuals (differences between observed and predicted values):\n\\[\n\\hat{\\beta} = \\text{argmin}_\\beta \\sum_{i=1}^n (Y_i - X_i' \\beta)^2\n\\]\nwhere \\(X_i'\\) is the vector of regressors for observation \\(i\\). The solution for \\(\\hat{\\beta}\\), the OLS estimator, is:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\n\n\nFor a simple linear model with one regressor:\n\\[\nY = \\beta_0 + \\beta_1 X + u\n\\]\nThe slope coefficient \\(\\beta_1\\) is:\n\\[\n\\beta_1 = \\frac{\\text{cov}(Y, X)}{\\text{var}(X)}\n\\]\nand the intercept \\(\\beta_0\\) is:\n\\[\n\\beta_0 = E[Y] - \\beta_1 E[X]\n\\]\n\n\n\n\n\nFitted values: \\(\\hat{Y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 X_i\\)\nResiduals: \\(\\hat{u}_i = Y_i - \\hat{Y}_i\\)\n\n\n\n\n\nUnbiasedness: Under the assumption \\(E[u | X] = 0\\), the OLS estimator is unbiased: \\[\nE[\\hat{\\beta}] = \\beta\n\\]\nConsistency: As the sample size \\(n \\to \\infty\\), \\(\\hat{\\beta}\\) converges to the true \\(\\beta\\).\n\n\n\n\nIf \\(u\\) has constant variance (homoskedasticity), the variance of \\(\\hat{\\beta}\\) is:\n\\[\n\\text{var}(\\hat{\\beta}) = \\sigma^2 (X'X)^{-1}\n\\]\nwhere \\(\\sigma^2 = \\text{var}(u)\\). Under heteroskedasticity, robust standard errors are often used instead.\n\n\n\nTo test if a coefficient \\(\\beta_j = 0\\), we calculate the t-statistic:\n\\[\nt = \\frac{\\hat{\\beta}_j}{\\text{se}(\\hat{\\beta}_j)}\n\\]\nwhere \\(\\text{se}(\\hat{\\beta}_j)\\) is the standard error of \\(\\hat{\\beta}_j\\). For a 5% significance level, if \\(|t| &gt; 1.96\\), we reject the null hypothesis \\(\\beta_j = 0\\).\n\n\n\n\nR-Squared: Measures the proportion of variance in \\(Y\\) explained by \\(X\\). \\[\nR^2 = 1 - \\frac{\\sum_{i=1}^n \\hat{u}_i^2}{\\sum_{i=1}^n (Y_i - \\bar{Y})^2}\n\\]\nInterpretation: An \\(R^2\\) close to 1 suggests a strong relationship between \\(Y\\) and \\(X\\), while an \\(R^2\\) close to 0 suggests a weak relationship.\n\n\n\n\nMulticollinearity occurs when predictors in \\(X\\) are highly correlated, making it difficult to isolate the effect of each predictor on \\(Y\\). This can cause large variances in \\(\\hat{\\beta}\\), leading to unreliable estimates.\n\n\n\nFor large samples, \\(\\hat{\\beta}\\) is approximately normally distributed:\n\\[\n\\sqrt{n}(\\hat{\\beta} - \\beta) \\sim N(0, V)\n\\]\nwhere \\(V = Q^{-1} \\Sigma Q^{-1}\\), with \\(Q = E[X'X]\\) and \\(\\Sigma = E[u^2 X X']\\)."
+    "objectID": "history-stuff.html#before-capitalism",
+    "href": "history-stuff.html#before-capitalism",
+    "title": "history stuff",
+    "section": "Before Capitalism",
+    "text": "Before Capitalism\nBefore capitalism, most economies were structured around feudalism (up to the 15th century in Europe). Under feudalism, land was the main source of wealth, controlled by nobles, and labor was provided by serfs bound to the land. Production was for subsistence rather than profit, with little to no focus on market-based exchange."
   },
   {
-    "objectID": "linear-regression.html#deriving-the-argmin-function-in-linear-regression",
-    "href": "linear-regression.html#deriving-the-argmin-function-in-linear-regression",
-    "title": "linear regression",
-    "section": "Deriving the argmin Function in Linear Regression",
-    "text": "Deriving the argmin Function in Linear Regression\nIn the context of Ordinary Least Squares (OLS) regression, the argmin function identifies the values of the coefficients \\(\\beta = (\\beta_0, \\beta_1, \\ldots, \\beta_k)\\) that minimize the average squared difference between the observed values and the values predicted by the model.\n\nStep 1: Setting up the Problem\nTo find the best linear approximation of \\(Y\\) in terms of \\(X\\), we express \\(Y\\) as:\n\\[\nY = X'\\beta + u\n\\]\nwhere: - \\(Y\\) is the dependent variable. - \\(X\\) is a matrix of independent variables (each row represents an observation, and each column represents a variable). - \\(\\beta\\) is the vector of coefficients we aim to estimate. - \\(u\\) is the error term, assumed to have a mean of zero, i.e., \\(E[u | X] = 0\\).\nGiven this setup, we seek the \\(\\beta\\) that minimizes the expected squared error, or the mean squared error function:\n\\[\n\\beta = \\text{argmin}_{b \\in \\mathbb{R}^k} E[(Y - X'b)^2]\n\\]\n\n\nStep 2: Using the Property of Expectations to Define the Objective\nFor any value \\(c\\), we know that:\n\\[\nE[(Y - E[Y])^2] \\leq E[(Y - c)^2]\n\\]\nThis property implies that the optimal \\(b\\) minimizes the squared deviation of \\(Y\\) from its conditional expectation \\(E[Y | X]\\). Hence, \\(\\beta\\) is the value that minimizes:\n\\[\nE[(Y - X'b)^2]\n\\]\nThis function is minimized when \\(E[Y | X] = X'\\beta\\), which forms the basis of the OLS estimation.\n\n\nStep 3: Sample-Based Minimization (Estimation with Observed Data)\nIn practice, we estimate \\(\\beta\\) using a sample of data points \\((Y_1, X_1), (Y_2, X_2), \\ldots, (Y_n, X_n)\\). The sample-based version of the minimization problem becomes:\n\\[\n\\hat{\\beta} = \\text{argmin}_{b \\in \\mathbb{R}^k} \\frac{1}{n} \\sum_{i=1}^n (Y_i - X_i'b)^2\n\\]\nAlternatively, this can be simplified as:\n\\[\n\\hat{\\beta} = \\text{argmin}_{b \\in \\mathbb{R}^k} \\sum_{i=1}^n (Y_i - X_i'b)^2\n\\]\n\n\nStep 4: Solving for \\(\\hat{\\beta}\\)\nTo find the values of \\(\\hat{\\beta}\\) that minimize the sum of squared residuals, we differentiate the objective function with respect to each element of \\(\\beta\\), set these derivatives to zero, and solve for \\(\\beta\\). This yields the OLS estimator:\n\\[\n\\hat{\\beta} = (X'X)^{-1} X'Y\n\\]\nThis solution for \\(\\hat{\\beta}\\) provides the regression coefficients that minimize the sum of squared residuals, making it the best linear predictor of \\(Y\\) based on \\(X\\)."
+    "objectID": "history-stuff.html#origins-and-timeline-of-capitalism",
+    "href": "history-stuff.html#origins-and-timeline-of-capitalism",
+    "title": "history stuff",
+    "section": "Origins and Timeline of Capitalism",
+    "text": "Origins and Timeline of Capitalism\n\nEarly 16th to 18th Century: Proto-capitalist structures began emerging with the Commercial Revolution in Europe. Trade expanded, and early banking and joint-stock companies were created, laying the groundwork for capitalism.\nLate 18th Century: Capitalism as we recognize it took root with the Industrial Revolution (starting around the 1760s in Britain). This period saw significant technological advancements and mechanization, leading to mass production and factory systems.\n1776: Adam Smith’s seminal work, The Wealth of Nations, was published, advocating for free markets and explaining productivity gains from the division of labor. Smith’s pin factory example demonstrated how dividing tasks increased output significantly."
   },
   {
-    "objectID": "index.html#site-map",
-    "href": "index.html#site-map",
-    "title": "my phd",
-    "section": "Site Map",
-    "text": "Site Map\n\n\n\n\n\nmindmap\n  root((mindmap))\n    Maths\n      ::icon(fa fa-book)\n      Popularisation\n        British popular psychology author Tony Buzan\n    Research\n      On effectivness&lt;br/&gt;and features\n      On Automatic creation\n        Uses\n            Creative techniques\n            Strategic planning\n            Argument mapping\n    Tools\n      Pen and paper\n      Mermaid"
-  },
-  {
-    "objectID": "index.html#high-level",
-    "href": "index.html#high-level",
-    "title": "my phd",
-    "section": "High-level",
-    "text": "High-level\n\n\n\n\n\n\nflowchart TD\n    A[Year 1] --&gt; F(Coursework) --&gt; G(First Year Paper)\n    B[Year 2] --&gt; H(Coursework) --&gt; I(General Exams)\n    C[Year 3] --&gt; J(Thesis Proposal) --&gt; K(Thesis Writing)\n    D[Year 4] --&gt; L(Thesis Writing)\n    E[Year 5] --&gt; M(Thesis Writing)"
-  },
-  {
-    "objectID": "index.html#detailed",
-    "href": "index.html#detailed",
-    "title": "my phd",
-    "section": "Detailed",
-    "text": "Detailed\n\nYear 1Year 2Year 3Year 4Year 5\n\n\n\nHighlights:\n\nWon a $20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.\nCompleted subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it.\nI successfully led the effort to increase the Conference Fund for PhD students from $600 to $1,300 per year.\nI sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester. I was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution. I also became a Resident Advisor for my graduate dormitory, The Warehouse.\nI was an RA for Prof. Wen-Chi Liao (NUS) in the Fall and a TA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot.\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\nCS50\nIntroduction to Computer Science\n12\nN\nP\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\nResearch:\n\n\nTeaching/Research Assistantship\n\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\n\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\n\n\n\n11.919\nPhD Workshop\n1\nG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContent for Tab 3.\n\n\nContent for Tab 4.\n\n\nContent for Tab 5."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#ai",
-    "href": "reading-list-by-topic.html#ai",
-    "title": "reading list",
-    "section": "AI",
-    "text": "AI"
-  },
-  {
-    "objectID": "reading-list-by-topic.html#econometrics",
-    "href": "reading-list-by-topic.html#econometrics",
-    "title": "Reading List",
-    "section": "Econometrics",
-    "text": "Econometrics\n\nIntroductory Econometrics\n\nStock, J.H. & Watson, M.W. (2003, updated editions). Introduction to Econometrics: A highly accessible introduction to econometric methods, focusing on real-world applications and intuition. finished\n\n\n\n\nIntermediate and Applied Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2009). Mostly Harmless Econometrics: An Empiricist’s Companion: Focuses on applied econometrics with clear explanations of causal inference techniques.\n\n\n\n\nAdvanced Econometrics\n\nHayashi, F. (2000). Econometrics: An excellent resource for graduate-level econometrics, with a rigorous approach to the theoretical foundations.\n\n\n\n\nCausal Inference and Experimental Econometrics\n\nAngrist, J.D. & Pischke, J-S. (2014). Mastering ’Metrics: The Path from Cause to Effect: A user-friendly book on causal inference with real-world examples.\n\n\n\n\nHistorical and Conceptual Perspectives\n\nHoover, K.D. (2001). Causality in Macroeconomics: Explores the philosophical and econometric foundations of causality."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#detailed",
-    "href": "reading-list-by-topic.html#detailed",
-    "title": "reading list",
-    "section": "Detailed",
-    "text": "Detailed\n\nTheoryToolsResearch Topics\n\n\n\n\n\n\nEconometrics\n\nMastering Metrics, Josh Angrist and Jorn-Steffen Pischke\n\n\n\n\n\nEducation\n\nEarly Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
-  },
-  {
-    "objectID": "reading-list-by-topic.html#education",
-    "href": "reading-list-by-topic.html#education",
-    "title": "Reading List",
-    "section": "Education",
-    "text": "Education\n\nEarly Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
-  },
-  {
-    "objectID": "reading-list-by-topic.html#classical-economics",
-    "href": "reading-list-by-topic.html#classical-economics",
-    "title": "Reading List",
-    "section": "1. Classical Economics",
-    "text": "1. Classical Economics\n\nSmith, A. (1776). The Wealth of Nations: Foundational text for classical economics, focusing on free markets, division of labor, and the “invisible hand.”\nRicardo, D. (1817). The Principles of Political Economy and Taxation: Key text in classical economics, discussing comparative advantage and trade.\nMill, J.S. (1848). Principles of Political Economy: An important synthesis of classical economics, bridging the works of Smith and Ricardo with social philosophy."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#political-economy-and-critique-of-capitalism",
-    "href": "reading-list-by-topic.html#political-economy-and-critique-of-capitalism",
-    "title": "Reading List",
-    "section": "2. Political Economy and Critique of Capitalism",
-    "text": "2. Political Economy and Critique of Capitalism\n\nMarx, K. (1973). Capital: A Critique of Political Economy: Marx’s analysis of capitalism, focusing on class struggle, labor value, and exploitation.\nPolanyi, K. (1957). The Great Transformation: Critique of market society and its social and political impacts.\nVeblen, T. (1899). The Theory of the Leisure Class: A critique of consumerism and capitalism, introducing the concept of “conspicuous consumption.”\nLenin, V.I. (1917). Imperialism, the Highest Stage of Capitalism: Marxist analysis of capitalism’s expansion through imperialism."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#economic-growth-and-development",
-    "href": "reading-list-by-topic.html#economic-growth-and-development",
-    "title": "Reading List",
-    "section": "3. Economic Growth and Development",
-    "text": "3. Economic Growth and Development\n\nSchumpeter, J. (1934). The Theory of Economic Development: Focus on innovation, entrepreneurship, and their roles in economic growth.\nRostow, W.W. (1960). The Stages of Economic Growth: A Non-Communist Manifesto: A theory of economic modernization and development."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#population-and-resource-economics",
-    "href": "reading-list-by-topic.html#population-and-resource-economics",
-    "title": "Reading List",
-    "section": "4. Population and Resource Economics",
-    "text": "4. Population and Resource Economics\n\nMalthus, T. (1798). An Essay on the Principle of Population: Early work on population dynamics and resource scarcity.\nGeorge, H. (1879). Progress and Poverty: Examines the relationship between economic progress, poverty, and land ownership, advocating a land value tax."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#modern-economic-thought",
-    "href": "reading-list-by-topic.html#modern-economic-thought",
-    "title": "Reading List",
-    "section": "5. Modern Economic Thought",
-    "text": "5. Modern Economic Thought\n\nKeynes, J. M. (1936). The General Theory of Employment, Interest and Money: Groundbreaking work in macroeconomics, introducing concepts like aggregate demand and government intervention.\nFriedman, M. (1962). Capitalism and Freedom: Advocates for free markets and critiques government intervention, foundational for neoliberal thought. finished\nSamuelson, P.A. (1947). Foundations of Economic Analysis: Establishes mathematical foundations for modern economics.\nHayek, F.A. (1944). The Road to Serfdom: Critique of central planning and defense of free-market liberalism."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#historical-and-institutional-economics",
-    "href": "reading-list-by-topic.html#historical-and-institutional-economics",
-    "title": "Reading List",
-    "section": "6. Historical and Institutional Economics",
-    "text": "6. Historical and Institutional Economics\n\nWeber, M. (1905). The Protestant Ethic and the Spirit of Capitalism: Explores the cultural and religious origins of capitalism.\nGalbraith, J.K. (1958). The Affluent Society: Critique of postwar consumerism and a call for public investment."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#macroeconomics-and-monetary-theory",
-    "href": "reading-list-by-topic.html#macroeconomics-and-monetary-theory",
-    "title": "Reading List",
-    "section": "7. Macroeconomics and Monetary Theory",
-    "text": "7. Macroeconomics and Monetary Theory\n\nKeynes, J.M. (1936). The General Theory of Employment, Interest, and Money: Though published in the interwar period, it profoundly shaped post-war macroeconomics.\nSamuelson, P.A. (1947). Foundations of Economic Analysis: Introduced mathematical rigor to economics, emphasizing optimization and equilibrium.\nFriedman, M. (1968). A Monetary History of the United States: A landmark work in monetarism, advocating the importance of monetary policy.\nLucas, R.E. (1976). Studies in Business Cycle Theory: Laid the foundation for rational expectations and modern macroeconomic modeling."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#microeconomics-and-game-theory",
-    "href": "reading-list-by-topic.html#microeconomics-and-game-theory",
-    "title": "Reading List",
-    "section": "8. Microeconomics and Game Theory",
-    "text": "8. Microeconomics and Game Theory\n\nvon Neumann, J. & Morgenstern, O. (1944). Theory of Games and Economic Behavior: The foundational text of game theory.\nDebreu, G. (1959). Theory of Value: Introduced general equilibrium theory using formal mathematics.\nBecker, G.S. (1976). The Economic Approach to Human Behavior: Extended economic analysis to areas like education, family, and crime."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#development-economics",
-    "href": "reading-list-by-topic.html#development-economics",
-    "title": "Reading List",
-    "section": "9. Development Economics",
-    "text": "9. Development Economics\n\nSen, A. (1981). Poverty and Famines: Introduced the capabilities approach, shifting the focus of development from income to well-being.\nLewis, W.A. (1954). Economic Development with Unlimited Supplies of Labor: A key text in development economics, explaining the dual-sector model.\nRostow, W.W. (1960). The Stages of Economic Growth: A theory of economic modernization."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#behavioral-and-experimental-economics",
-    "href": "reading-list-by-topic.html#behavioral-and-experimental-economics",
-    "title": "Reading List",
-    "section": "10. Behavioral and Experimental Economics",
-    "text": "10. Behavioral and Experimental Economics\n\nKahneman, D. & Tversky, A. (1979). Prospect Theory: An Analysis of Decision under Risk: A foundational paper in behavioral economics.\nThaler, R.H. (1991). Quasi-Rational Economics: Explores how psychological factors influence economic decision-making."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#institutional-and-political-economy",
-    "href": "reading-list-by-topic.html#institutional-and-political-economy",
-    "title": "Reading List",
-    "section": "11. Institutional and Political Economy",
-    "text": "11. Institutional and Political Economy\n\nNorth, D.C. (1990). Institutions, Institutional Change, and Economic Performance: A classic in institutional economics, exploring how institutions shape economic outcomes.\nOstrom, E. (1990). Governing the Commons: Analyzes how communities manage shared resources without relying on markets or central governments."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#inequality-and-capitalism",
-    "href": "reading-list-by-topic.html#inequality-and-capitalism",
-    "title": "Reading List",
-    "section": "12. Inequality and Capitalism",
-    "text": "12. Inequality and Capitalism\n\nPiketty, T. (2013). Capital in the Twenty-First Century: Explores inequality dynamics and the accumulation of wealth.\nStiglitz, J.E. (2012). The Price of Inequality: Examines the economic and political consequences of inequality."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#environmental-and-resource-economics",
-    "href": "reading-list-by-topic.html#environmental-and-resource-economics",
-    "title": "Reading List",
-    "section": "13. Environmental and Resource Economics",
-    "text": "13. Environmental and Resource Economics\n\nCoase, R.H. (1960). The Problem of Social Cost: Introduced the Coase theorem, a key idea in environmental economics.\nSolow, R.M. (1956). A Contribution to the Theory of Economic Growth: Introduced the concept of sustainable economic growth."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#other",
-    "href": "reading-list-by-topic.html#other",
-    "title": "Reading List",
-    "section": "14. Other",
-    "text": "14. Other\n\n\nIntroductory and General Overviews\n\nSamuelson, P.A. & Nordhaus, W.D. (1948, updated editions). Economics: A classic introductory textbook covering both microeconomics and macroeconomics.\nMankiw, N.G. (1998, updated editions). Principles of Economics: A popular textbook with a clear and accessible introduction to core economic principles.\nKrugman, P. & Wells, R. (2005, updated editions). Economics: Offers a modern perspective with a focus on policy and practical applications.\n\n\n\n\nHistorical Perspectives\n\nHeilbroner, R. (1953). The Worldly Philosophers: A highly readable history of economic thought, introducing key thinkers like Adam Smith, Karl Marx, and John Maynard Keynes. finished\nBackhouse, R.E. (2002). The Penguin History of Economics: Traces the evolution of economic thought from ancient times to the modern day.\n\n\n\n\nModern Overviews\n\nBanerjee, A.V. & Duflo, E. (2019). Good Economics for Hard Times: Provides insights into contemporary economic challenges like inequality, trade, and migration.\nAcemoglu, D. & Robinson, J. (2012). Why Nations Fail: Examines the role of institutions in shaping economic success and failure.\nBanergee, A. & Duflo, E. (2011). Poor Economics: Explores the economics of poverty and development, drawing on field experiments and empirical research. finished\n\n\n\n\nBehavioral Economics and Decision-Making\n\nThaler, R.H. & Sunstein, C.R. (2008). Nudge: Explores how small interventions can influence economic decision-making. finished\nKahneman, D. (2011). Thinking, Fast and Slow: Examines how cognitive biases affect decisions, including economic choices. finished\n\n\n\n\nAdvanced Surveys\n\nBlanchard, O. (2017). Macroeconomics: A comprehensive macroeconomics textbook, often used in advanced undergraduate and graduate courses.\nVarian, H.R. (1992, updated editions). Microeconomic Analysis: A rigorous treatment of microeconomics for advanced students.\nRomer, D. (1996, updated editions). Advanced Macroeconomics: Provides deeper insights into macroeconomic theory.\n\n\n\n\nFor Critical Perspectives\n\nSkidelsky, R. (2009). Keynes: The Return of the Master: Revisits Keynesian economics in light of the global financial crisis."
-  },
-  {
-    "objectID": "reading-list-by-topic.html#mathematics",
-    "href": "reading-list-by-topic.html#mathematics",
-    "title": "Reading List",
-    "section": "Mathematics",
-    "text": "Mathematics\n\nMathematics for Economics\n\nChiang, A.C. & Wainwright, K. (2005). Fundamental Methods of Mathematical Economics: A widely-used, accessible textbook introducing calculus, linear algebra, and optimization techniques in economic contexts. 10%"
-  },
-  {
-    "objectID": "reading-list-by-topic.html#software",
-    "href": "reading-list-by-topic.html#software",
-    "title": "Reading List",
-    "section": "Software",
-    "text": "Software\n\nData Science and Computational Tools for Economists\n\nWickham, H. & Grolemund, G. (2017). R for Data Science: An excellent introduction to data science workflows and statistical analysis using R, invaluable for economists handling data. finished\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nThe Bradley-Terry-Luce (BTL) model is a popular statistical approach for estimating the global ranking of a collection of items using pairwise comparisons. To ensure accurate ranking, it is essential to obtain precise estimates of the model parameters in the \\(\\ell_{\\infty}\\)-loss. The difficulty of this task depends crucially on the topology of the pairwise comparison graph over the given items. However, beyond very few well-studied cases, such as the complete and Erdös-Rényi comparison graphs, little is known about the performance of the maximum likelihood estimator (MLE) of the BTL model parameters in the \\(\\ell_{\\infty}\\)-loss under more general graph topologies. In this paper, we derive novel, general upper bounds on the ℓ∞ estimation error of the BTL MLE that depend explicitly on the algebraic connectivity of the comparison graph, the maximal performance gap across items and the sample complexity. We demonstrate that the derived bounds perform well and in some cases are sharper compared to known results obtained using different loss functions and more restricted assumptions and graph topologies. We carefully compare our results to Yan et al. (2012), which is closest in spirit to our work. We further provide minimax lower bounds under \\(\\ell_{\\infty}\\)-error that nearly match the upper bounds over a class of sufficiently regular graph topologies. Finally, we study the implications of our \\(\\ell_{\\infty}\\)-bounds for efficient (offline) tournament design. We illustrate and discuss our findings through various examples and simulations."
-  },
-  {
-    "objectID": "general-exam/index.html#going-to-sleep",
-    "href": "general-exam/index.html#going-to-sleep",
-    "title": "General Exam Plan",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep"
-  },
-  {
-    "objectID": "general-exam/index.html#hello-there",
-    "href": "general-exam/index.html#hello-there",
-    "title": "General Exam Plan",
-    "section": "Hello, There",
-    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nActivating scroll view\n\n…and much more"
-  },
-  {
-    "objectID": "general-exam/index.html#pretty-code",
-    "href": "general-exam/index.html#pretty-code",
-    "title": "General Exam Plan",
-    "section": "Pretty Code",
-    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#the-post-cold-war-world",
-    "href": "ppt/capitalism/index.html#the-post-cold-war-world",
-    "title": "Capitalism",
-    "section": "The Post-Cold War World",
-    "text": "The Post-Cold War World\n\nCapitalism is now the sole socio-economic system in the world\nNo historical precedent to world entirely operating under the same economic principles. Production operating for profit using legally free wage labour and mostly privately owned capital, with decentralised coordination\nTwo types of capitalism: (i) liberal meritocratic and (ii) state lead political, or authoritarian\nIndustrial Revolution led to increasing global inequality. ICT revolution led to decreasing global inequality through rise of Asia.\nThese two types appear to be competing with each other. Political provides greater autonomy to political elites, seems to promise higher growth to ordinary people. Liberal provides democracy, rule of law and social mobility.\nReduce social mobility is a threat to the systems, attractiveness and survival."
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#pretty-code",
-    "href": "ppt/capitalism/index.html#pretty-code",
-    "title": "Capitalism",
-    "section": "Pretty Code",
-    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#books",
-    "href": "ppt/capitalism/index.html#books",
-    "title": "Capitalism",
-    "section": "Books",
-    "text": "Books\n\nMilanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#liberal-meritocratic-capitalism",
-    "href": "ppt/capitalism/index.html#liberal-meritocratic-capitalism",
-    "title": "Capitalism",
-    "section": "Liberal meritocratic capitalism",
-    "text": "Liberal meritocratic capitalism\n\nCapitalism:\n\nProduction mostly carried out by privately owned means of production. Capital hires legally free labour, coordination decentralised. Most investment decisions made by private companies or individual entrepreneurs.\n\n“Meritocratic” - careers are open to talent. No legal obstacles preventing individuals from achieving given position in society.\n“Liberal” - high inheritance tax, free education"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#cont.",
-    "href": "ppt/capitalism/index.html#cont.",
-    "title": "Capitalism",
-    "section": "Cont.",
-    "text": "Cont.\n“Liberal”: how much social mobility?\n“Meritocratic”: how goods are distributed?\n“Capitalism”: how good are produce/distributed?"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#transition",
-    "href": "ppt/capitalism/index.html#transition",
-    "title": "Capitalism",
-    "section": "Transition",
-    "text": "Transition\n\n\n\n\n\n\n\n\n\n\nClassical capitalism\nSocial democratic capital\nLiberal meritocratic capitalism\n\n\n\n\nRising share of capital income in net production\nYes\nNo\nYes\n\n\nHigh concentration of capital ownership\nYes\nYes\nYes\n\n\nAbundant individuals are rich\nYes\nYes\nYes\n\n\nCapital income rich are also labour income rich\nNo\nNo\nYes\n\n\nRich (Or potentially rich) marry each other (homogamy)\nYes (to some extent)\nNo\nYes\n\n\nHigh correlation of income between parents and children (transmission of advantage)\nYes\nYes, but in some cases weak\nYes\n\n\n\nUK before 1914\nUS, Europe after World War II\nUS in the early 21st century"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#features",
-    "href": "ppt/capitalism/index.html#features",
-    "title": "Capitalism",
-    "section": "Features",
-    "text": "Features\n\n\n\n\n\n\n\n\n\n\nClassical capitalism\nSocial democratic capital\nLiberal meritocratic capitalism\n\n\n\n\nRising share of capital income in net production\nYes\nNo\nYes\n\n\nHigh concentration of capital ownership\nYes\nYes\nYes\n\n\nAbundant individuals are rich\nYes\nYes\nYes\n\n\nCapital income rich are also labour income rich\nNo\nNo\nYes\n\n\nRich (Or potentially rich) marry each other (homogamy)\nYes (to some extent)\nNo\nYes\n\n\nHigh correlation of income between parents and children (transmission of advantage)\nYes\nYes, but in some cases weak\nYes\n\n\n\nUK before 1914\nUS, Europe after World War II\nUS in the early 21st century"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#systemic-inequalities",
-    "href": "ppt/capitalism/index.html#systemic-inequalities",
-    "title": "Capitalism",
-    "section": "Systemic Inequalities",
-    "text": "Systemic Inequalities\n\nIncreasing capital share of income\n\nMultiple possible reasons: increasing monopolies, less organised labour, declining cost of capital goods, bargaining power change, increased outsourcing\nWill impact income in a quality because of distribution of capital\n\n\n\nHigh capital ownership concentration\n\nOnly shock to it has come from wars, revolutions and in some cases unanticipated hyperinflation.\nCapital income is extremely concentrated and is received mostly by the rich\nRicher countries will “naturally” tend to be more unequal\n\n\n\nHigher rate of return on the assets of the rich\n\nMiddle class have housing. Rich or more diversified into financial assets.\nHigher returns that the rich earned come from: (1) holding proportionally more assets whose long-term returns is higher (asset composition effect), (2) pay less tax per dollar earned from wealth (tax advantage), and (3) entry fees and management cost per dollar (effect of lower barriers to entry)\n\n\n\nAssociation of high capital and high labour income is increasing\n\nAuthor calls this ‘homoploutia’ (homo for same, ploutia for wealth)\nCaused by some combination of: capital rich people -&gt; high education -&gt; high wages OR high wage earners -&gt; saving -&gt; rich capitalists.\nPreliminary guess is that first is happening more.\n\n\n\nGreater homogamy (or assortative mating)\n\nClearly increasing. Woman in 1970 had no preference between poor and rich men. Now prefer rich 5 to 1.\nEducated highly skilled and affluent people tend to marry each other.\nRich parents pass on both wealth and better early childhood education to their children. Inheritance might not be the most important gift from rich parents.\n\n\n\nGreater transmission of income and wealth across generations\n\nRelative and absolute intergenerational mobility has declined overtime."
+    "objectID": "history-stuff.html#division-of-labor",
+    "href": "history-stuff.html#division-of-labor",
+    "title": "history stuff",
+    "section": "Division of Labor",
+    "text": "Division of Labor\nIn the pin factory example, Smith describes how dividing the production of pins into specialized tasks allowed workers to produce thousands of pins per day, compared to the few they could make individually. This concept became a foundational element of capitalist production, emphasizing efficiency and specialization to maximize profit."
   },
   {
     "objectID": "transit-project-rti.html",
@@ -609,60 +357,11 @@
     "text": "I would like to study the impact of real-time crowding information on public transportation usage through a randomized control trial (RCT).\nOvercrowding contributes to passenger discomfort, dissatisfaction, denied boarding, and uneven crowd distribution across vehicles on the same route. Specific groups, such as the health-conscious, elderly, or pregnant, may strongly prefer less crowded vehicles. Real-time crowding data could help passengers make informed travel decisions, potentially boosting satisfaction and public transit usage. Increasing transit use is vital for reducing congestion and emissions.\nThis study will explore whether providing real-time crowding information improves passenger satisfaction and overall transit use. Additionally, it will examine other behavioral effects, such as changes in routing, travel time, and mode choice.\nPreliminary research indicates that few studies have examined the impact of real-time crowding information on public transit usage (Brakewood and Watkins 2019; Kim, Lee, and Oh 2009; Yu et al. 2015; Zhang 2015; Dennis, Metcalfe, and Cristina Ruiz 2024a). Existing literature suggests that other forms of real-time information, such as arrival, departure, and delay times, positively influence perceptions of wait time and safety, enhance overall satisfaction, enable informed transit choices, and increase public transit usage (Dennis, Metcalfe, and Cristina Ruiz 2024b).\nThis study will focus on Rio de Janeiro, Brazil, where public buses account for over 53% of all motorized trips. The city’s transit system, used for approximately 1.6 million trips daily, is known for severe overcrowding, with many passengers expressing dissatisfaction with crowding levels.\nCurrently, no applications in Rio de Janeiro offer accurate real-time crowding information. Google Maps provides only general estimates of crowding and lacks real-time location data. This project aims to deliver precise, real-time crowding information and evaluate its causal effects on transit usage and satisfaction."
   },
   {
-    "objectID": "transit-project-rti.html#why-is-it-important",
-    "href": "transit-project-rti.html#why-is-it-important",
-    "title": "Impact of real time crowding information on public transit usage",
-    "section": "",
-    "text": "This is important because:\n\nReal-time crowding information could increase passenger satisfaction with public transit\nReal-time crowding information could increase overall public transit usage, important for reducing congestion and emissions"
-  },
-  {
-    "objectID": "ppt/capitalism/index.html",
-    "href": "ppt/capitalism/index.html",
-    "title": "Capitalism",
-    "section": "",
-    "text": "Milanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#source",
-    "href": "ppt/capitalism/index.html#source",
-    "title": "Capitalism",
-    "section": "",
-    "text": "Milanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
-  },
-  {
-    "objectID": "ppt/capitalism/index.html#new-social-policies",
-    "href": "ppt/capitalism/index.html#new-social-policies",
-    "title": "Capitalism",
-    "section": "New Social Policies",
-    "text": "New Social Policies"
-  },
-  {
-    "objectID": "transit-project-rti.html#context",
-    "href": "transit-project-rti.html#context",
-    "title": "Impact of real time crowding information on public transit usage",
-    "section": "",
-    "text": "I want to study this in the context of the public transit system in Rio de Janeiro, Brazil. The public transit system in Rio de Janeiro is used by a large portion of the population, with over 53% of all motorized trips undertaken by public buses. It’s public transit system is also known for its overcrowding issues, with many passengers reporting dissatisfaction with the crowding levels on vehicles.\nApproximately 1.6 million trips are made daily on the public transit system in Rio de Janeiro.\nAs far as I am aware, no applications currently provide accurate real time crowding information in Rio de Janeiro. Google Maps provides no real time location information and only broad, approximate crowding levels. The goal for this project is to provide more concrete and accurate crowding information and to observe its causal effects."
-  },
-  {
-    "objectID": "transit-project-rti.html#treatment-design",
-    "href": "transit-project-rti.html#treatment-design",
-    "title": "Impact of real time crowding information on public transit usage",
-    "section": "Treatment Design",
-    "text": "Treatment Design\nA mobile application will be developed for this study. The application will be designed exclusively for Android, which accounts for over 82% of Brazil’s mobile market (Statista 2024). A working prototype is shown below.\n\n\n\n\n\nApplication screen capture showing live location and vehicle details\n\n\n\n\n\n\nApplication screen capture showing a user selected bus line"
-  },
-  {
     "objectID": "transit-project-rti.html#research-design",
     "href": "transit-project-rti.html#research-design",
     "title": "Impact of real time crowding information on public transit usage",
     "section": "Research Design",
     "text": "Research Design\n\n\n\n\n\n\nflowchart LR\n    A[Participant Recruitment] --&gt; F(Eligibility Determination) --&gt; L(Pre-Study Survey)\n    L --&gt; G(\"Stratify Sample (Optional)\") --&gt; H(Random Assignment)\n    H --&gt; I(Control)\n    H --&gt; J(Treatment)\n    I --&gt; M(Post-Study Survey)\n    J --&gt; M\n\n\n\n\n\n\n\n\nSteps\n\nParticipant Recruitment: Participants will be recruited from the general public in Rio de Janeiro. Participants will be recruited through social media, flyers placed on vehicles, and community centers. A cash incentive will be offered to participants.\nEligibility Determination: Participants will be screened for eligibility. Participants must be over 18 years old, have an Android phone, and use public transit at least once a week.\nPre-Study Survey: Participants will complete a pre-study survey to collect demographic information, RioCard ID number, travel patterns, modal choice, and satisfaction with public transit. The RioCard ID will be used to track participants’ travel patterns using RioCard data.\nStratify Sample (Optional): If the sample size in certain subgroups is too small (potentially due to the recruitment method), then participants may be stratified by key demographic variables such as age and income bracket.\nRandom Assignment: Participants will be randomly assigned to one of two groups: control and treatment. A stratified random assignment may be used. Otherwise pure random assignment will be used.\nControl: Participants in the control group will receive access to the application which will provide real-time location data but will not receive any real-time crowding information.\nTreatment: Participants in treatment will receive real-time crowding information for all buses.\nPost-Study Survey: On a monthly basis, participants will complete a post-study survey to collect information on satisfaction with public transit, usage of public transit, routing choice, travel time, and mode choice. The study will end after 6 months."
-  },
-  {
-    "objectID": "transit-project-rti.html#application-design",
-    "href": "transit-project-rti.html#application-design",
-    "title": "Impact of real time crowding information on public transit usage",
-    "section": "Application Design",
-    "text": "Application Design\nA mobile application with different variants will be developed for this study. The application will be available for only Android as Android accounts for over 82% of the mobile market in Brazil (Statista 2024). A proto-type application is shown below.\n\n\n\n\n\nApplication screen capture showing live location and vehicle details\n\n\n\n\n\n\nApplication screen capture showing a user selected bus line"
   },
   {
     "objectID": "transit-project-rti.html#data-collection",
@@ -672,11 +371,11 @@
     "text": "Data Collection\nThe following data will be collected:\n\n\n\n\n\n\n\n\nCategory\nSource\nVariables\n\n\n\n\nDemographic Information\nPre-Study Survey\nAge, income bracket, gender, education level, employment status, RioCard number\n\n\nUser satisfaction\nPre-Study Survey, Post-Study Survey\nSatisfaction with public transit, satisfaction with crowding levels, satisfaction with real-time information\n\n\nUsage of public transit\nRio-Card data\nNumber of trips taken, line choice, routing choice\n\n\nAlighting location and travel duration\nApplication data\nDestination of trip, travel time, travel duration"
   },
   {
-    "objectID": "transit-project-rti.html#threats-to-validity",
-    "href": "transit-project-rti.html#threats-to-validity",
+    "objectID": "transit-project-rti.html#treatment-design",
+    "href": "transit-project-rti.html#treatment-design",
     "title": "Impact of real time crowding information on public transit usage",
-    "section": "Threats to validity",
-    "text": "Threats to validity\n\nSelection Bias: Participants may not represent the general population of Rio de Janeiro. They are likely to be younger and more tech-savvy, which could affect external validity. They are also regular public transit users (i.e. not tourists or non-public transit users).\nHawthorne Effect: Participants may alter their behavior because they are aware of being observed and involved in the study. Initial excitement from using a new application may influence outcomes, though this effect is expected to diminish over time as the study progresses.\nNon-Compliance: Control group participants cannot access the application and are unlikely to interact with treatment participants, minimizing spillover effects. However, some treatment participants may fail to use the application. Strategies such as app reminders or gamification could encourage engagement. If non-compliance becomes significant, an instrumental variables (IV) approach could be employed, using treatment assignment as the instrument and application usage as the \\(X\\) variable. This approach would estimate the local average treatment effect (LATE) of application usage."
+    "section": "Treatment Design",
+    "text": "Treatment Design\nA mobile application will be developed for this study. The application will be designed exclusively for Android, which accounts for over 82% of Brazil’s mobile market (Statista 2024). A working prototype is shown below.\n\n\n\n\n\nApplication screen capture showing live location and vehicle details\n\n\n\n\n\n\nApplication screen capture showing a user selected bus line"
   },
   {
     "objectID": "transit-project-rti.html#feasibility",
@@ -693,165 +392,130 @@
     "text": "Subgroup Analysis\nTo estimate the average treatment effect for different subgroups, I will estimate the following regression:\n\\[\ny_i = \\beta_0 + \\beta_1 \\cdot \\text{Treatment}_i + \\beta_2 \\cdot \\text{Subgroup}_i + \\beta_3 \\cdot (\\text{Treatment}_i \\cdot \\text{Subgroup}_i) + \\epsilon_i\n\\] Where the subgroup variable could be a variable such as over/under-35 years old or high-income/low-income. It would be interesting to see if the treatment was more or less effective for certain groups.\nFor example, if \\(\\text{Subgroup}_i\\) was equal to 1 if the participant was over 35 years old, then \\(\\beta_1\\) would be the average treatment effect for participants under 35 years old, and \\(\\beta_3\\) would be the difference in the average treatment effect between participants over 35 years old and under 35 years old. \\(\\beta_1 + \\beta_3\\) would be the average treatment effect for participants over 35 years old."
   },
   {
-    "objectID": "phd-summary-s3.html#classes",
-    "href": "phd-summary-s3.html#classes",
-    "title": "s3",
-    "section": "Classes!",
-    "text": "Classes!"
+    "objectID": "transit-project-rti.html#threats-to-validity",
+    "href": "transit-project-rti.html#threats-to-validity",
+    "title": "Impact of real time crowding information on public transit usage",
+    "section": "Threats to validity",
+    "text": "Threats to validity\n\nSelection Bias: Participants may not represent the general population of Rio de Janeiro. They are likely to be younger and more tech-savvy, which could affect external validity. They are also regular public transit users (i.e. not tourists or non-public transit users).\nHawthorne Effect: Participants may alter their behavior because they are aware of being observed and involved in the study. Initial excitement from using a new application may influence outcomes, though this effect is expected to diminish over time as the study progresses.\nNon-Compliance: Control group participants cannot access the application and are unlikely to interact with treatment participants, minimizing spillover effects. However, some treatment participants may fail to use the application. Strategies such as app reminders or gamification could encourage engagement. If non-compliance becomes significant, an instrumental variables (IV) approach could be employed, using treatment assignment as the instrument and application usage as the \\(X\\) variable. This approach would estimate the local average treatment effect (LATE) of application usage."
   },
   {
-    "objectID": "phd-summary-s3.html#pictures",
-    "href": "phd-summary-s3.html#pictures",
-    "title": "s3",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\ndorm welcome pizza session (back when it was warm!)\n\n\n\n\n\nThe best dormitory Resident Assistant (RA) team ever!\n\n\n\n\n\nFull moon sailing in the Charles River\n\n\n\n\n\n\n\n\nmy microeconomics friend, Kathy :) The best study buddy one could ask for\n\n\n\n\n\na fun late night bonding session w Larry and Haewon!\n\n\n\n\n\nfall hiking in Middlesex Fells!\n\n\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)\n\n\n\n\n\nwinning trivia team hehe XD\n\n\n\n\n\nlunch w Prof Alberto Abadie (our stats teacher) and my fav undergrads (who I was honoured to be invited by)\n\n\n\n\n\nPublic econ team gathering! :D Super fun night. I got to build a gingerbread house with a cute little child!"
-  },
-  {
-    "objectID": "phd-summary-s3.html#dorm-welcome-pizza-session-back-when-it-was-warmpictures",
-    "href": "phd-summary-s3.html#dorm-welcome-pizza-session-back-when-it-was-warmpictures",
-    "title": "Semester 3!",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)"
-  },
-  {
-    "objectID": "phd-summary-s3.html",
-    "href": "phd-summary-s3.html",
-    "title": "s3",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my phd",
     "section": "",
-    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
+    "text": "mindmap\n  root((me))\n    Research Topics\n      Public Transportation\n      Education\n      China\n      Left behind workers\n        Wealth and Income Inequality\n        Optimal trump tariffs\n    Tools\n      Maths\n      Econometrics\n        Causal&lt;br/&gt;Inference\n    Theory\n      International Development\n        China's Development\n        Capitalism\n      Economics\n        History of Economic Thought\n    Blog\n    About"
   },
   {
-    "objectID": "phd-summary-s3.html#highlights",
-    "href": "phd-summary-s3.html#highlights",
-    "title": "s3",
+    "objectID": "history-timeline.html",
+    "href": "history-timeline.html",
+    "title": "history timelines",
     "section": "",
-    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
+    "text": "A timeline of key events in history according to me. To help with my Economist Dateline score (this is why it starts in 1843) ;)"
   },
   {
-    "objectID": "phd-summary-s4.html",
-    "href": "phd-summary-s4.html",
-    "title": "s4",
+    "objectID": "history-timeline.html#us-presidents",
+    "href": "history-timeline.html#us-presidents",
+    "title": "history timelines",
+    "section": "US Presidents",
+    "text": "US Presidents"
+  },
+  {
+    "objectID": "history-timeline.html#timeline-of-major-world-events-since-1843",
+    "href": "history-timeline.html#timeline-of-major-world-events-since-1843",
+    "title": "history timelines",
+    "section": "Timeline of Major World Events (Since 1843)",
+    "text": "Timeline of Major World Events (Since 1843)\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n1848\nRevolutions of 1848 across Europe advocating for democratic reforms.\n\n\n1853-1856\nCrimean War between Russia and an alliance of Britain, France, and the Ottoman Empire.\n\n\n1861-1865\nAmerican Civil War in the United States over issues of slavery and state sovereignty.\n\n\n1869\nTranscontinental Railroad completed in the U.S., connecting the East and West coasts.\n\n\n1882\nTriple Alliance formed between Germany, Austria-Hungary, and Italy, marking alliances that would lead to World War I.\n\n\n1885\nBerlin Conference divides Africa among European powers, intensifying colonialism.\n\n\n1914-1918\nWorld War I, a global war involving most world powers, ending with the Treaty of Versailles.\n\n\n1917\nRussian Revolution, leading to the rise of the Soviet Union.\n\n\n1929\nGreat Depression begins, causing worldwide economic hardship.\n\n\n1939-1945\nWorld War II, a global conflict involving the Allies and Axis powers, resulting in major changes to global politics.\n\n\n1945\nUnited Nations founded to promote international cooperation and prevent future wars.\n\n\n1947\nIndia gains independence from British rule, marking the end of the British Empire’s dominance in South Asia.\n\n\n1949\nNATO established as a military alliance among Western nations; People’s Republic of China founded under communist rule.\n\n\n1957\nLaunch of Sputnik by the Soviet Union, beginning the Space Race.\n\n\n1969\nFirst Moon Landing by Apollo 11, a major milestone in space exploration.\n\n\n1989\nFall of the Berlin Wall, signaling the end of the Cold War.\n\n\n1991\nDissolution of the Soviet Union, leading to the independence of several states and the end of the Cold War.\n\n\n2001\nSeptember 11 Attacks in the U.S., leading to global anti-terrorism efforts.\n\n\n2008\nGlobal Financial Crisis, affecting economies worldwide.\n\n\n2020\nCOVID-19 Pandemic begins, causing global health crises, economic impact, and social change."
+  },
+  {
+    "objectID": "causal-inference.html",
+    "href": "causal-inference.html",
+    "title": "causal inference",
     "section": "",
-    "text": "Read lots (in prep for general exams)\nComplete my general exams by mid-year\nImprove my relationship with my core advisor\nContinue to swim weekly with the Tech Masters team"
+    "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
   },
   {
-    "objectID": "phd-summary-s4.html#goals",
-    "href": "phd-summary-s4.html#goals",
-    "title": "s4",
+    "objectID": "causal-inference.html#introduction",
+    "href": "causal-inference.html#introduction",
+    "title": "causal inference",
     "section": "",
-    "text": "Read lots (in prep for general exams)\nComplete my general exams by mid-year\nImprove my relationship with my core advisor\nContinue to swim weekly with the Tech Masters team"
+    "text": "Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.\n\n\n\nCausal Effect: The effect of a treatment (like a policy change) on an outcome.\nRandomized Controlled Trials (RCTs): The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.\nQuasi-Experiments: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.\n\n\n\n\nFor each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.\n\nCounterfactuals: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).\nTreatment Effect: \\(T = Y_1 - Y_0\\), where \\(Y_1\\) is the outcome with treatment, and \\(Y_0\\) without it.\n\n\n\n\n\nRandomization: Distributes potential confounders evenly across groups.\nDifference-in-Differences (DiD): Compares changes over time between treated and control groups to estimate causal effects.\nInstrumental Variables (IV): Uses variables that influence the treatment but not the outcome, isolating the causal effect.\nRegression Discontinuity (RD): Compares outcomes near a threshold to estimate causal effects.\n\n\n\n\nIn observational studies, simply comparing treated (\\(X = 1\\)) and untreated (\\(X = 0\\)) groups may introduce bias:\n\\[\n\\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\n\\]\nThe term \\(\\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\\}\\) represents bias—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect \\(T\\)."
   },
   {
-    "objectID": "phd-summary-s4.html#pictures",
-    "href": "phd-summary-s4.html#pictures",
-    "title": "s4",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+    "objectID": "causal-inference.html#regression-discontinuity-rd",
+    "href": "causal-inference.html#regression-discontinuity-rd",
+    "title": "causal inference",
+    "section": "Regression Discontinuity (RD)",
+    "text": "Regression Discontinuity (RD)\nThe Regression Discontinuity (RD) design is a method for identifying causal effects when treatment assignment is based on a threshold in a continuous variable. It’s widely used in economics to evaluate policies, such as eligibility rules or cutoff points.\n\nKey Concepts\n\nAssignment Variable: A continuous variable that determines treatment eligibility at a specific cutoff (e.g., test scores, income level).\nThreshold/Cutoff: The point at which treatment is assigned. Units just above and below the cutoff provide a natural experiment for causal inference.\nTreatment and Control Groups: Units above the cutoff receive the treatment, while those below do not. The RD design assumes units near the threshold are similar except for treatment.\n\n\n\nRD Estimator\nThe RD design compares outcomes just above and below the cutoff to estimate the treatment effect. Formally, let \\(Y\\) be the outcome and \\(X\\) the assignment variable with cutoff \\(c\\). The causal effect at the cutoff is:\n\\[\n\\tau_{RD} = \\lim_{x \\to c^+} E[Y | X = x] - \\lim_{x \\to c^-} E[Y | X = x]\n\\]\n\n\nTypes of RD Designs\n\nSharp RD: Treatment assignment is strictly determined by the cutoff, i.e., everyone above the cutoff receives treatment, and no one below it does.\nFuzzy RD: Treatment assignment increases at the cutoff, but not perfectly. This is common when there’s imperfect compliance with treatment rules.\n\n\n\nExample: Scholarship Eligibility and Academic Outcomes\nImagine a scholarship awarded to students with a test score above 85. In a sharp RD design, students with scores of 85+ receive the scholarship, while those with scores just below do not. The RD design estimates the causal effect of receiving the scholarship on academic outcomes by comparing students just above and below the 85 threshold.\n\n\nAssumptions and Validity\n\nContinuity Assumption: Units just above and below the cutoff are assumed to be similar, differing only in treatment status.\nNo Manipulation: The assignment variable should not be manipulable; individuals cannot precisely control their score to just surpass the cutoff.\n\n\n\nApplication in Economics\nRD designs are useful when randomized experiments aren’t feasible, providing a credible estimate of causal effects in cases like educational policy evaluations, welfare eligibility, and more."
   },
   {
-    "objectID": "phd-summary-s2-5.html",
-    "href": "phd-summary-s2-5.html",
-    "title": "s2.5 summer",
-    "section": "",
-    "text": "sds"
+    "objectID": "causal-inference.html#difference-in-differences-did",
+    "href": "causal-inference.html#difference-in-differences-did",
+    "title": "causal inference",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nDifference-in-Differences (DiD) is a method for estimating causal effects by comparing the change in outcomes over time between treated and control groups. DiD is particularly useful when randomization isn’t feasible but we can observe the same groups before and after a treatment.\n\nKey Concepts\n\nPre- and Post-Treatment Comparisons: DiD compares the change in outcomes for the treated group with the change in outcomes for the control group.\nParallel Trends Assumption: The treated and control groups must have followed similar trends in the absence of treatment.\n\n\n\nDiD Estimator\nThe DiD estimator calculates the treatment effect as:\n\\[\n\\Delta Y_{DiD} = (Y_{after}^{treated} - Y_{before}^{treated}) - (Y_{after}^{control} - Y_{before}^{control})\n\\]\n\n\nExample: Minimum Wage and Employment\nCard and Krueger’s (1994) study on the impact of minimum wage increases used DiD by comparing fast-food employment changes in New Jersey (where minimum wage increased) and Pennsylvania (where it did not). They found an increase in employment in New Jersey relative to Pennsylvania, challenging traditional predictions."
   },
   {
-    "objectID": "phd-summary-s2-5.html#highlights",
-    "href": "phd-summary-s2-5.html#highlights",
-    "title": "s2.5 summer",
-    "section": "",
-    "text": "sds"
+    "objectID": "causal-inference.html#instrumental-variables-iv",
+    "href": "causal-inference.html#instrumental-variables-iv",
+    "title": "causal inference",
+    "section": "Instrumental Variables (IV)",
+    "text": "Instrumental Variables (IV)\nInstrumental Variables (IV) is a technique used to estimate causal effects when there’s endogeneity—when an explanatory variable is correlated with the error term. An IV helps isolate the exogenous variation in the endogenous variable.\n\nKey Concepts\n\nInstrument: A variable that affects the endogenous variable (treatment) but has no direct effect on the outcome except through this treatment.\nExclusion Restriction: The instrument affects the outcome only through the treatment, not directly.\n\n\n\nIV Estimator\nIf \\(Z\\) is the instrument for \\(X\\), and \\(Y\\) is the outcome, the IV estimator (two-stage least squares) can be calculated as:\n\nFirst Stage: \\(X = \\alpha + \\beta Z + \\epsilon\\)\nSecond Stage: \\(Y = \\gamma + \\delta \\hat{X} + \\eta\\)\n\n\n\nExample: Education and Earnings\nTo estimate the causal effect of education on earnings, distance to college might serve as an instrument. Distance affects the likelihood of attending college (the treatment) but doesn’t directly affect earnings, isolating the causal impact of education."
   },
   {
-    "objectID": "phd-summary-s2-5.html#pictures",
-    "href": "phd-summary-s2-5.html#pictures",
-    "title": "s2.5 summer",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+    "objectID": "causal-inference.html#randomized-controlled-trials-rcts",
+    "href": "causal-inference.html#randomized-controlled-trials-rcts",
+    "title": "causal inference",
+    "section": "Randomized Controlled Trials (RCTs)",
+    "text": "Randomized Controlled Trials (RCTs)\nRandomized Controlled Trials (RCTs) are the gold standard in causal inference, where random assignment to treatment and control groups ensures that any differences in outcomes can be attributed to the treatment.\n\nKey Concepts\n\nRandom Assignment: Units are randomly assigned to treatment and control groups, balancing confounders across groups.\nControl Group: Provides a baseline for comparison to the treatment group.\n\n\n\nRCT Estimator\nThe average treatment effect in an RCT is calculated as:\n\\[\nATE = E[Y | X = 1] - E[Y | X = 0]\n\\]\nwhere \\(X = 1\\) indicates the treatment group and \\(X = 0\\) the control group.\n\n\nExample: Drug Trials\nIn a clinical trial, participants are randomly assigned to receive either a new drug or a placebo. The difference in health outcomes between the groups estimates the causal effect of the drug, assuming random assignment balances all other factors."
   },
   {
-    "objectID": "phd-summary-s1.html",
-    "href": "phd-summary-s1.html",
-    "title": "s1",
-    "section": "",
-    "text": "sds"
+    "objectID": "ppt/capitalism/index.html#source",
+    "href": "ppt/capitalism/index.html#source",
+    "title": "Capitalism",
+    "section": "Source",
+    "text": "Source\n\nMilanovic, Branko. 2019. Capitalism, Alone: The Future of the System That Rules the World. Harvard University Press."
   },
   {
-    "objectID": "phd-summary-s1.html#highlights",
-    "href": "phd-summary-s1.html#highlights",
-    "title": "s1",
-    "section": "",
-    "text": "sds"
+    "objectID": "ppt/capitalism/index.html#the-post-cold-war-world",
+    "href": "ppt/capitalism/index.html#the-post-cold-war-world",
+    "title": "Capitalism",
+    "section": "The Post-Cold War World",
+    "text": "The Post-Cold War World\n\nCapitalism is now the sole socio-economic system in the world\nNo historical precedent to world entirely operating under the same economic principles. Production operating for profit using legally free wage labour and mostly privately owned capital, with decentralised coordination\nTwo types of capitalism: (i) liberal meritocratic and (ii) state lead political, or authoritarian\nIndustrial Revolution led to increasing global inequality. ICT revolution led to decreasing global inequality through rise of Asia.\nThese two types appear to be competing with each other. Political provides greater autonomy to political elites, seems to promise higher growth to ordinary people. Liberal provides democracy, rule of law and social mobility.\nReduce social mobility is a threat to the systems, attractiveness and survival."
   },
   {
-    "objectID": "phd-summary-s1.html#pictures",
-    "href": "phd-summary-s1.html#pictures",
-    "title": "s1",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+    "objectID": "ppt/capitalism/index.html#liberal-meritocratic-capitalism",
+    "href": "ppt/capitalism/index.html#liberal-meritocratic-capitalism",
+    "title": "Capitalism",
+    "section": "Liberal meritocratic capitalism",
+    "text": "Liberal meritocratic capitalism\n\nCapitalism:\n\nProduction mostly carried out by privately owned means of production. Capital hires legally free labour, coordination decentralised. Most investment decisions made by private companies or individual entrepreneurs.\n\n“Meritocratic” - careers are open to talent. No legal obstacles preventing individuals from achieving given position in society.\n“Liberal” - high inheritance tax, free education"
   },
   {
-    "objectID": "phd-summary-s2.html",
-    "href": "phd-summary-s2.html",
-    "title": "s2",
-    "section": "",
-    "text": "sds"
+    "objectID": "ppt/capitalism/index.html#cont.",
+    "href": "ppt/capitalism/index.html#cont.",
+    "title": "Capitalism",
+    "section": "Cont.",
+    "text": "Cont.\n“Liberal”: how much social mobility?\n“Meritocratic”: how goods are distributed?\n“Capitalism”: how good are produce/distributed?"
   },
   {
-    "objectID": "phd-summary-s2.html#highlights",
-    "href": "phd-summary-s2.html#highlights",
-    "title": "s2",
-    "section": "",
-    "text": "sds"
+    "objectID": "ppt/capitalism/index.html#features",
+    "href": "ppt/capitalism/index.html#features",
+    "title": "Capitalism",
+    "section": "Features",
+    "text": "Features\n\n\n\n\n\n\n\n\n\n\nClassical capitalism\nSocial democratic capital\nLiberal meritocratic capitalism\n\n\n\n\nRising share of capital income in net production\nYes\nNo\nYes\n\n\nHigh concentration of capital ownership\nYes\nYes\nYes\n\n\nAbundant individuals are rich\nYes\nYes\nYes\n\n\nCapital income rich are also labour income rich\nNo\nNo\nYes\n\n\nRich (Or potentially rich) marry each other (homogamy)\nYes (to some extent)\nNo\nYes\n\n\nHigh correlation of income between parents and children (transmission of advantage)\nYes\nYes, but in some cases weak\nYes\n\n\n\nUK before 1914\nUS, Europe after World War II\nUS in the early 21st century"
   },
   {
-    "objectID": "phd-summary-s2.html#pictures",
-    "href": "phd-summary-s2.html#pictures",
-    "title": "s2",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+    "objectID": "ppt/capitalism/index.html#systemic-inequalities",
+    "href": "ppt/capitalism/index.html#systemic-inequalities",
+    "title": "Capitalism",
+    "section": "Systemic Inequalities",
+    "text": "Systemic Inequalities\nIncreasing capital share of income\n\nMultiple possible reasons: increasing monopolies, less organised labour, declining cost of capital goods, bargaining power change, increased outsourcing\nWill impact income in a quality because of distribution of capital\n\nHigh capital ownership concentration\n\nOnly shock to it has come from wars, revolutions and in some cases unanticipated hyperinflation.\nCapital income is extremely concentrated and is received mostly by the rich\nRicher countries will “naturally” tend to be more unequal\n\nHigher rate of return on the assets of the rich\n\nMiddle class have housing. Rich or more diversified into financial assets.\nHigher returns that the rich earned come from: (1) holding proportionally more assets whose long-term returns is higher (asset composition effect), (2) pay less tax per dollar earned from wealth (tax advantage), and (3) entry fees and management cost per dollar (effect of lower barriers to entry)\n\nAssociation of high capital and high labour income is increasing\n\nAuthor calls this ‘homoploutia’ (homo for same, ploutia for wealth)\nCaused by some combination of: capital rich people -&gt; high education -&gt; high wages OR high wage earners -&gt; saving -&gt; rich capitalists.\nPreliminary guess is that first is happening more.\n\nGreater homogamy (or assortative mating)\n\nClearly increasing. Woman in 1970 had no preference between poor and rich men. Now prefer rich 5 to 1.\nEducated highly skilled and affluent people tend to marry each other.\nRich parents pass on both wealth and better early childhood education to their children. Inheritance might not be the most important gift from rich parents.\n\nGreater transmission of income and wealth across generations\n\nRelative and absolute intergenerational mobility has declined overtime."
   },
   {
-    "objectID": "phd-summary-goals-plan.html",
-    "href": "phd-summary-goals-plan.html",
-    "title": "goals/plan/schedule",
-    "section": "",
-    "text": "Do meaningful research, that I enjoy, that will have an impact\nLearn about topics that are meaningful to me\nBecoming a Professor! (or, a World Bank Economist)"
-  },
-  {
-    "objectID": "phd-summary-goals-plan.html#high-level",
-    "href": "phd-summary-goals-plan.html#high-level",
-    "title": "goals/plan/schedule",
-    "section": "High-level",
-    "text": "High-level\n\n\n\n\n\n\nflowchart TD\n    A[Year 1] --&gt; F(Coursework) --&gt; G(First Year Paper)\n    B[Year 2] --&gt; H(Coursework) --&gt; I(General Exams)\n    C[Year 3] --&gt; J(Thesis Proposal) --&gt; K(Thesis Writing)\n    D[Year 4] --&gt; L(Thesis Writing)\n    E[Year 5] --&gt; M(Thesis Writing)"
-  },
-  {
-    "objectID": "phd-summary-goals-plan.html#detailed",
-    "href": "phd-summary-goals-plan.html#detailed",
-    "title": "goals/plan/schedule",
-    "section": "Detailed",
-    "text": "Detailed\n\nYear 1Year 2Year 3Year 4Year 5\n\n\n\nHighlights:\n\nWon a $20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.\nCompleted subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it.\nI successfully led the effort to increase the Conference Fund for PhD students from $600 to $1,300 per year.\nI sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester. I was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution. I also became a Resident Advisor for my graduate dormitory, The Warehouse.\nI was an RA for Prof. Wen-Chi Liao (NUS) in the Fall and a TA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot.\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\nCS50\nIntroduction to Computer Science\n12\nN\nP\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\nResearch:\n\n\nTeaching/Research Assistantship\n\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\n\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\n\n\n\n11.919\nPhD Workshop\n1\nG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContent for Tab 3.\n\n\nContent for Tab 4.\n\n\nContent for Tab 5."
-  },
-  {
-    "objectID": "sem-summaries/phd-summary-s3.html",
-    "href": "sem-summaries/phd-summary-s3.html",
-    "title": "s3",
-    "section": "",
-    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
-  },
-  {
-    "objectID": "sem-summaries/phd-summary-s3.html#highlights",
-    "href": "sem-summaries/phd-summary-s3.html#highlights",
-    "title": "s3",
-    "section": "",
-    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
-  },
-  {
-    "objectID": "sem-summaries/phd-summary-s3.html#pictures",
-    "href": "sem-summaries/phd-summary-s3.html#pictures",
-    "title": "s3",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\ndorm welcome pizza session (back when it was warm!)\n\n\n\n\n\nThe best dormitory Resident Assistant (RA) team ever!\n\n\n\n\n\nFull moon sailing in the Charles River\n\n\n\n\n\n\n\n\nmy microeconomics friend, Kathy :) The best study buddy one could ask for\n\n\n\n\n\na fun late night bonding session w Larry and Haewon!\n\n\n\n\n\nfall hiking in Middlesex Fells!\n\n\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)\n\n\n\n\n\nwinning trivia team hehe XD\n\n\n\n\n\nlunch w Prof Alberto Abadie (our stats teacher) and my fav undergrads (who I was honoured to be invited by)\n\n\n\n\n\nPublic econ team gathering! :D Super fun night. I got to build a gingerbread house with a cute little child!"
+    "objectID": "ppt/capitalism/index.html#new-social-policies",
+    "href": "ppt/capitalism/index.html#new-social-policies",
+    "title": "Capitalism",
+    "section": "New Social Policies",
+    "text": "New Social Policies"
   },
   {
     "objectID": "general-exams/reading-list.html",
@@ -987,6 +651,48 @@
     "text": "Education\n\nEarly Childhood Education\n\nUnderstanding Early Childhood Development and Its Importance"
   },
   {
+    "objectID": "sem-summaries/s2.html",
+    "href": "sem-summaries/s2.html",
+    "title": "Semester 2",
+    "section": "",
+    "text": "Trip to Brazil\nWon a $20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.\nI successfully led the effort to increase the Conference Fund for PhD students from $600 to $1,300 per year.\nI sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester.\nI was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution.\nI also became a Resident Advisor for my graduate dormitory, The Warehouse.\nTA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot."
+  },
+  {
+    "objectID": "sem-summaries/s2.html#highlights",
+    "href": "sem-summaries/s2.html#highlights",
+    "title": "Semester 2",
+    "section": "",
+    "text": "Trip to Brazil\nWon a $20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.\nI successfully led the effort to increase the Conference Fund for PhD students from $600 to $1,300 per year.\nI sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester.\nI was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution.\nI also became a Resident Advisor for my graduate dormitory, The Warehouse.\nTA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot."
+  },
+  {
+    "objectID": "sem-summaries/s2.html#pictures",
+    "href": "sem-summaries/s2.html#pictures",
+    "title": "Semester 2",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+  },
+  {
+    "objectID": "sem-summaries/s1.html",
+    "href": "sem-summaries/s1.html",
+    "title": "Semester 1",
+    "section": "",
+    "text": "CS50\nI was an RA for Prof. Wen-Chi Liao (NUS) in the Fall\nCompleted subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it."
+  },
+  {
+    "objectID": "sem-summaries/s1.html#highlights",
+    "href": "sem-summaries/s1.html#highlights",
+    "title": "Semester 1",
+    "section": "",
+    "text": "CS50\nI was an RA for Prof. Wen-Chi Liao (NUS) in the Fall\nCompleted subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it."
+  },
+  {
+    "objectID": "sem-summaries/s1.html#pictures",
+    "href": "sem-summaries/s1.html#pictures",
+    "title": "Semester 1",
+    "section": "Pictures!",
+    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+  },
+  {
     "objectID": "sem-summaries/goals-plan.html",
     "href": "sem-summaries/goals-plan.html",
     "title": "goals/plan/schedule",
@@ -1001,115 +707,10 @@
     "text": "High-level\n\n\n\n\n\n\nflowchart TD\n    A[Year 1] --&gt; F(Coursework) --&gt; G(First Year Paper)\n    B[Year 2] --&gt; H(Coursework) --&gt; I(General Exams)\n    C[Year 3] --&gt; J(Thesis Proposal) --&gt; K(Thesis Writing)\n    D[Year 4] --&gt; L(Thesis Writing)\n    E[Year 5] --&gt; M(Thesis Writing)"
   },
   {
-    "objectID": "sem-summaries/goals-plan.html#detailed",
-    "href": "sem-summaries/goals-plan.html#detailed",
+    "objectID": "sem-summaries/goals-plan.html#classes",
+    "href": "sem-summaries/goals-plan.html#classes",
     "title": "goals/plan/schedule",
-    "section": "Detailed",
-    "text": "Detailed\n\nYear 1Year 2Year 3Year 4Year 5\n\n\n\nHighlights:\n\nWon a $20,000 grant for my Rio de Janeiro Public Transit research project from the MIT Sloan Latin American Office. Only three projects won from “dozens of submissions”. My project competed against MIT Faculty, so I was very pleased to win.\nCompleted subjects worth 71 units. My favourite subject was Introduction to Computer Science (CS50) from Harvard. I first attempted this subject online in 2014. It was a dream come true to finish it.\nI successfully led the effort to increase the Conference Fund for PhD students from $600 to $1,300 per year.\nI sat on the PhD Committee for both semesters and was part of the PhD Workshop organising team for the Spring semester. I was part of the Graduate Student Union Constitution Committee helping shape the GSU constitution. I also became a Resident Advisor for my graduate dormitory, The Warehouse.\nI was an RA for Prof. Wen-Chi Liao (NUS) in the Fall and a TA for Prof. Juan Palacios in the Spring. Both were wonderful experiences where I learned a lot.\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\nCS50\nIntroduction to Computer Science\n12\nN\nP\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\nResearch:\n\n\nTeaching/Research Assistantship\n\n\n\n\nCoursework:\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\n\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\n\n\n\n11.919\nPhD Workshop\n1\nG\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContent for Tab 3.\n\n\nContent for Tab 4.\n\n\nContent for Tab 5."
-  },
-  {
-    "objectID": "sem-summaries/s1.html",
-    "href": "sem-summaries/s1.html",
-    "title": "s1",
-    "section": "",
-    "text": "sds"
-  },
-  {
-    "objectID": "sem-summaries/s1.html#highlights",
-    "href": "sem-summaries/s1.html#highlights",
-    "title": "s1",
-    "section": "",
-    "text": "sds"
-  },
-  {
-    "objectID": "sem-summaries/s1.html#pictures",
-    "href": "sem-summaries/s1.html#pictures",
-    "title": "s1",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
-  },
-  {
-    "objectID": "sem-summaries/s2.html",
-    "href": "sem-summaries/s2.html",
-    "title": "s2",
-    "section": "",
-    "text": "sds"
-  },
-  {
-    "objectID": "sem-summaries/s2.html#highlights",
-    "href": "sem-summaries/s2.html#highlights",
-    "title": "s2",
-    "section": "",
-    "text": "sds"
-  },
-  {
-    "objectID": "sem-summaries/s2.html#pictures",
-    "href": "sem-summaries/s2.html#pictures",
-    "title": "s2",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
-  },
-  {
-    "objectID": "sem-summaries/s4.html",
-    "href": "sem-summaries/s4.html",
-    "title": "s4",
-    "section": "",
-    "text": "Read lots (in prep for general exams)\nComplete my general exams by mid-year\nImprove my relationship with my core advisor\nContinue to swim weekly with the Tech Masters team"
-  },
-  {
-    "objectID": "sem-summaries/s4.html#goals",
-    "href": "sem-summaries/s4.html#goals",
-    "title": "s4",
-    "section": "",
-    "text": "Read lots (in prep for general exams)\nComplete my general exams by mid-year\nImprove my relationship with my core advisor\nContinue to swim weekly with the Tech Masters team"
-  },
-  {
-    "objectID": "sem-summaries/s4.html#pictures",
-    "href": "sem-summaries/s4.html#pictures",
-    "title": "s4",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
-  },
-  {
-    "objectID": "sem-summaries/s3.html",
-    "href": "sem-summaries/s3.html",
-    "title": "s3",
-    "section": "",
-    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
-  },
-  {
-    "objectID": "sem-summaries/s3.html#highlights",
-    "href": "sem-summaries/s3.html#highlights",
-    "title": "s3",
-    "section": "",
-    "text": "Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!\nCompleted three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn’t always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I’m super satisfied I got through them.\nOther:\n\nMade friends w Kathy, my freshman, micro study buddy\nMade friends w Christine, Arianna and Ashley, my stats study buddies\nTransition to ipad note taking from pen and paper!! (the undergrads have inspired me)\nTried to address the poor relationship I have with my core advisor"
-  },
-  {
-    "objectID": "sem-summaries/s3.html#pictures",
-    "href": "sem-summaries/s3.html#pictures",
-    "title": "s3",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\n\n\n\nEnd of sem, phd2 gathering/christmas tree decorating\n\n\n\n\n\ndorm welcome pizza session (back when it was warm!)\n\n\n\n\n\nThe best dormitory Resident Assistant (RA) team ever!\n\n\n\n\n\nFull moon sailing in the Charles River\n\n\n\n\n\n\n\n\nmy microeconomics friend, Kathy :) The best study buddy one could ask for\n\n\n\n\n\na fun late night bonding session w Larry and Haewon!\n\n\n\n\n\nfall hiking in Middlesex Fells!\n\n\n\n\n\n\n\n\nPublic economics w Gruber! Serious great class, made lots of friends :)\n\n\n\n\n\nwinning trivia team hehe XD\n\n\n\n\n\nlunch w Prof Alberto Abadie (our stats teacher) and my fav undergrads (who I was honoured to be invited by)\n\n\n\n\n\nPublic econ team gathering! :D Super fun night. I got to build a gingerbread house with a cute little child!"
-  },
-  {
-    "objectID": "sem-summaries/s2-5.html",
-    "href": "sem-summaries/s2-5.html",
-    "title": "s2.5 summer",
-    "section": "",
-    "text": "sds"
-  },
-  {
-    "objectID": "sem-summaries/s2-5.html#highlights",
-    "href": "sem-summaries/s2-5.html#highlights",
-    "title": "s2.5 summer",
-    "section": "",
-    "text": "sds"
-  },
-  {
-    "objectID": "sem-summaries/s2-5.html#pictures",
-    "href": "sem-summaries/s2-5.html#pictures",
-    "title": "s2.5 summer",
-    "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+    "section": "Classes",
+    "text": "Classes\n\nYear 1Year 2Year 3Year 4Year 5\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\nCS50\nIntroduction to Computer Science\n12\nN\nP\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\nA+\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContent for Tab 3.\n\n\nContent for Tab 4.\n\n\nContent for Tab 5."
   }
 ]
