@@ -690,27 +690,20 @@
     "href": "sem-summaries/s1.html#pictures",
     "title": "Semester 1",
     "section": "Pictures!",
-    "text": "Pictures!\n\n\npics\n\n\n\npics\n\n\n\npics"
+    "text": "Pictures!\n\n\n\n\n\nBirthday celebration for Natasha 🙂\n\n\n\n\n\nThanksgiving Trip to Provincetown for two nights with friends from the PhD/Masters program. Was super fun minus some car troubles 🚗 Great to get out of the city~ Thank you Hannah for organising!\n\n\n\n\n\nomg another cool thing that happened around mid-semester was seeing David Rubenstein (co-founder of the The Carlyle Group) in real life 😱🤯 SO SO COOL!!! At one point he was like a table away from me 🤗\n\n\n\n\n\nMy Replay’23: NewJeans and Limi are a no brainer. The other three are kinda surprises. Eric Chou maybe in my vain effort to memorise his chinese lyrics before his concert. It doesn’t seem like a very sophisticated list to me.\n\n\n\n\n\n\n\n\nBowling for Chenhao (w cohort)! I surprisingly came 2nd in both rounds 🥳\n\n\n\n\n\nA couple weeks ago in my section (a.k.a. tutorial) we had an 18 question SQL quiz and guess who came first (vs a room of Harvards top 18yo CS students!!!!!! 😂)???\n\n\n\n\n\nfrom maybe like September! Boston Celtics game w my friend Jasmine (my 2nd blog reader(!)—who will be very excited to see herself mentioned!) Was super fun! THANK YOU RBA friends for the farewell gift (especially Cameron!!) ⛹🏻\n\n\n\n\n\n\n\n\nFINAL CS50 Lecture at Harvard! Photo with the prof and Sophia, my lovely GSD (Harvard Graduate School of Design) study buddy! 😎 Now to finish (and start) the final project.\n\n\n\n\n\nEarlier this semester I was inadvertently added to the MIT Graduate Student Union Constitutional Committee. My tiny, *tiny* contribution is highlighted above (the inserting of the phrase “workplace democracy” in the constitutions preamble)!!!! I’ve left my indelible mark on MIT hehe 😆\n\n\n\n\n\nEvett, an old colleague from my IBM St Leonards, Sydney days dropped by during a work trip. She really hated MIT coffee ☕️\n\n\n\n\n\nDUSP PhD End-of-semester dinner! 🍽️\n\n\n\n\n\nFarewell hotpot with Prof. Siqi (my advisor) and Prof. Wen-Chi who is returning to NUS after a year visiting MIT! I have been RAing for Wen-Chi this semester and have learnt a lot from him!"
   },
   {
     "objectID": "sem-summaries/goals-plan.html",
     "href": "sem-summaries/goals-plan.html",
-    "title": "goals/plan/schedule",
+    "title": "goals/plan/classes",
     "section": "",
     "text": "Do meaningful research, that I enjoy, that will have an impact\nLearn about topics that are meaningful to me\nBecoming a Professor! (or, a World Bank Economist)"
   },
   {
-    "objectID": "sem-summaries/goals-plan.html#high-level",
-    "href": "sem-summaries/goals-plan.html#high-level",
-    "title": "goals/plan/schedule",
-    "section": "High-level",
-    "text": "High-level\n\n\n\n\n\n\nflowchart TD\n    A[Year 1] --&gt; F(Coursework) --&gt; G(First Year Paper)\n    B[Year 2] --&gt; H(Coursework) --&gt; I(General Exams)\n    C[Year 3] --&gt; J(Thesis Proposal) --&gt; K(Thesis Writing)\n    D[Year 4] --&gt; L(Thesis Writing)\n    E[Year 5] --&gt; M(Thesis Writing)"
-  },
-  {
     "objectID": "sem-summaries/goals-plan.html#classes",
     "href": "sem-summaries/goals-plan.html#classes",
-    "title": "goals/plan/schedule",
+    "title": "goals/plan/classes",
     "section": "Classes",
-    "text": "Classes\n\nYear 1Year 2Year 3Year 4Year 5\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\nCS50\nIntroduction to Computer Science\n12\nN\nP\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\nA+\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContent for Tab 3.\n\n\nContent for Tab 4.\n\n\nContent for Tab 5."
+    "text": "Classes\n\nSem 1Sem 2Sem 3Sem 4\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\nCS50\nHarvard: Introduction to Computer Science\n12\nN\nA\n\n\n11.233\nResearch Design for Policy Analysis and Planning\n12\nG\nA\n\n\n21H.992\nEconomic Classics: The History of Economic Ideas from Ancient Times to Present\n12\nG\nA\n\n\n11.258\nSustainable Urbanization Research Seminar\n3\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n11.234\nMaking Sense: Qualitative Methods for Designers and Planners\n12\nG\nB+\n\n\n11.801\nDoctoral Research Paper\n9\nG\nA\n\n\n11.800\nDoctoral Research Seminar\n9\nG\nP\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubject\nTitle\nUnits\nLevel\nGrade\n\n\n\n\n14.003\nMicroeconomic Theory and Public Policy\n12\nG\n\n\n\n14.300\nIntroduction to Statistical Methods in Economics\n12\nG\nA+\n\n\n14.410\nPublic Finance and Public Policy\n12\nG\nA\n\n\n11.919\nPhD Workshop\n1\nG\nP\n\n\n\n\n\nNot sure yet :P"
   }
 ]

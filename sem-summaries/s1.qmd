@@ -16,20 +16,38 @@ format:
 
 :::::::: columns
 ::: {.column width="30%"}
-pics
+![Birthday celebration for Natasha 🙂](images/clipboard-2514383734.png)
+
+![Thanksgiving Trip to Provincetown for two nights with friends from the PhD/Masters program. Was super fun minus some car troubles 🚗 Great to get out of the city\~ Thank you Hannah for organising!](images/clipboard-2783252225.png)
+
+![omg another cool thing that happened around mid-semester was seeing David Rubenstein (co-founder of the The Carlyle Group) in real life 😱🤯 SO SO COOL!!! At one point he was like a table away from me 🤗](images/clipboard-3789072848.png)
+
+![My Replay’23: NewJeans and Limi are a no brainer. The other three are kinda surprises. Eric Chou maybe in my vain effort to memorise his chinese lyrics before his concert. It doesn’t seem like a very sophisticated list to me.](images/clipboard-2488825324.png)
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="30%"}
-pics
+![Bowling for Chenhao (w cohort)! I surprisingly came 2nd in both rounds 🥳](images/clipboard-231084369.png)
+
+![A couple weeks ago in my section (a.k.a. tutorial) we had an 18 question SQL quiz and guess who came first (vs a room of Harvards top 18yo CS students!!!!!! 😂)???](images/clipboard-537043336.png)
+
+![from maybe like September! Boston Celtics game w my friend Jasmine (my 2nd blog reader(!)—who will be very excited to see herself mentioned!) Was super fun! THANK YOU RBA friends for the farewell gift (especially Cameron!!) ⛹🏻](images/clipboard-2835329713.png)
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="30%"}
-pics
+![FINAL CS50 Lecture at Harvard! Photo with the prof and Sophia, my lovely GSD (Harvard Graduate School of Design) study buddy! 😎 Now to finish (and start) the final project.](images/clipboard-2249445609.png)
+
+![Earlier this semester I was inadvertently added to the MIT Graduate Student Union Constitutional Committee. My tiny, \*tiny\* contribution is highlighted above (the inserting of the phrase “workplace democracy” in the constitutions preamble)!!!! I’ve left my indelible mark on MIT hehe 😆](images/clipboard-4162960762.png)
+
+![Evett, an old colleague from my IBM St Leonards, Sydney days dropped by during a work trip. She really hated MIT coffee ☕️](images/clipboard-2834171368.png)
+
+![DUSP PhD End-of-semester dinner! 🍽️](images/clipboard-2255031388.png)
+
+![Farewell hotpot with Prof. Siqi (my advisor) and Prof. Wen-Chi who is returning to NUS after a year visiting MIT! I have been RAing for Wen-Chi this semester and have learnt a lot from him!](images/clipboard-3473374757.png)
 :::
 ::::::::
