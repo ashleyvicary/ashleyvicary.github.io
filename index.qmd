@@ -13,5 +13,3 @@ knitr::read_chunk('assets.R')
 ```{mermaid mindmap-a}
 ```
 :::
-
-

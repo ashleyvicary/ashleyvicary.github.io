@@ -1,0 +1,33 @@
+---
+title: "s1"
+format: 
+  html:
+    toc: true
+    page-layout: full
+---
+
+## Highlights
+
+-   sds
+
+## Pictures!
+
+:::::::: columns
+::: {.column width="30%"}
+pics
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+pics
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+pics
+:::
+::::::::

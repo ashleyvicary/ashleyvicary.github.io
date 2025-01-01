@@ -3,22 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "ashley's phd notes"
+  title: "ashley's phd things"
   navbar:
     left:
       - href: index.qmd
         text: home
       - text: semester summaries 
         menu:
-          - phd-summary-goals-plan.qmd
-          - phd-summary-s1.qmd
-          - phd-summary-s2.qmd
-          - phd-summary-s2-5.qmd
-          - phd-summary-s3.qmd
-          - phd-summary-s4.qmd
+          - sem-summaries/goals-plan.qmd
+          - sem-summaries/s1.qmd
+          - sem-summaries/s2.qmd
+          - sem-summaries/s2-5.qmd
+          - sem-summaries/s3.qmd
+          - sem-summaries/s4.qmd
       - text: general exams
         menu:
-          - reading-list-by-topic.qmd
+          - general-exams/reading-list.qmd
           - economics-general.qmd
           - econometrics-intro.qmd
           - chinas-growth.qmd

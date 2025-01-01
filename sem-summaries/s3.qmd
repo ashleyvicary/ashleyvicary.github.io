@@ -1,0 +1,61 @@
+---
+title: "s3"
+format: 
+  html:
+    toc: true
+    page-layout: full
+---
+
+## Highlights
+
+-   Successfully joined the MIT Tech Masters swimming team!!! I now swim at least once a week and have improved a lot! Great for my fitness and my health!
+
+-   Completed three econ classes (public econ, microeconomics and stat methods) and made lots of friends in the process. This was my first semester w full control over my subjects and my favourite yet. Teachers were great and I went to lots of office hours (something I didn't always do in the past). After having not taken econ classes in many, many years, these classes were not easy. I'm super satisfied I got through them.
+
+-   Other:
+
+    -   Made friends w Kathy, my freshman, micro study buddy
+
+    -   Made friends w Christine, Arianna and Ashley, my stats study buddies
+
+    -   Transition to ipad note taking from pen and paper!! (the undergrads have inspired me)
+
+    -   Tried to address the poor relationship I have with my core advisor
+
+## Pictures!
+
+:::::::: columns
+::: {.column width="30%"}
+![End of sem, phd2 gathering/christmas tree decorating](images/33dc9114-8b55-4856-b241-4909f6bc3c5a.JPG)
+
+![dorm welcome pizza session (back when it was warm!)](images/IMG_0053.jpg)
+
+![The best dormitory Resident Assistant (RA) team ever!](images/IMG_0094.PNG)
+
+![Full moon sailing in the Charles River](images/b82b1293-f468-4655-a90f-c145143b31f1.JPG)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+![my microeconomics friend, Kathy :) The best study buddy one could ask for](images/IMG_8706.jpg)
+
+![a fun late night bonding session w Larry and Haewon!](images/IMG_0503.PNG)
+
+![fall hiking in Middlesex Fells!](images/IMG_0407.PNG)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+![Public economics w Gruber! Serious great class, made lots of friends :)](images/484d69cc-9f95-48a3-b65c-2c8be69051c3.JPG)
+
+![winning trivia team hehe XD](images/IMG_0093.jpg)
+
+![lunch w Prof Alberto Abadie (our stats teacher) and my fav undergrads (who I was honoured to be invited by)](images/lunch%202.PNG)
+
+![Public econ team gathering! :D Super fun night. I got to build a gingerbread house with a cute little child!](images/ef48b2ba-ecd4-428d-b752-129dc85e3be5.JPG)
+:::
+::::::::

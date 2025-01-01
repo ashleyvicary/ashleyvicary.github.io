@@ -1,0 +1,284 @@
+---
+title: "Reading List"
+slide-format: revealjs
+format: 
+  html:
+    page-layout: full
+---
+
+```{r cache=FALSE, include=FALSE}
+knitr::read_chunk('../assets.R')
+```
+
+::: {style="text-align: center;"}
+```{mermaid mindmap-a}
+```
+:::
+
+Notes: - Read with a question in mind?
+
+<div>
+
+```{=html}
+<iframe class="slide-deck" src="general-exams/" style="width: 100%; height: 800px;"></iframe>
+```
+
+</div>
+
+:::: panel-tabset
+# Theory
+
+Questions:
+
+-   What are the mechanisms for development (PPP, decentralization, institutions)?
+-   What are the key theories in international development?
+-   How do different theories explain the causes of poverty and inequality?
+-   What are the key debates in the field of international development?
+
+## 1. Classical Economics
+
+-   **Smith, A. (1776).** *The Wealth of Nations*: Foundational text for classical economics, focusing on free markets, division of labor, and the "invisible hand."
+-   **Ricardo, D. (1817).** *The Principles of Political Economy and Taxation*: Key text in classical economics, discussing comparative advantage and trade.
+-   **Mill, J.S. (1848).** *Principles of Political Economy*: An important synthesis of classical economics, bridging the works of Smith and Ricardo with social philosophy.
+
+------------------------------------------------------------------------
+
+## 2. Political Economy and Critique of Capitalism
+
+-   **Marx, K. (1973).** *Capital: A Critique of Political Economy*: Marx's analysis of capitalism, focusing on class struggle, labor value, and exploitation.
+-   **Polanyi, K. (1957).** *The Great Transformation*: Critique of market society and its social and political impacts.
+-   **Veblen, T. (1899).** *The Theory of the Leisure Class*: A critique of consumerism and capitalism, introducing the concept of "conspicuous consumption."
+-   **Lenin, V.I. (1917).** *Imperialism, the Highest Stage of Capitalism*: Marxist analysis of capitalism's expansion through imperialism.
+
+------------------------------------------------------------------------
+
+## 3. Economic Growth and Development
+
+-   **Schumpeter, J. (1934).** *The Theory of Economic Development*: Focus on innovation, entrepreneurship, and their roles in economic growth.
+-   **Rostow, W.W. (1960).** *The Stages of Economic Growth: A Non-Communist Manifesto*: A theory of economic modernization and development.
+
+------------------------------------------------------------------------
+
+## 4. Population and Resource Economics
+
+-   **Malthus, T. (1798).** *An Essay on the Principle of Population*: Early work on population dynamics and resource scarcity.
+-   **George, H. (1879).** *Progress and Poverty*: Examines the relationship between economic progress, poverty, and land ownership, advocating a land value tax.
+
+------------------------------------------------------------------------
+
+## 5. Modern Economic Thought
+
+-   **Keynes, J. M. (1936).** *The General Theory of Employment, Interest and Money*: Groundbreaking work in macroeconomics, introducing concepts like aggregate demand and government intervention.
+-   **Friedman, M. (1962).** *Capitalism and Freedom*: Advocates for free markets and critiques government intervention, foundational for neoliberal thought. `finished`
+-   **Samuelson, P.A. (1947).** *Foundations of Economic Analysis*: Establishes mathematical foundations for modern economics.
+-   **Hayek, F.A. (1944).** *The Road to Serfdom*: Critique of central planning and defense of free-market liberalism.
+
+------------------------------------------------------------------------
+
+## 6. Historical and Institutional Economics
+
+-   **Weber, M. (1905).** *The Protestant Ethic and the Spirit of Capitalism*: Explores the cultural and religious origins of capitalism.
+-   **Galbraith, J.K. (1958).** *The Affluent Society*: Critique of postwar consumerism and a call for public investment.
+
+------------------------------------------------------------------------
+
+## 7. Macroeconomics and Monetary Theory
+
+-   **Keynes, J.M. (1936).** *The General Theory of Employment, Interest, and Money*: Though published in the interwar period, it profoundly shaped post-war macroeconomics.
+-   **Samuelson, P.A. (1947).** *Foundations of Economic Analysis*: Introduced mathematical rigor to economics, emphasizing optimization and equilibrium.
+-   **Friedman, M. (1968).** *A Monetary History of the United States*: A landmark work in monetarism, advocating the importance of monetary policy.
+-   **Lucas, R.E. (1976).** *Studies in Business Cycle Theory*: Laid the foundation for rational expectations and modern macroeconomic modeling.
+
+------------------------------------------------------------------------
+
+## 8. Microeconomics and Game Theory
+
+-   **von Neumann, J. & Morgenstern, O. (1944).** *Theory of Games and Economic Behavior*: The foundational text of game theory.
+-   **Debreu, G. (1959).** *Theory of Value*: Introduced general equilibrium theory using formal mathematics.
+-   **Becker, G.S. (1976).** *The Economic Approach to Human Behavior*: Extended economic analysis to areas like education, family, and crime.
+
+------------------------------------------------------------------------
+
+## 9. Development Economics
+
+-   **Sen, A. (1981).** *Poverty and Famines*: Introduced the capabilities approach, shifting the focus of development from income to well-being.
+-   **Lewis, W.A. (1954).** *Economic Development with Unlimited Supplies of Labor*: A key text in development economics, explaining the dual-sector model.
+-   **Rostow, W.W. (1960).** *The Stages of Economic Growth*: A theory of economic modernization.
+
+------------------------------------------------------------------------
+
+## 10. Behavioral and Experimental Economics
+
+-   **Kahneman, D. & Tversky, A. (1979).** *Prospect Theory: An Analysis of Decision under Risk*: A foundational paper in behavioral economics.
+-   **Thaler, R.H. (1991).** *Quasi-Rational Economics*: Explores how psychological factors influence economic decision-making.
+
+------------------------------------------------------------------------
+
+## 11. Institutional and Political Economy
+
+-   **North, D.C. (1990).** *Institutions, Institutional Change, and Economic Performance*: A classic in institutional economics, exploring how institutions shape economic outcomes.
+-   **Ostrom, E. (1990).** *Governing the Commons*: Analyzes how communities manage shared resources without relying on markets or central governments.
+
+------------------------------------------------------------------------
+
+## 12. Inequality and Capitalism
+
+-   **Piketty, T. (2013).** *Capital in the Twenty-First Century*: Explores inequality dynamics and the accumulation of wealth.
+-   **Stiglitz, J.E. (2012).** *The Price of Inequality*: Examines the economic and political consequences of inequality.
+
+------------------------------------------------------------------------
+
+## 13. Environmental and Resource Economics
+
+-   **Coase, R.H. (1960).** *The Problem of Social Cost*: Introduced the Coase theorem, a key idea in environmental economics.
+-   **Solow, R.M. (1956).** *A Contribution to the Theory of Economic Growth*: Introduced the concept of sustainable economic growth.
+
+## 14. Other
+
+------------------------------------------------------------------------
+
+### **Introductory and General Overviews**
+
+-   **Samuelson, P.A. & Nordhaus, W.D. (1948, updated editions).** *Economics*: A classic introductory textbook covering both microeconomics and macroeconomics.
+-   **Mankiw, N.G. (1998, updated editions).** *Principles of Economics*: A popular textbook with a clear and accessible introduction to core economic principles.
+-   **Krugman, P. & Wells, R. (2005, updated editions).** *Economics*: Offers a modern perspective with a focus on policy and practical applications.
+
+------------------------------------------------------------------------
+
+### **Historical Perspectives**
+
+-   **Heilbroner, R. (1953).** *The Worldly Philosophers*: A highly readable history of economic thought, introducing key thinkers like Adam Smith, Karl Marx, and John Maynard Keynes. `finished`
+-   **Backhouse, R.E. (2002).** *The Penguin History of Economics*: Traces the evolution of economic thought from ancient times to the modern day.
+
+------------------------------------------------------------------------
+
+### **Modern Overviews**
+
+-   **Banerjee, A.V. & Duflo, E. (2019).** *Good Economics for Hard Times*: Provides insights into contemporary economic challenges like inequality, trade, and migration.
+-   **Acemoglu, D. & Robinson, J. (2012).** *Why Nations Fail*: Examines the role of institutions in shaping economic success and failure.
+-   **Banergee, A. & Duflo, E. (2011).** *Poor Economics*: Explores the economics of poverty and development, drawing on field experiments and empirical research. `finished`
+
+------------------------------------------------------------------------
+
+### **Behavioral Economics and Decision-Making**
+
+-   **Thaler, R.H. & Sunstein, C.R. (2008).** *Nudge*: Explores how small interventions can influence economic decision-making. `finished`
+-   **Kahneman, D. (2011).** *Thinking, Fast and Slow*: Examines how cognitive biases affect decisions, including economic choices. `finished`
+
+------------------------------------------------------------------------
+
+### **Advanced Surveys**
+
+-   **Blanchard, O. (2017).** *Macroeconomics*: A comprehensive macroeconomics textbook, often used in advanced undergraduate and graduate courses.
+-   **Varian, H.R. (1992, updated editions).** *Microeconomic Analysis*: A rigorous treatment of microeconomics for advanced students.
+-   **Romer, D. (1996, updated editions).** *Advanced Macroeconomics*: Provides deeper insights into macroeconomic theory.
+
+------------------------------------------------------------------------
+
+### **For Critical Perspectives**
+
+-   **Skidelsky, R. (2009).** *Keynes: The Return of the Master*: Revisits Keynesian economics in light of the global financial crisis.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+# Tools
+
+Questions:
+
+-   What are the essential tools for an economist?
+-   What software and programming languages are commonly used in economics?
+
+## Software
+
+### **Data Science and Computational Tools for Economists**
+
+-   **Wickham, H. & Grolemund, G. (2017).** *R for Data Science*: An excellent introduction to data science workflows and statistical analysis using R, invaluable for economists handling data. `finished`
+
+::: {.callout-tip collapse="true" icon="false"}
+## Summary
+
+The Bradley-Terry-Luce (BTL) model is a popular statistical approach for estimating the global ranking of a collection of items using pairwise comparisons. To ensure accurate ranking, it is essential to obtain precise estimates of the model parameters in the $\ell_{\infty}$-loss. The difficulty of this task depends crucially on the topology of the pairwise comparison graph over the given items. However, beyond very few well-studied cases, such as the complete and Erdös-Rényi comparison graphs, little is known about the performance of the maximum likelihood estimator (MLE) of the BTL model parameters in the $\ell_{\infty}$-loss under more general graph topologies. In this paper, we derive novel, general upper bounds on the ℓ∞ estimation error of the BTL MLE that depend explicitly on the algebraic connectivity of the comparison graph, the maximal performance gap across items and the sample complexity. We demonstrate that the derived bounds perform well and in some cases are sharper compared to known results obtained using different loss functions and more restricted assumptions and graph topologies. We carefully compare our results to `Yan et al. (2012)`, which is closest in spirit to our work. We further provide minimax lower bounds under $\ell_{\infty}$-error that nearly match the upper bounds over a class of sufficiently regular graph topologies. Finally, we study the implications of our $\ell_{\infty}$-bounds for efficient (offline) tournament design. We illustrate and discuss our findings through various examples and simulations.
+:::
+
+------------------------------------------------------------------------
+
+## Mathematics
+
+### **Mathematics for Economics**
+
+-   **Chiang, A.C. & Wainwright, K. (2005).** *Fundamental Methods of Mathematical Economics*: A widely-used, accessible textbook introducing calculus, linear algebra, and optimization techniques in economic contexts. `10%`
+
+------------------------------------------------------------------------
+
+## Econometrics
+
+### **Introductory Econometrics**
+
+-   **Stock, J.H. & Watson, M.W. (2003, updated editions).** *Introduction to Econometrics*: A highly accessible introduction to econometric methods, focusing on real-world applications and intuition. `finished`
+
+------------------------------------------------------------------------
+
+### **Intermediate and Applied Econometrics**
+
+-   **Angrist, J.D. & Pischke, J-S. (2009).** *Mostly Harmless Econometrics: An Empiricist's Companion*: Focuses on applied econometrics with clear explanations of causal inference techniques.
+
+------------------------------------------------------------------------
+
+### **Advanced Econometrics**
+
+-   **Hayashi, F. (2000).** *Econometrics*: An excellent resource for graduate-level econometrics, with a rigorous approach to the theoretical foundations.
+
+------------------------------------------------------------------------
+
+### **Causal Inference and Experimental Econometrics**
+
+-   **Angrist, J.D. & Pischke, J-S. (2014).** *Mastering 'Metrics: The Path from Cause to Effect*: A user-friendly book on causal inference with real-world examples.
+
+------------------------------------------------------------------------
+
+### **Historical and Conceptual Perspectives**
+
+-   **Hoover, K.D. (2001).** *Causality in Macroeconomics*: Explores the philosophical and econometric foundations of causality.
+
+# Research Topics
+
+## Education
+
+### Early Childhood Education
+
+-   [Understanding Early Childhood Development and Its Importance](Understanding%20Early%20Childhood%20Development%20and%20Its%20Importance)
+
+# China
+
+Questions:
+
+-   What are the key challenges facing China's development?
+-   What made China's economic growth so successful?
+-   What does China's growth look like in the future?
+-   Role of central/local government in China's economic growth?
+-   What can we learn from China's economic development?
+-   What is the China model for economic growth?
+
+------------------------------------------------------------------------
+
+### **China’s Global Role**
+
+-   **Shambaugh, D. (2022).** *China's Future*: Examines the challenges China faces in its political, economic, and societal development and its potential trajectories. `finished`
+
+------------------------------------------------------------------------
+
+### **Development and Inequality**
+
+-   **Rosling, M. & Rozelle, S. (2020).** *Invisible China: How the Urban-Rural Divide Threatens China’s Rise*: Examines the structural challenges caused by China's rural-urban divide and the implications for its development. `finished`
+
+------------------------------------------------------------------------
+
+### **Politics and Leadership**
+
+-   **Rudd, K. (2024).** *On Xi Jinping*: Offers a deep dive into Xi Jinping's leadership and its impact on China's future.
+-   **Shum, D. (2021).** *Red Roulette: An Insider's Story of Wealth, Power, Corruption, and Vengeance in Today’s China*: A gripping insider’s account of wealth, corruption, and politics in modern China. `finished`
+
+------------------------------------------------------------------------
+::::
