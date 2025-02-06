@@ -1,0 +1,135 @@
+---
+title: "Impact of real time crowding information on public transit usage"
+subtitle: "14.300 Final Project"
+bibliography: references.bib
+---
+
+# a) Empirical Question and Importance
+
+I would like to study the impact of real-time crowding information on public transportation usage through a randomized control trial (RCT).
+
+Overcrowding contributes to passenger discomfort, dissatisfaction, denied boarding, and uneven crowd distribution across vehicles on the same route. Specific groups, such as the health-conscious, elderly, or pregnant, may strongly prefer less crowded vehicles. Real-time crowding data could help passengers make informed travel decisions, potentially boosting satisfaction and public transit usage. Increasing transit use is vital for reducing congestion and emissions.
+
+This study will explore whether providing real-time crowding information improves passenger satisfaction and overall transit use. Additionally, it will examine other behavioral effects, such as changes in routing, travel time, and mode choice.
+
+Preliminary research indicates that few studies have examined the impact of real-time crowding information on public transit usage [@brakewood2019; @kim2009; @yu2015; @zhang2015; @dennis2024]. Existing literature suggests that other forms of real-time information, such as arrival, departure, and delay times, positively influence perceptions of wait time and safety, enhance overall satisfaction, enable informed transit choices, and increase public transit usage [@dennis2024a].
+
+This study will focus on Rio de Janeiro, Brazil, where public buses account for over 53% of all motorized trips. The city’s transit system, used for approximately 1.6 million trips daily, is known for severe overcrowding, with many passengers expressing dissatisfaction with crowding levels.
+
+Currently, no applications in Rio de Janeiro offer accurate real-time crowding information. Google Maps provides only general estimates of crowding and lacks real-time location data. This project aims to deliver precise, real-time crowding information and evaluate its causal effects on transit usage and satisfaction.
+
+# b) Data Collection and Feasibility
+
+## Research Design
+
+::: {style="text-align: center;"}
+```{mermaid center}
+
+flowchart LR
+    A[Participant Recruitment] --> F(Eligibility Determination) --> L(Pre-Study Survey)
+    L --> G("Stratify Sample (Optional)") --> H(Random Assignment)
+    H --> I(Control)
+    H --> J(Treatment)
+    I --> M(Post-Study Survey)
+    J --> M
+
+```
+:::
+
+**Steps**
+
+1.  **Participant Recruitment**: Participants will be recruited from the general public in Rio de Janeiro. Participants will be recruited through social media, flyers placed on vehicles, and community centers. A cash incentive will be offered to participants.
+
+2.  **Eligibility Determination**: Participants will be screened for eligibility. Participants must be over 18 years old, have an Android phone, and use public transit at least once a week.
+
+3.  **Pre-Study Survey**: Participants will complete a pre-study survey to collect demographic information, RioCard ID number, travel patterns, modal choice, and satisfaction with public transit. The RioCard ID will be used to track participants' travel patterns using RioCard data.
+
+4.  **Stratify Sample (Optional)**: If the sample size in certain subgroups is too small (potentially due to the recruitment method), then participants may be stratified by key demographic variables such as age and income bracket.
+
+5.  **Random Assignment**: Participants will be randomly assigned to one of two groups: control and treatment. A stratified random assignment may be used. Otherwise pure random assignment will be used.
+
+6.  **Control**: Participants in the control group will receive access to the application which will provide real-time location data but will not receive any real-time crowding information.
+
+7.  **Treatment**: Participants in treatment will receive real-time crowding information for all buses.
+
+8.  **Post-Study Survey**: On a monthly basis, participants will complete a post-study survey to collect information on satisfaction with public transit, usage of public transit, routing choice, travel time, and mode choice. The study will end after 6 months.
+
+## Data Collection
+
+The following data will be collected:
+
+| Category                               | Source                              | Variables                                                                                                    |
+|----------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Demographic Information                | Pre-Study Survey                    | Age, income bracket, gender, education level, employment status, RioCard number                              |
+| User satisfaction                      | Pre-Study Survey, Post-Study Survey | Satisfaction with public transit, satisfaction with crowding levels, satisfaction with real-time information |
+| Usage of public transit                | Rio-Card data                       | Number of trips taken, line choice, routing choice                                                           |
+| Alighting location and travel duration | Application data                    | Destination of trip, travel time, travel duration                                                            |
+
+## Treatment Design
+
+A mobile application will be developed for this study. The application will be designed exclusively for Android, which accounts for over 82% of Brazil's mobile market [@statista2024]. A working prototype is shown below.
+
+::: columns
+::: {.column width="50%"}
+![Application screen capture showing live location and vehicle details](images/clipboard-750189613.png)
+:::
+
+::: {.column width="50%"}
+![Application screen capture showing a user selected bus line](images/clipboard-2945071245.png)
+:::
+:::
+
+## Feasibility
+
+The key feasibility questions are:
+
+-   **Recruitment**: Recruitment is not expected to pose significant challenges. A small monetary incentive, funded by a recently received MIT Sloan grant, will be offered to participants.
+-   **Data Collection**: Access to clean and easily accessible transportation agency data has already been secured.
+-   **Real-Time Crowding Estimates**: While historical crowding estimates are reasonably accurate, generating real-time estimates will be challenging and is a potential risk to the study. Inaccurate estimates could undermine the validity of the findings.
+-   **Application Development**: A prototype web application has been developed but must be converted into a mobile app, improved, and tested. This will likely be the most time-consuming part of the study.
+
+# c) Empirical Specification
+
+The central population regression I am interested in estimating is:
+
+$$
+y_i = \beta_0 + \beta_1 \cdot \text{Treatment}_i + \epsilon_i
+$$
+
+Where the key outcome variables ($y_i$) are:
+
+-   Number of trips (speaks to usage)
+
+-   Reported satisfaction
+
+-   Number of unique lines taken per week (speaks to routing choice/behavioral changes)
+
+The identification assumption is that the treatment assignment is random. The key assumption is that the treatment assignment is uncorrelated with the error term.
+
+$\beta_1$ is the average treatment effects of receiving real-time crowding information on public transit usage on the eligible population used in the study (who have access to real time location information).
+
+I would use robust standard errors. I would also conduct a balance test to ensure that the treatment and control groups are similar using the survey data.
+
+## Subgroup Analysis
+
+To estimate the average treatment effect for different subgroups, I will estimate the following regression:
+
+$$
+y_i = \beta_0 + \beta_1 \cdot \text{Treatment}_i + \beta_2 \cdot \text{Subgroup}_i + \beta_3 \cdot (\text{Treatment}_i \cdot \text{Subgroup}_i) + \epsilon_i
+$$ Where the subgroup variable could be a variable such as over/under-35 years old or high-income/low-income. It would be interesting to see if the treatment was more or less effective for certain groups.
+
+For example, if $\text{Subgroup}_i$ was equal to 1 if the participant was over 35 years old, then $\beta_1$ would be the average treatment effect for participants under 35 years old, and $\beta_3$ would be the difference in the average treatment effect between participants over 35 years old and under 35 years old. $\beta_1 + \beta_3$ would be the average treatment effect for participants over 35 years old.
+
+## Threats to validity
+
+-   **Selection Bias**: Participants may not represent the general population of Rio de Janeiro. They are likely to be younger and more tech-savvy, which could affect external validity. They are also regular public transit users (i.e. not tourists or non-public transit users).
+-   **Hawthorne Effect**: Participants may alter their behavior because they are aware of being observed and involved in the study. Initial excitement from using a new application may influence outcomes, though this effect is expected to diminish over time as the study progresses.
+-   **Non-Compliance**: Control group participants cannot access the application and are unlikely to interact with treatment participants, minimizing spillover effects. However, some treatment participants may fail to use the application. Strategies such as app reminders or gamification could encourage engagement. If non-compliance becomes significant, an instrumental variables (IV) approach could be employed, using treatment assignment as the instrument and application usage as the $X$ variable. This approach would estimate the local average treatment effect (LATE) of application usage.
+
+# d) Interpretation of Empircal Results
+
+If $\hat{\beta}_1$ (or the subgroup coefficients) is positive and statistically significant, the results indicate that providing real-time crowding information increases the outcome variable of interest, such as public transit usage, satisfaction, or travel behavior.
+
+My final recommendation would be based on the the magnitude and significance of the coefficients which may or may not support further investigation into the effect of real-time crowding information. Additionally, the results could serve as a valuable input for a cost-benefit analysis.
+
+# References

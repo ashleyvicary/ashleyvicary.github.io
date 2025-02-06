@@ -1,0 +1,141 @@
+---
+title: "causal inference"
+---
+
+## Introduction
+
+Causal inference is central to understanding the effects of policies and interventions. Unlike correlation, which only shows relationships between variables, causal inference aims to uncover whether one variable causes changes in another.
+
+### Key Concepts
+
+1.  **Causal Effect**: The effect of a treatment (like a policy change) on an outcome.
+2.  **Randomized Controlled Trials (RCTs)**: The gold standard for causal inference. Randomization distributes all confounding factors evenly, allowing clear estimation of causal effects.
+3.  **Quasi-Experiments**: Situations where randomization is not feasible, but events (like policy changes) create conditions similar to an RCT. Example: Studying wealth effects by comparing lottery winners to non-winners.
+
+### The Fundamental Problem of Causal Inference
+
+For each subject, we observe only one outcome—either treated or untreated—not both. This makes it impossible to directly observe the causal effect on that individual.
+
+1.  **Counterfactuals**: We define causal effects relative to hypothetical alternatives (what would happen with and without treatment).
+2.  **Treatment Effect**: $T = Y_1 - Y_0$, where $Y_1$ is the outcome with treatment, and $Y_0$ without it.
+
+### Solutions to the Fundamental Problem
+
+1.  **Randomization**: Distributes potential confounders evenly across groups.
+2.  **Difference-in-Differences (DiD)**: Compares changes over time between treated and control groups to estimate causal effects.
+3.  **Instrumental Variables (IV)**: Uses variables that influence the treatment but not the outcome, isolating the causal effect.
+4.  **Regression Discontinuity (RD)**: Compares outcomes near a threshold to estimate causal effects.
+
+### Bias in Observational Comparisons
+
+In observational studies, simply comparing treated ($X = 1$) and untreated ($X = 0$) groups may introduce bias:
+
+$$
+\tilde{T} = E[Y | X = 1] - E[Y | X = 0] = T + \{E[Y_0 | X = 1] - E[Y_0 | X = 0]\}
+$$
+
+The term $\{E[Y_0 | X = 1] - E[Y_0 | X = 0]\}$ represents **bias**—it occurs when treated and untreated groups differ in ways that affect the outcome independently of the treatment. Bias may lead to over- or underestimation of the true causal effect $T$.
+
+## Regression Discontinuity (RD)
+
+The Regression Discontinuity (RD) design is a method for identifying causal effects when treatment assignment is based on a threshold in a continuous variable. It’s widely used in economics to evaluate policies, such as eligibility rules or cutoff points.
+
+### Key Concepts
+
+1.  **Assignment Variable**: A continuous variable that determines treatment eligibility at a specific cutoff (e.g., test scores, income level).
+2.  **Threshold/Cutoff**: The point at which treatment is assigned. Units just above and below the cutoff provide a natural experiment for causal inference.
+3.  **Treatment and Control Groups**: Units above the cutoff receive the treatment, while those below do not. The RD design assumes units near the threshold are similar except for treatment.
+
+### RD Estimator
+
+The RD design compares outcomes just above and below the cutoff to estimate the treatment effect. Formally, let $Y$ be the outcome and $X$ the assignment variable with cutoff $c$. The causal effect at the cutoff is:
+
+$$
+\tau_{RD} = \lim_{x \to c^+} E[Y | X = x] - \lim_{x \to c^-} E[Y | X = x]
+$$
+
+### Types of RD Designs
+
+1.  **Sharp RD**: Treatment assignment is strictly determined by the cutoff, i.e., everyone above the cutoff receives treatment, and no one below it does.
+2.  **Fuzzy RD**: Treatment assignment increases at the cutoff, but not perfectly. This is common when there’s imperfect compliance with treatment rules.
+
+### Example: Scholarship Eligibility and Academic Outcomes
+
+Imagine a scholarship awarded to students with a test score above 85. In a sharp RD design, students with scores of 85+ receive the scholarship, while those with scores just below do not. The RD design estimates the causal effect of receiving the scholarship on academic outcomes by comparing students just above and below the 85 threshold.
+
+### Assumptions and Validity
+
+1.  **Continuity Assumption**: Units just above and below the cutoff are assumed to be similar, differing only in treatment status.
+2.  **No Manipulation**: The assignment variable should not be manipulable; individuals cannot precisely control their score to just surpass the cutoff.
+
+### Application in Economics
+
+RD designs are useful when randomized experiments aren’t feasible, providing a credible estimate of causal effects in cases like educational policy evaluations, welfare eligibility, and more.
+
+## Difference-in-Differences (DiD)
+
+Difference-in-Differences (DiD) is a method for estimating causal effects by comparing the change in outcomes over time between treated and control groups. DiD is particularly useful when randomization isn’t feasible but we can observe the same groups before and after a treatment.
+
+### Key Concepts
+
+1.  **Pre- and Post-Treatment Comparisons**: DiD compares the change in outcomes for the treated group with the change in outcomes for the control group.
+2.  **Parallel Trends Assumption**: The treated and control groups must have followed similar trends in the absence of treatment.
+
+### DiD Estimator
+
+The DiD estimator calculates the treatment effect as:
+
+$$
+\Delta Y_{DiD} = (Y_{after}^{treated} - Y_{before}^{treated}) - (Y_{after}^{control} - Y_{before}^{control})
+$$
+
+### Example: Minimum Wage and Employment
+
+Card and Krueger’s (1994) study on the impact of minimum wage increases used DiD by comparing fast-food employment changes in New Jersey (where minimum wage increased) and Pennsylvania (where it did not). They found an increase in employment in New Jersey relative to Pennsylvania, challenging traditional predictions.
+
+------------------------------------------------------------------------
+
+## Instrumental Variables (IV)
+
+Instrumental Variables (IV) is a technique used to estimate causal effects when there’s endogeneity—when an explanatory variable is correlated with the error term. An IV helps isolate the exogenous variation in the endogenous variable.
+
+### Key Concepts
+
+1.  **Instrument**: A variable that affects the endogenous variable (treatment) but has no direct effect on the outcome except through this treatment.
+2.  **Exclusion Restriction**: The instrument affects the outcome only through the treatment, not directly.
+
+### IV Estimator
+
+If $Z$ is the instrument for $X$, and $Y$ is the outcome, the IV estimator (two-stage least squares) can be calculated as:
+
+1.  First Stage: $X = \alpha + \beta Z + \epsilon$
+2.  Second Stage: $Y = \gamma + \delta \hat{X} + \eta$
+
+### Example: Education and Earnings
+
+To estimate the causal effect of education on earnings, distance to college might serve as an instrument. Distance affects the likelihood of attending college (the treatment) but doesn’t directly affect earnings, isolating the causal impact of education.
+
+------------------------------------------------------------------------
+
+## Randomized Controlled Trials (RCTs)
+
+Randomized Controlled Trials (RCTs) are the gold standard in causal inference, where random assignment to treatment and control groups ensures that any differences in outcomes can be attributed to the treatment.
+
+### Key Concepts
+
+1.  **Random Assignment**: Units are randomly assigned to treatment and control groups, balancing confounders across groups.
+2.  **Control Group**: Provides a baseline for comparison to the treatment group.
+
+### RCT Estimator
+
+The average treatment effect in an RCT is calculated as:
+
+$$
+ATE = E[Y | X = 1] - E[Y | X = 0]
+$$
+
+where $X = 1$ indicates the treatment group and $X = 0$ the control group.
+
+### Example: Drug Trials
+
+In a clinical trial, participants are randomly assigned to receive either a new drug or a placebo. The difference in health outcomes between the groups estimates the causal effect of the drug, assuming random assignment balances all other factors.

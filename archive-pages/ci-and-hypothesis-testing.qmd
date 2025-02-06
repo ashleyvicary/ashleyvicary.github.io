@@ -1,0 +1,129 @@
+---
+title: "confidence intervals and hypothesis testing"
+---
+
+## Confidence Intervals
+
+Confidence intervals provide a range around a sample estimate, indicating where the true population parameter is likely to lie with a given confidence level.
+
+### Key Formula for Confidence Intervals
+
+For a large sample with sample mean $\bar{X}$, standard deviation $\sigma$, and sample size $n$, the confidence interval for the population mean $\mu$ is:
+
+$$
+\bar{X} \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}
+$$
+
+where: - $z_{\alpha/2}$ is the critical value from the standard normal distribution (e.g., $1.96$ for 95% confidence). - $\frac{\sigma}{\sqrt{n}}$ is the standard error of the mean.
+
+#### Common Confidence Levels
+
+-   **95% Confidence Interval**: $\bar{X} \pm 1.96 \frac{\sigma}{\sqrt{n}}$
+-   **90% Confidence Interval**: $\bar{X} \pm 1.64 \frac{\sigma}{\sqrt{n}}$
+-   **99% Confidence Interval**: $\bar{X} \pm 2.58 \frac{\sigma}{\sqrt{n}}$
+
+As $n$ increases, the interval becomes narrower, indicating greater precision in estimating $\mu$.
+
+------------------------------------------------------------------------
+
+## Hypothesis Testing
+
+Hypothesis testing assesses whether a sample provides sufficient evidence to reject a hypothesis about a population parameter.
+
+### Steps in Hypothesis Testing
+
+1.  **Set Null and Alternative Hypotheses**:
+    -   Null Hypothesis $H_0$: The parameter equals a specific value (e.g., $\mu = m$).
+    -   Alternative Hypothesis $H_1$: The parameter differs from this value (e.g., $\mu \neq m$).
+2.  **Calculate the Test Statistic**:
+    -   For large $n$, the test statistic for the mean is: $$
+        t = \frac{\bar{X} - m}{\text{s.e.}(\bar{X})}
+        $$ where $\text{s.e.}(\bar{X}) = \frac{\sigma}{\sqrt{n}}$.
+3.  **Decision Rule**:
+    -   For a 5% significance level, reject $H_0$ if $|t| > 1.96$.
+    -   Alternatively, if $p$-value \< 0.05, reject $H_0$.
+
+#### Common Significance Levels
+
+-   **5% Level**: Critical value of $|t| > 1.96$
+-   **1% Level**: Critical value of $|t| > 2.58$
+-   **10% Level**: Critical value of $|t| > 1.64$
+
+------------------------------------------------------------------------
+
+## One-Sample Test
+
+The one-sample test compares the sample mean $\bar{X}$ to a hypothesized population mean $m$.
+
+### One-Sample $t$-Test Statistic
+
+For large $n$, use:
+
+$$
+t = \frac{\bar{X} - m}{\text{s.e.}(\bar{X})} = \frac{\bar{X} - m}{\sigma / \sqrt{n}}
+$$
+
+where: - $\bar{X}$ is the sample mean. - $\sigma$ is the population standard deviation (or use sample standard deviation if unknown). - $n$ is the sample size.
+
+#### Decision Rule
+
+-   **Reject** $H_0$ if $|t| > 1.96$ (for a 5% significance level).
+
+#### Example
+
+Assume $\bar{X} = 50$, $m = 52$, $\sigma = 10$, and $n = 100$. Calculate $t$:
+
+$$
+t = \frac{50 - 52}{10 / \sqrt{100}} = -2
+$$
+
+Since $|t| = 2 > 1.96$, reject $H_0$ at the 5% significance level.
+
+------------------------------------------------------------------------
+
+## Two-Sample Test
+
+The two-sample test compares the means of two independent samples to determine if they are statistically different.
+
+### Two-Sample $t$-Test Statistic
+
+For two samples with means $\bar{X}_1$ and $\bar{X}_2$, standard deviations $\sigma_1$ and $\sigma_2$, and sample sizes $n_1$ and $n_2$, the test statistic is:
+
+$$
+t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}}
+$$
+
+#### Hypotheses
+
+-   **Null Hypothesis** $H_0$: $\mu_1 = \mu_2$ (the two means are equal).
+-   **Alternative Hypothesis** $H_1$: $\mu_1 \neq \mu_2$ (the means differ).
+
+#### Decision Rule
+
+-   **Reject** $H_0$ if $|t| > 1.96$ (for a 5% significance level).
+
+#### Example
+
+Suppose $\bar{X}_1 = 0.0965$, $\bar{X}_2 = 0.0645$, $n_1 = n_2 = 2435$. Assume $X$ is binary with variance $p(1 - p)$, so:
+
+$$
+\sigma_1^2 = 0.0965 \times (1 - 0.0965) / 2435
+$$ $$
+\sigma_2^2 = 0.0645 \times (1 - 0.0645) / 2435
+$$
+
+Calculate $t$:
+
+$$
+t = \frac{0.0965 - 0.0645}{\sqrt{0.0060 + 0.0050}} = 4.11
+$$
+
+Since $|t| = 4.11 > 1.96$, reject $H_0$ at the 5% significance level, concluding a significant difference between the two means.
+
+------------------------------------------------------------------------
+
+## Duality Between Confidence Intervals and Hypothesis Tests
+
+A value $m$ is in a 95% confidence interval for $\mu$ if we **do not** reject the null hypothesis $H_0: \mu = m$ at the 5% level. If $m$ is outside this interval, we reject $H_0$.
+
+This section covers essential tools for interpreting confidence intervals, one-sample and two-sample hypothesis tests, and the connection to significance testing.

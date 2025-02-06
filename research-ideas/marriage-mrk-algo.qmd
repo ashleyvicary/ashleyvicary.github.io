@@ -1,0 +1,38 @@
+---
+title: "Mariage Market Alo"
+---
+
+Question: Can economists build a better dating app?
+
+Algorithms reflect a fundamental change in how decisions are made.
+
+Hypothesis:
+
+-   Marriage market -\> dating algo -\> dating apps
+
+-   Dating apps optimize for profit, not for efficient matching
+
+    -   Therefore there is scope for improvement, scope for welfare gains
+
+    -   Build non-profit dating app, using economic insights to:
+
+        -   Improve match, lower matching time, higher satisfaction
+
+        -   Use behavioural nudges to nudge people off app?
+
+        -   z
+
+    -   Study this app and its impacts
+
+-   Algo has high potential gains:
+
+    -   1 Algo can improve sorting (produces first order social gains)
+
+    -   2 Algos have low marginal cost
+
+    -   3 Behaviour economics, people have heuristics and biases, memory attention characterization (?)
+
+-   Risks: high upfront cost, need to hit scale for market to work
+
+1.  Find the best matching algorithms
+    1.  Test in lab setting

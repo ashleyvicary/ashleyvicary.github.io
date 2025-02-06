@@ -15,17 +15,31 @@ knitr::read_chunk('../assets.R')
 ```
 :::
 
-Notes: - Read with a question in mind?
-
-<div>
-
-```{=html}
-<iframe class="slide-deck" src="general-exams/" style="width: 100%; height: 800px;"></iframe>
-```
-
-</div>
+# Books Read
 
 :::: panel-tabset
+# Previously
+
+# 2025
+
+-   Success and Luck: Good Fortune and the Myth of Meritocracy by Robert H. Frank
+
+::: {.callout-tip collapse="true" icon="false"}
+## Comments
+How so much of our journey in life is due to luck. As much as we like to deny it. Provides a case for consumption taxation (vs income taxation).
+:::
+
+-   Patriot: A Memoir by Alexei Navalny
+
+::: {.callout-tip collapse="true" icon="false"}
+## Comments
+A moving book by a remarkable man. Lived with a positive attitude and with belief until the very end. Always believed in his work and loved his country. I'm glad I read this book!
+:::
+::::
+
+# List
+
+::: panel-tabset
 # Theory
 
 Questions:
@@ -196,12 +210,6 @@ Questions:
 
 -   **Wickham, H. & Grolemund, G. (2017).** *R for Data Science*: An excellent introduction to data science workflows and statistical analysis using R, invaluable for economists handling data. `finished`
 
-::: {.callout-tip collapse="true" icon="false"}
-## Summary
-
-The Bradley-Terry-Luce (BTL) model is a popular statistical approach for estimating the global ranking of a collection of items using pairwise comparisons. To ensure accurate ranking, it is essential to obtain precise estimates of the model parameters in the $\ell_{\infty}$-loss. The difficulty of this task depends crucially on the topology of the pairwise comparison graph over the given items. However, beyond very few well-studied cases, such as the complete and Erdös-Rényi comparison graphs, little is known about the performance of the maximum likelihood estimator (MLE) of the BTL model parameters in the $\ell_{\infty}$-loss under more general graph topologies. In this paper, we derive novel, general upper bounds on the ℓ∞ estimation error of the BTL MLE that depend explicitly on the algebraic connectivity of the comparison graph, the maximal performance gap across items and the sample complexity. We demonstrate that the derived bounds perform well and in some cases are sharper compared to known results obtained using different loss functions and more restricted assumptions and graph topologies. We carefully compare our results to `Yan et al. (2012)`, which is closest in spirit to our work. We further provide minimax lower bounds under $\ell_{\infty}$-error that nearly match the upper bounds over a class of sufficiently regular graph topologies. Finally, we study the implications of our $\ell_{\infty}$-bounds for efficient (offline) tournament design. We illustrate and discuss our findings through various examples and simulations.
-:::
-
 ------------------------------------------------------------------------
 
 ## Mathematics
@@ -281,4 +289,4 @@ Questions:
 -   **Shum, D. (2021).** *Red Roulette: An Insider's Story of Wealth, Power, Corruption, and Vengeance in Today’s China*: A gripping insider’s account of wealth, corruption, and politics in modern China. `finished`
 
 ------------------------------------------------------------------------
-::::
+:::

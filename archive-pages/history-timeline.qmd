@@ -1,0 +1,91 @@
+---
+title: "history timelines"
+---
+
+A timeline of key events in history according to me. To help with my Economist Dateline score (this is why it starts in 1843) ;)
+
+## US Presidents
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+
+# Create data frame for U.S. Presidents since 1843
+presidents <- data.frame(
+  President = c(
+    "John Tyler", "James K. Polk", "Zachary Taylor", "Millard Fillmore", "Franklin Pierce", 
+    "James Buchanan", "Abraham Lincoln", "Andrew Johnson", "Ulysses S. Grant", "Rutherford B. Hayes", 
+    "James A. Garfield", "Chester A. Arthur", "Grover Cleveland", "Benjamin Harrison", "Grover Cleveland",
+    "William McKinley", "Theodore Roosevelt", "William H. Taft", "Woodrow Wilson", "Warren G. Harding",
+    "Calvin Coolidge", "Herbert Hoover", "Franklin D. Roosevelt", "Harry S. Truman", "Dwight D. Eisenhower",
+    "John F. Kennedy", "Lyndon B. Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter", 
+    "Ronald Reagan", "George H. W. Bush", "Bill Clinton", "George W. Bush", "Barack Obama", 
+    "Donald Trump", "Joe Biden"
+  ),
+  Start = as.Date(c(
+    "1841-04-04", "1845-03-04", "1849-03-04", "1850-07-09", "1853-03-04", 
+    "1857-03-04", "1861-03-04", "1865-04-15", "1869-03-04", "1877-03-04",
+    "1881-03-04", "1881-09-19", "1885-03-04", "1889-03-04", "1893-03-04",
+    "1897-03-04", "1901-09-14", "1909-03-04", "1913-03-04", "1921-03-04",
+    "1923-08-02", "1929-03-04", "1933-03-04", "1945-04-12", "1953-01-20",
+    "1961-01-20", "1963-11-22", "1969-01-20", "1974-08-09", "1977-01-20",
+    "1981-01-20", "1989-01-20", "1993-01-20", "2001-01-20", "2009-01-20",
+    "2017-01-20", "2021-01-20"
+  )),
+  End = as.Date(c(
+    "1845-03-04", "1849-03-04", "1850-07-09", "1853-03-04", "1857-03-04", 
+    "1861-03-04", "1865-04-15", "1869-03-04", "1877-03-04", "1881-03-04",
+    "1881-09-19", "1885-03-04", "1889-03-04", "1893-03-04", "1897-03-04",
+    "1901-09-14", "1909-03-04", "1913-03-04", "1921-03-04", "1923-08-02",
+    "1929-03-04", "1933-03-04", "1945-04-12", "1953-01-20", "1961-01-20",
+    "1963-11-22", "1969-01-20", "1974-08-09", "1977-01-20", "1981-01-20",
+    "1989-01-20", "1993-01-20", "2001-01-20", "2009-01-20", "2017-01-20",
+    "2021-01-20", "2025-01-20"
+  ))
+)
+
+# Plotting the timeline
+ggplot(presidents, aes(x = Start, xend = End, y = reorder(President, Start), yend = President)) +
+  geom_segment(color = "skyblue", size = 3) +
+  geom_text(aes(x = Start, label = President), hjust = -0.1, color = "darkblue", size = 3) +
+  scale_x_date(date_breaks = "10 years", date_labels = "%Y") +
+  labs(
+    title = "Timeline of U.S. Presidents (Since 1843)",
+    x = "Term Start Year", 
+    y = ""
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.y = element_blank(),
+    axis.ticks.y = element_blank(),
+    panel.grid.major.y = element_blank(),
+    plot.title = element_text(hjust = 0.5, face = "bold")
+  )
+
+```
+
+## Timeline of Major World Events (Since 1843)
+
+| **Year**  | **Event**                                                                                                                       |
+|------------|------------------------------------------------------------|
+| 1848      | **Revolutions of 1848** across Europe advocating for democratic reforms.                                                        |
+| 1853-1856 | **Crimean War** between Russia and an alliance of Britain, France, and the Ottoman Empire.                                      |
+| 1861-1865 | **American Civil War** in the United States over issues of slavery and state sovereignty.                                       |
+| 1869      | **Transcontinental Railroad** completed in the U.S., connecting the East and West coasts.                                       |
+| 1882      | **Triple Alliance** formed between Germany, Austria-Hungary, and Italy, marking alliances that would lead to World War I.       |
+| 1885      | **Berlin Conference** divides Africa among European powers, intensifying colonialism.                                           |
+| 1914-1918 | **World War I**, a global war involving most world powers, ending with the Treaty of Versailles.                                |
+| 1917      | **Russian Revolution**, leading to the rise of the Soviet Union.                                                                |
+| 1929      | **Great Depression** begins, causing worldwide economic hardship.                                                               |
+| 1939-1945 | **World War II**, a global conflict involving the Allies and Axis powers, resulting in major changes to global politics.        |
+| 1945      | **United Nations** founded to promote international cooperation and prevent future wars.                                        |
+| 1947      | **India gains independence** from British rule, marking the end of the British Empire’s dominance in South Asia.                |
+| 1949      | **NATO** established as a military alliance among Western nations; **People's Republic of China** founded under communist rule. |
+| 1957      | **Launch of Sputnik** by the Soviet Union, beginning the Space Race.                                                            |
+| 1969      | **First Moon Landing** by Apollo 11, a major milestone in space exploration.                                                    |
+| 1989      | **Fall of the Berlin Wall**, signaling the end of the Cold War.                                                                 |
+| 1991      | **Dissolution of the Soviet Union**, leading to the independence of several states and the end of the Cold War.                 |
+| 2001      | **September 11 Attacks** in the U.S., leading to global anti-terrorism efforts.                                                 |
+| 2008      | **Global Financial Crisis**, affecting economies worldwide.                                                                     |
+| 2020      | **COVID-19 Pandemic** begins, causing global health crises, economic impact, and social change.                                 |

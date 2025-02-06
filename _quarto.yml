@@ -10,7 +10,6 @@ website:
         text: home
       - text: semester summaries 
         menu:
-          - sem-summaries/goals-plan.qmd
           - sem-summaries/s1.qmd
           - sem-summaries/s2.qmd
           - sem-summaries/s2-5.qmd
@@ -25,6 +24,7 @@ website:
           - micro-theory.qmd
       - text: research
         menu:
+          - research-ideas/transit-project-rti.qmd
           - rio-project.qmd
           - world-bank-rct-1.qmd
           - world-bank-rct-2.qmd
@@ -32,9 +32,6 @@ website:
         menu:
           - text: Old blog
             href: https://aguidetosomething.notion.site/65abc11924624cda98677f2495d70312
-          - math-tools.qmd
-          - causal-inference.qmd
-          - ci-and-hypothesis-testing.qmd
 
 format:
   html:
